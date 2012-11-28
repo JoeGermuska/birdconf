@@ -1,0 +1,31 @@
+div#track-form-wrapper {
+  margin-left: 20px;
+}
+
+div#track-form-wrapper label,div#track-form-wrapper input {
+  font-size: 10px;
+}
+
+#results { 
+}
+
+.track-wrapper {
+  border-top: 1px solid #aaa;
+  clear: both;
+  padding-bottom: 60px;
+  padding-top: 10px;
+}
+.track-wrapper .track-details {
+  margin-left: 20px;
+  float: left;
+  padding-left: 10px;
+  width: 400px;
+  text-align: top;
+}
+
+.track-edit {
+  float: left;
+  height: 100%;
+}
+.track-details p {
+}

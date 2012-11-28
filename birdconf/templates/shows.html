@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ title }}</title>
+        <style type="text/css">
+        tr {
+            width: 100%;
+        }
+        td.date { white-space: nowrap; font-weight: bold;}
+        tr.even td.evenshow {
+            background-color: #ffccff;
+        }
+        tr.odd td.evenshow {
+            background-color: #ccffff;
+        }
+        tr.even {
+            background-color: #ffffcc;
+        }
+        td {
+            padding: 3px;
+            border-spacing: 0;
+        }
+        </style>
+    </head>
+    <body>
+        <table>
+            {% for show in shows %}
+            <!--{% cycle 'evenshow' 'oddshow' as showclass%} -->
+            {% for track in show.1 %}
+            <tr class="{% cycle 'even' 'odd' %}">
+                <td class="date {{ showclass }}">{{ show.0 }}</td>
+                <td class="{{ showclass }}">{{ track.artist }}</td>
+                <td class="{{ showclass }}">{{ track.track }}</td>
+                <td class="{{ showclass }}">{{ track.album }}</td>
+                <td class="{{ showclass }}">{{ track.label }}</td>
+            </tr>
+        {% endfor %}
+        {% endfor %}
+    </table>
+    </body>
+</html>

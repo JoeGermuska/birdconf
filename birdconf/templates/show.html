@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>{{ show.air_date|date:"D M d, Y" }}</h1>
+{% for showtrack in show.showtrack_set.all %}
+{{ showtrack.track.artist }}: “{{ showtrack.track.title }}”{% if showtrack.track.album %}– {{ showtrack.track.album }} {% endif %}{% if showtrack.track.label %}({{ showtrack.track.label }}){% endif %}<br>
+{% endfor %}
+{% if show.audiofile_set.count %}
+{% for af in show.audiofile_set.all %}
+<audio controls preload="metadata" src="{{ af.url }}">Your browser does not support the 'audio' tag. Get with it!</audio>
+{% endfor %}
+{% endif %}
+{% if previous %}<div class='previous'><a href="{{ previous.get_absolute_url }}">« {{ previous.air_date|date:"D M d, Y" }}</a></div>{% endif %}
+{% if next %}<div class='next'><a href="{{next.get_absolute_url}}">{{ next.air_date|date:"D M d, Y" }} »</a></div>{% endif %}
+{% endblock %}
