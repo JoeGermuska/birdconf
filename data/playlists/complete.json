@@ -54544,5 +54544,3792 @@
         "time_str": "07:39:00"
       }
     ]
+  ], 
+  [
+    "2012-12-04", 
+    [
+      {
+        "album": "Woody Plays Woody", 
+        "artist": "Woody Shaw", 
+        "track": "Ginseng People", 
+        "unix_time": 1354618740.0, 
+        "label": "High Note", 
+        "date_str": "2012-12-04", 
+        "time_str": "04:59:00"
+      }, 
+      {
+        "album": "Speak", 
+        "artist": "Speak", 
+        "track": "Mustard Knuckles", 
+        "unix_time": 1354619520.0, 
+        "label": "Origin", 
+        "date_str": "2012-12-04", 
+        "time_str": "05:12:00"
+      }, 
+      {
+        "album": "The Next Page", 
+        "artist": "Eri Yamamoto Trio", 
+        "track": "Green Grows", 
+        "unix_time": 1354620060.0, 
+        "label": "AUMFidelity", 
+        "date_str": "2012-12-04", 
+        "time_str": "05:21:00"
+      }, 
+      {
+        "album": "These Times", 
+        "artist": "Aram Shelton Quartet", 
+        "track": "Rise and Set", 
+        "unix_time": 1354620480.0, 
+        "label": "Singlespeed Music", 
+        "date_str": "2012-12-04", 
+        "time_str": "05:28:00"
+      }, 
+      {
+        "album": "Brooklyn Lines ... Chicago Spaces", 
+        "artist": "Klang", 
+        "track": "Carol's Burgers", 
+        "unix_time": 1354620960.0, 
+        "label": "Allos Documents", 
+        "date_str": "2012-12-04", 
+        "time_str": "05:36:00"
+      }, 
+      {
+        "album": "Reunion: Live in New York ", 
+        "artist": "Sam Rivers Trio", 
+        "track": "First Set, Part 5", 
+        "unix_time": 1354621320.0, 
+        "label": "Pi", 
+        "date_str": "2012-12-04", 
+        "time_str": "05:42:00"
+      }, 
+      {
+        "album": "One Line, Two Views", 
+        "artist": "Muhal Richard Abrams", 
+        "track": "11 over 4", 
+        "unix_time": 1354621860.0, 
+        "label": "New World", 
+        "date_str": "2012-12-04", 
+        "time_str": "05:51:00"
+      }, 
+      {
+        "album": "Ask the Sun", 
+        "artist": "Hamid Drake/Michael Zerang Duo", 
+        "track": "River Dance", 
+        "unix_time": 1354622700.0, 
+        "label": "Okkadisk", 
+        "date_str": "2012-12-04", 
+        "time_str": "06:05:00"
+      }, 
+      {
+        "album": "Similar in the Opposite Way", 
+        "artist": "Jeff Albert Quartet", 
+        "track": "Bag Full of Poboys", 
+        "unix_time": 1354623360.0, 
+        "label": "Fora Sound", 
+        "date_str": "2012-12-04", 
+        "time_str": "06:16:00"
+      }, 
+      {
+        "album": "All Our Reasons", 
+        "artist": "Billy Hart Quartet", 
+        "track": "Nigeria", 
+        "unix_time": 1354623720.0, 
+        "label": "ECM", 
+        "date_str": "2012-12-04", 
+        "time_str": "06:22:00"
+      }, 
+      {
+        "album": "Accelerando", 
+        "artist": "Vijay Iyer Trio", 
+        "track": "Actions Speak", 
+        "unix_time": 1354624200.0, 
+        "label": "ACT", 
+        "date_str": "2012-12-04", 
+        "time_str": "06:30:00"
+      }, 
+      {
+        "album": "Opus Krampus", 
+        "artist": "Griot Galaxy", 
+        "track": "Liberty City Rundown", 
+        "unix_time": 1354624620.0, 
+        "label": "Sound Aspects", 
+        "date_str": "2012-12-04", 
+        "time_str": "06:37:00"
+      }, 
+      {
+        "album": "Other Aspects", 
+        "artist": "Eric Dolphy", 
+        "track": "Improvisation and Tukras", 
+        "unix_time": 1354625160.0, 
+        "label": "Blue Note", 
+        "date_str": "2012-12-04", 
+        "time_str": "06:46:00"
+      }, 
+      {
+        "album": "Herb Geller Plays", 
+        "artist": "Herb Geller", 
+        "track": "Sleigh Ride", 
+        "unix_time": 1354625880.0, 
+        "label": "Emarcy", 
+        "date_str": "2012-12-04", 
+        "time_str": "06:58:00"
+      }, 
+      {
+        "album": "All Day Long", 
+        "artist": "Kenny Burrell", 
+        "track": "Slim Jim", 
+        "unix_time": 1354626060.0, 
+        "label": "Prestige", 
+        "date_str": "2012-12-04", 
+        "time_str": "07:01:00"
+      }, 
+      {
+        "album": "Velvet Fire", 
+        "artist": "Douglas R. Ewart & Inventions", 
+        "track": "Deemankwe", 
+        "unix_time": 1354626600.0, 
+        "label": "Arawak", 
+        "date_str": "2012-12-04", 
+        "time_str": "07:10:00"
+      }, 
+      {
+        "album": "At the Hideout", 
+        "artist": "Jeb Bishop/Jaap Blonk/Lou Mallozzi/Frank Rosaly", 
+        "track": "Cachoo Tug", 
+        "unix_time": 1354627200.0, 
+        "label": "Kontrans", 
+        "date_str": "2012-12-04", 
+        "time_str": "07:20:00"
+      }, 
+      {
+        "album": "Sin Fronteras", 
+        "artist": "Actis Dato Quartet", 
+        "track": "Tar\u00ecfa", 
+        "unix_time": 1354627920.0, 
+        "label": "Leo", 
+        "date_str": "2012-12-04", 
+        "time_str": "07:32:00"
+      }, 
+      {
+        "album": "Seize the Time", 
+        "artist": "Ted Sirota's Rebel Souls", 
+        "track": "The Keys to Freedom", 
+        "unix_time": 1354628580.0, 
+        "label": "Naim Jazz", 
+        "date_str": "2012-12-04", 
+        "time_str": "07:43:00"
+      }
+    ]
+  ], 
+  [
+    "2012-12-11", 
+    [
+      {
+        "album": "Crescent City Funk", 
+        "artist": "BO Jr.", 
+        "track": "Coffee Pot (Pt. 1)", 
+        "unix_time": 1355223600.0, 
+        "label": "Grapevine", 
+        "date_str": "2012-12-11", 
+        "time_str": "05:00:00"
+      }, 
+      {
+        "album": "Texas Music, Vol. 3: Garage Bands & Psychedelia", 
+        "artist": "The Sir Douglas Quintet", 
+        "track": "She's About a Mover", 
+        "unix_time": 1355223720.0, 
+        "label": "Rhino", 
+        "date_str": "2012-12-11", 
+        "time_str": "05:02:00"
+      }, 
+      {
+        "album": "Las Vegas Grind, Vol. 1", 
+        "artist": "Tic & Toc", 
+        "track": "Jibba Jab", 
+        "unix_time": 1355223960.0, 
+        "label": "Crypt Records", 
+        "date_str": "2012-12-11", 
+        "time_str": "05:06:00"
+      }, 
+      {
+        "album": "One Eye Open", 
+        "artist": "Mask Man & the Agents", 
+        "track": "Roaches", 
+        "unix_time": 1355224080.0, 
+        "label": "Dynamo", 
+        "date_str": "2012-12-11", 
+        "time_str": "05:08:00"
+      }, 
+      {
+        "album": "Crescent City Funk", 
+        "artist": "Lee Dorsey", 
+        "track": "Four Corners (Part 2)", 
+        "unix_time": 1355224260.0, 
+        "label": "Grapevine", 
+        "date_str": "2012-12-11", 
+        "time_str": "05:11:00"
+      }, 
+      {
+        "album": "7\"", 
+        "artist": "The Dapps", 
+        "track": "The Rabbit Got the Gun", 
+        "unix_time": 1355224380.0, 
+        "label": "Polydor", 
+        "date_str": "2012-12-11", 
+        "time_str": "05:13:00"
+      }, 
+      {
+        "album": "Crystals", 
+        "artist": "Sam Rivers", 
+        "track": "Tranquility", 
+        "unix_time": 1355224680.0, 
+        "label": "Impulse", 
+        "date_str": "2012-12-11", 
+        "time_str": "05:18:00"
+      }, 
+      {
+        "album": "The Complete Warner Bros. Recordings", 
+        "artist": "Allen Toussaint", 
+        "track": "Soul Sister", 
+        "unix_time": 1355225220.0, 
+        "label": "Rhino Handmade", 
+        "date_str": "2012-12-11", 
+        "time_str": "05:27:00"
+      }, 
+      {
+        "album": "Come To My Garden ", 
+        "artist": "Minnie Riperton", 
+        "track": "Les Fleur", 
+        "unix_time": 1355225340.0, 
+        "label": "GRT", 
+        "date_str": "2012-12-11", 
+        "time_str": "05:29:00"
+      }, 
+      {
+        "album": "Virgin Ubiquity II", 
+        "artist": "Roy Ayers", 
+        "track": "Liquid Love", 
+        "unix_time": 1355225580.0, 
+        "label": "Rapster", 
+        "date_str": "2012-12-11", 
+        "time_str": "05:33:00"
+      }, 
+      {
+        "album": "Her Best - The Chess 50th Anniversary Collection", 
+        "artist": "Etta James", 
+        "track": "All the Way Down", 
+        "unix_time": 1355225820.0, 
+        "label": "Chess", 
+        "date_str": "2012-12-11", 
+        "time_str": "05:37:00"
+      }, 
+      {
+        "album": "Sofrito: Tropical Discotheque", 
+        "artist": "Mighty Shadow", 
+        "track": "Dat Soca Boat", 
+        "unix_time": 1355226300.0, 
+        "label": "Strut", 
+        "date_str": "2012-12-11", 
+        "time_str": "05:45:00"
+      }, 
+      {
+        "album": "Las Vegas Grind, Vol. 1", 
+        "artist": "Barbara and the Boys", 
+        "track": "Hooty Sappperticker", 
+        "unix_time": 1355226600.0, 
+        "label": "Crypt Records", 
+        "date_str": "2012-12-11", 
+        "time_str": "05:50:00"
+      }, 
+      {
+        "album": "Eccentric Soul: The Prix Label", 
+        "artist": "Penny & the Quarters", 
+        "track": "You and Me", 
+        "unix_time": 1355226660.0, 
+        "label": "Numero Group", 
+        "date_str": "2012-12-11", 
+        "time_str": "05:51:00"
+      }, 
+      {
+        "album": "Tripper", 
+        "artist": "Fruit Bats", 
+        "track": "Tony the Tripper", 
+        "unix_time": 1355226900.0, 
+        "label": "Sub Pop ", 
+        "date_str": "2012-12-11", 
+        "time_str": "05:55:00"
+      }, 
+      {
+        "album": "From Home To Home", 
+        "artist": "Fairfield Parlour", 
+        "track": "In My Box", 
+        "unix_time": 1355227200.0, 
+        "label": "Repertoire", 
+        "date_str": "2012-12-11", 
+        "time_str": "06:00:00"
+      }, 
+      {
+        "album": "Rolled Gold", 
+        "artist": "The Action", 
+        "track": "Come Around", 
+        "unix_time": 1355227320.0, 
+        "label": "Reaction ", 
+        "date_str": "2012-12-11", 
+        "time_str": "06:02:00"
+      }, 
+      {
+        "album": "World of Echo", 
+        "artist": "Arthur Russell", 
+        "track": "Our Last Night Together", 
+        "unix_time": 1355227500.0, 
+        "label": "Upside", 
+        "date_str": "2012-12-11", 
+        "time_str": "06:05:00"
+      }, 
+      {
+        "album": "Nilsson Plays Newman", 
+        "artist": "Harry Nilsson", 
+        "track": "Dayton Ohio 1903", 
+        "unix_time": 1355227680.0, 
+        "label": "RCA Victor", 
+        "date_str": "2012-12-11", 
+        "time_str": "06:08:00"
+      }, 
+      {
+        "album": "Southern Journey, Vol. 1 - Voices from the American South", 
+        "artist": "J.E. Manier and Band", 
+        "track": "Three Nights Drunk", 
+        "unix_time": 1355227800.0, 
+        "label": "Rounder", 
+        "date_str": "2012-12-11", 
+        "time_str": "06:10:00"
+      }, 
+      {
+        "album": "Dragnet for Jesus", 
+        "artist": "Sister Wynona Carr", 
+        "track": "15 Rounds for Jesus", 
+        "unix_time": 1355228040.0, 
+        "label": "Specialty", 
+        "date_str": "2012-12-11", 
+        "time_str": "06:14:00"
+      }, 
+      {
+        "album": "Elder Charles Beck (1946-47)", 
+        "artist": "Elder Charles Beck", 
+        "track": "Rock and Roll Sermon, Parts 1 & 2", 
+        "unix_time": 1355228220.0, 
+        "label": "Document", 
+        "date_str": "2012-12-11", 
+        "time_str": "06:17:00"
+      }, 
+      {
+        "album": "4-Track Recording Session", 
+        "artist": "The Green Arrows", 
+        "track": "No Delay (Bullitt)", 
+        "unix_time": 1355228460.0, 
+        "label": "Analog Africa ", 
+        "date_str": "2012-12-11", 
+        "time_str": "06:21:00"
+      }, 
+      {
+        "album": "Thai Beat a Go-Go Vol. 1", 
+        "artist": "Cat", 
+        "track": "Hit the Road Jack", 
+        "unix_time": 1355228640.0, 
+        "label": "Subliminal Sounds", 
+        "date_str": "2012-12-11", 
+        "time_str": "06:24:00"
+      }, 
+      {
+        "album": "Space is the Place (Original Soundtrack)", 
+        "artist": "Sun Ra", 
+        "track": "Watusa", 
+        "unix_time": 1355228820.0, 
+        "label": "Impulse", 
+        "date_str": "2012-12-11", 
+        "time_str": "06:27:00"
+      }, 
+      {
+        "album": "Bobby Charles", 
+        "artist": "Bobby Charles", 
+        "track": "Grow too Old", 
+        "unix_time": 1355229360.0, 
+        "label": "Rhino Handmade", 
+        "date_str": "2012-12-11", 
+        "time_str": "06:36:00"
+      }, 
+      {
+        "album": "Essential Blues Masters", 
+        "artist": "Henry Thomas", 
+        "track": "The Little Red Caboose", 
+        "unix_time": 1355229600.0, 
+        "label": "Goldenlane ", 
+        "date_str": "2012-12-11", 
+        "time_str": "06:40:00"
+      }, 
+      {
+        "album": "Bang! Bang! Push! Push, Push ", 
+        "artist": "Joe Cuba", 
+        "track": "Oh Yeah", 
+        "unix_time": 1355229780.0, 
+        "label": "Fania", 
+        "date_str": "2012-12-11", 
+        "time_str": "06:43:00"
+      }, 
+      {
+        "album": "Up From The Basement - Unreleased Tracks - Volumes 1 &amp; 2 Galt MacDermot &#8206;\u0096 Up From The Basement - Unreleased Tracks - Volumes 1 & 2 ", 
+        "artist": "Galt MacDermot", 
+        "track": "Cool it with Contac", 
+        "unix_time": 1355229960.0, 
+        "label": "Kilmarnock", 
+        "date_str": "2012-12-11", 
+        "time_str": "06:46:00"
+      }, 
+      {
+        "album": "Crazy Rhythms", 
+        "artist": "The Feelies", 
+        "track": "Fa C\u00e9-La", 
+        "unix_time": 1355230140.0, 
+        "label": "Stiff", 
+        "date_str": "2012-12-11", 
+        "time_str": "06:49:00"
+      }, 
+      {
+        "album": "Neu 1", 
+        "artist": "Neu!", 
+        "track": "Hallogallow", 
+        "unix_time": 1355230260.0, 
+        "label": "Astralwerks", 
+        "date_str": "2012-12-11", 
+        "time_str": "06:51:00"
+      }, 
+      {
+        "album": "Into Outer Space with Lucia Pamela", 
+        "artist": "Lucia Pamela", 
+        "track": "In the Year 2,000!!!!", 
+        "unix_time": 1355230800.0, 
+        "label": "Arf Arf", 
+        "date_str": "2012-12-11", 
+        "time_str": "07:00:00"
+      }, 
+      {
+        "album": "Things Go Better With Coke", 
+        "artist": "The Bee Gees", 
+        "track": "Things Go Better With Coke", 
+        "unix_time": 1355230920.0, 
+        "label": "bootleg", 
+        "date_str": "2012-12-11", 
+        "time_str": "07:02:00"
+      }, 
+      {
+        "album": "Lou Bond", 
+        "artist": "Lou Bond", 
+        "track": "Lucky Me", 
+        "unix_time": 1355231100.0, 
+        "label": "Light In The Attic", 
+        "date_str": "2012-12-11", 
+        "time_str": "07:05:00"
+      }, 
+      {
+        "album": "Elpmas", 
+        "artist": "Moondog", 
+        "track": "Westward Ho!", 
+        "unix_time": 1355231340.0, 
+        "label": "Kopf", 
+        "date_str": "2012-12-11", 
+        "time_str": "07:09:00"
+      }, 
+      {
+        "album": "78", 
+        "artist": "Mars", 
+        "track": "11,000 Volts", 
+        "unix_time": 1355231640.0, 
+        "label": "Widowspeak", 
+        "date_str": "2012-12-11", 
+        "time_str": "07:14:00"
+      }, 
+      {
+        "album": "The Secret Museum Of Mankind, Vol. 3: Ethnic Music Classics 1925-1948", 
+        "artist": "Iran Dowleh Helen", 
+        "track": "Byatt Turk", 
+        "unix_time": 1355231880.0, 
+        "label": "Yazoo", 
+        "date_str": "2012-12-11", 
+        "time_str": "07:18:00"
+      }, 
+      {
+        "album": "Live in Greenwich Village: The Complete Impulse Recordings", 
+        "artist": "Albert Ayler", 
+        "track": "Truth is Marching In", 
+        "unix_time": 1355232180.0, 
+        "label": "Impulse", 
+        "date_str": "2012-12-11", 
+        "time_str": "07:23:00"
+      }
+    ]
+  ], 
+  [
+    "2013-01-08", 
+    [
+      {
+        "album": "DKV plays the music of Don Cherry Sant'Anna Arresi, Sardinia, August 31, 2008", 
+        "artist": "DKV Trio", 
+        "track": "Brown Rice", 
+        "unix_time": 1357642860.0, 
+        "label": "Not Two", 
+        "date_str": "2013-01-08", 
+        "time_str": "05:01:00"
+      }, 
+      {
+        "album": "The Milwaukee Tapes Vol. 1", 
+        "artist": "Fred Anderson Quartet", 
+        "track": "Bombay (Children of Cambodia)", 
+        "unix_time": 1357643640.0, 
+        "label": "Atavistic/Unheard Music Series", 
+        "date_str": "2013-01-08", 
+        "time_str": "05:14:00"
+      }, 
+      {
+        "album": "Past Present", 
+        "artist": "DKV Trio", 
+        "track": "Chicago, July 15, 2009: Part 2", 
+        "unix_time": 1357644360.0, 
+        "label": "Not Two", 
+        "date_str": "2013-01-08", 
+        "time_str": "05:26:00"
+      }, 
+      {
+        "album": "Walk On", 
+        "artist": "Pilgrim Jubilee Singers of Chicago, IL", 
+        "track": "I See A Man", 
+        "unix_time": 1357645320.0, 
+        "label": "Mobile Fidelity Sound Lab", 
+        "date_str": "2013-01-08", 
+        "time_str": "05:42:00"
+      }, 
+      {
+        "album": "The Best of Loma Records", 
+        "artist": "Ike & Tina Turner", 
+        "track": "Finger Poppin'", 
+        "unix_time": 1357645500.0, 
+        "label": "Warner Archives", 
+        "date_str": "2013-01-08", 
+        "time_str": "05:45:00"
+      }, 
+      {
+        "album": "The Complete Stax/Volt Singles", 
+        "artist": "Eddie Floyd", 
+        "track": "Knock on Wood", 
+        "unix_time": 1357645680.0, 
+        "label": "Atlantic", 
+        "date_str": "2013-01-08", 
+        "time_str": "05:48:00"
+      }, 
+      {
+        "album": "The Westbound Sound of Detroit", 
+        "artist": "Mighty Elegant", 
+        "track": "I Don't Know What It Is But It  Sho Is Funky", 
+        "unix_time": 1357645980.0, 
+        "label": "Westbound", 
+        "date_str": "2013-01-08", 
+        "time_str": "05:53:00"
+      }, 
+      {
+        "album": "Puzzle People", 
+        "artist": "The Temptations", 
+        "track": "I Can't Get Next To You", 
+        "unix_time": 1357646100.0, 
+        "label": "Motown", 
+        "date_str": "2013-01-08", 
+        "time_str": "05:55:00"
+      }, 
+      {
+        "album": "Past Present", 
+        "artist": "DKV Trio", 
+        "track": "Chicago, December 29, 2010: Part 3", 
+        "unix_time": 1357646580.0, 
+        "label": "Not Two", 
+        "date_str": "2013-01-08", 
+        "time_str": "06:03:00"
+      }, 
+      {
+        "album": "The Clown", 
+        "artist": "Charles Mingus", 
+        "track": "Haitian Fight Song", 
+        "unix_time": 1357646880.0, 
+        "label": "Atlantic", 
+        "date_str": "2013-01-08", 
+        "time_str": "06:08:00"
+      }, 
+      {
+        "album": "Rip, Rig & Panic", 
+        "artist": "Roland Kirk", 
+        "track": "No Tonic Pres", 
+        "unix_time": 1357647480.0, 
+        "label": "Limelight", 
+        "date_str": "2013-01-08", 
+        "time_str": "06:18:00"
+      }, 
+      {
+        "album": "Rip, Rig & Panic", 
+        "artist": "Roland Kirk", 
+        "track": "Once in a While", 
+        "unix_time": 1357647720.0, 
+        "label": "Limelight", 
+        "date_str": "2013-01-08", 
+        "time_str": "06:22:00"
+      }, 
+      {
+        "album": "How the Thing Sings", 
+        "artist": "Bill Orcutt", 
+        "track": "The Visible Bosom", 
+        "unix_time": 1357648020.0, 
+        "label": "Editions Mego", 
+        "date_str": "2013-01-08", 
+        "time_str": "06:27:00"
+      }, 
+      {
+        "album": "Past Present", 
+        "artist": "DKV Trio", 
+        "track": "Milwaukee, December 30, 2010: Part 1", 
+        "unix_time": 1357648440.0, 
+        "label": "Not Two", 
+        "date_str": "2013-01-08", 
+        "time_str": "06:34:00"
+      }, 
+      {
+        "album": "Feet Music", 
+        "artist": "Atomic", 
+        "track": "Fifth Circle", 
+        "unix_time": 1357648980.0, 
+        "label": "Jazzland", 
+        "date_str": "2013-01-08", 
+        "time_str": "06:43:00"
+      }, 
+      {
+        "album": "Past Present", 
+        "artist": "DKV Trio", 
+        "track": "Milwaukee, December 27, 2011: Part 2B", 
+        "unix_time": 1357649580.0, 
+        "label": "Not Two", 
+        "date_str": "2013-01-08", 
+        "time_str": "06:53:00"
+      }, 
+      {
+        "album": "Past Present", 
+        "artist": "DKV Trio", 
+        "track": "Chicago, December 28, 2011: Part 2A", 
+        "unix_time": 1357650000.0, 
+        "label": "Not Two", 
+        "date_str": "2013-01-08", 
+        "time_str": "07:00:00"
+      }, 
+      {
+        "album": "Past Present", 
+        "artist": "DKV Trio", 
+        "track": "Chicago, January 6, 2010 - Set 1, Part 2", 
+        "unix_time": 1357650480.0, 
+        "label": "Not Two", 
+        "date_str": "2013-01-08", 
+        "time_str": "07:08:00"
+      }, 
+      {
+        "album": "Ultimate Frontier", 
+        "artist": "Ari Brown", 
+        "track": "Meeting Time", 
+        "unix_time": 1357651200.0, 
+        "label": "Delmark", 
+        "date_str": "2013-01-08", 
+        "time_str": "07:20:00"
+      }, 
+      {
+        "album": "Wild is the Wind", 
+        "artist": "Dee Alexander", 
+        "track": "Live", 
+        "unix_time": 1357651500.0, 
+        "label": "Blujazz", 
+        "date_str": "2013-01-08", 
+        "time_str": "07:25:00"
+      }, 
+      {
+        "album": "I'm Back at Carnival Time", 
+        "artist": "Bo Dollis and the Wild Magnolias", 
+        "track": "Shallow Water Oh Mama", 
+        "unix_time": 1357651980.0, 
+        "label": "Rounder", 
+        "date_str": "2013-01-08", 
+        "time_str": "07:33:00"
+      }
+    ]
+  ], 
+  [
+    "2013-01-15", 
+    [
+      {
+        "album": "I've Found My Love: 1960's Guitar Band Highlife of Ghana", 
+        "artist": "Royal Brothers", 
+        "track": "Ohia Woa Enwu", 
+        "unix_time": 1358247840.0, 
+        "label": "Original Music", 
+        "date_str": "2013-01-15", 
+        "time_str": "05:04:00"
+      }, 
+      {
+        "album": "Azagas & Archibogs: The Sixties Sound of Lagos Highlife", 
+        "artist": "Prince Kayosun Dosumu and his Dandies", 
+        "track": "Eso Pele", 
+        "unix_time": 1358248020.0, 
+        "label": "Original Music", 
+        "date_str": "2013-01-15", 
+        "time_str": "05:07:00"
+      }, 
+      {
+        "album": "Giants of Ghanaian Danceband Highlife (1950s-1970s)", 
+        "artist": "Professional Uhuru", 
+        "track": "Betu Me Ho Awow", 
+        "unix_time": 1358248320.0, 
+        "label": "Original Music", 
+        "date_str": "2013-01-15", 
+        "time_str": "05:12:00"
+      }, 
+      {
+        "album": "Telephone Lobi: More Giants of Danceband Highlife", 
+        "artist": "Ramblers Dance Band", 
+        "track": "Agbo Ayee", 
+        "unix_time": 1358248500.0, 
+        "label": "Original Music", 
+        "date_str": "2013-01-15", 
+        "time_str": "05:15:00"
+      }, 
+      {
+        "album": "Highlife Time", 
+        "artist": "Rex Lawson & his Rivers Men", 
+        "track": "Peri Special Mbanga", 
+        "unix_time": 1358248680.0, 
+        "label": "Vampisoul", 
+        "date_str": "2013-01-15", 
+        "time_str": "05:18:00"
+      }, 
+      {
+        "album": "African Music Treasures blog", 
+        "artist": "The Harlem Band of Kinshasa", 
+        "track": "Chiwawa (Pachanga)", 
+        "unix_time": 1358249040.0, 
+        "label": "Voice of America", 
+        "date_str": "2013-01-15", 
+        "time_str": "05:24:00"
+      }, 
+      {
+        "album": "\u00a1El Mambo Me Priva! Cuban Gold 3 - the 60s", 
+        "artist": "Pio Leyva", 
+        "track": "Buen Tumbao (guaguanco)", 
+        "unix_time": 1358249220.0, 
+        "label": "Qbadisc", 
+        "date_str": "2013-01-15", 
+        "time_str": "05:27:00"
+      }, 
+      {
+        "album": "James Brown's Original Funky Divas", 
+        "artist": "Marva Whitney", 
+        "track": "It's My Thing (You Can't Tell Me Who to Sock It To)", 
+        "unix_time": 1358249460.0, 
+        "label": "Polydor", 
+        "date_str": "2013-01-15", 
+        "time_str": "05:31:00"
+      }, 
+      {
+        "album": "James Brown's Original Funky Divas", 
+        "artist": "Marva Whitney", 
+        "track": "What Do I Have to Do to Prove My Love to You?", 
+        "unix_time": 1358249700.0, 
+        "label": "Polydor", 
+        "date_str": "2013-01-15", 
+        "time_str": "05:35:00"
+      }, 
+      {
+        "album": "Twelve Nights in Hollywood", 
+        "artist": "Ella Fitzgerald", 
+        "track": "Ol' Man Mose", 
+        "unix_time": 1358249940.0, 
+        "label": "Hip-O Select", 
+        "date_str": "2013-01-15", 
+        "time_str": "05:39:00"
+      }, 
+      {
+        "album": "Alfie (Original Music from the Score)", 
+        "artist": "Sonny Rollins", 
+        "track": "Alfie's Theme", 
+        "unix_time": 1358250120.0, 
+        "label": "Impulse", 
+        "date_str": "2013-01-15", 
+        "time_str": "05:42:00"
+      }, 
+      {
+        "album": "R&B Hipshakers Vol 2 Scratch That Itch", 
+        "artist": "Amos Milburn", 
+        "track": "Whiz-A-Shoo-Pepi-Dada", 
+        "unix_time": 1358250780.0, 
+        "label": "Vampisoul", 
+        "date_str": "2013-01-15", 
+        "time_str": "05:53:00"
+      }, 
+      {
+        "album": "Wardell Quezergue: Sixty Smokin' Soul Senders", 
+        "artist": "The Wardell Quezergue Band", 
+        "track": "Robert & WQ's Train", 
+        "unix_time": 1358250960.0, 
+        "label": "Funky Delicacies", 
+        "date_str": "2013-01-15", 
+        "time_str": "05:56:00"
+      }, 
+      {
+        "album": "Bossa Cubana", 
+        "artist": "Los Zafiros", 
+        "track": "Un Nombre de Mujer", 
+        "unix_time": 1358251080.0, 
+        "label": "World Circuit", 
+        "date_str": "2013-01-15", 
+        "time_str": "05:58:00"
+      }, 
+      {
+        "album": "Fathers and Sons of Garage Punk, vol. 5: Garage Rock 1979-1999", 
+        "artist": "The Creeps", 
+        "track": "Down at the Nightclub", 
+        "unix_time": 1358251260.0, 
+        "label": "unclear", 
+        "date_str": "2013-01-15", 
+        "time_str": "06:01:00"
+      }, 
+      {
+        "album": "7\" - Jewel 840 ", 
+        "artist": "Bobby Rush", 
+        "track": "Niki Hoeky", 
+        "unix_time": 1358251500.0, 
+        "label": "Jewel", 
+        "date_str": "2013-01-15", 
+        "time_str": "06:05:00"
+      }, 
+      {
+        "album": "The Sound Of Siam: Leftfield Luk Thung, Jazz & Molam In Thailand 1964-1975", 
+        "artist": "Sanae Petchaboon", 
+        "track": "Pen Jung Dai", 
+        "unix_time": 1358251680.0, 
+        "label": "Soundway", 
+        "date_str": "2013-01-15", 
+        "time_str": "06:08:00"
+      }, 
+      {
+        "album": "Ondatr\u00f3pica", 
+        "artist": "Ondatr\u00f3pica", 
+        "track": "Cumbia Espacial", 
+        "unix_time": 1358251860.0, 
+        "label": "Soundway", 
+        "date_str": "2013-01-15", 
+        "time_str": "06:11:00"
+      }, 
+      {
+        "album": "Kickin' Some Brass", 
+        "artist": "Treme Brass Band", 
+        "track": "Just a Closer Walk with Thee", 
+        "unix_time": 1358252220.0, 
+        "label": "Shanachie", 
+        "date_str": "2013-01-15", 
+        "time_str": "06:17:00"
+      }, 
+      {
+        "album": "The Pitch/Gusman Records Story", 
+        "artist": "Flying Clouds of Augusta, GA", 
+        "track": "Don't Let the Devil Ride", 
+        "unix_time": 1358252700.0, 
+        "label": "Fat Possum", 
+        "date_str": "2013-01-15", 
+        "time_str": "06:25:00"
+      }, 
+      {
+        "album": "Elder Charles Beck (1946-56)", 
+        "artist": "Elder Charles Beck", 
+        "track": "Didn't It Rain?", 
+        "unix_time": 1358253000.0, 
+        "label": "Document", 
+        "date_str": "2013-01-15", 
+        "time_str": "06:30:00"
+      }, 
+      {
+        "album": "Like a Ship (Without a Sail)", 
+        "artist": "Pastor T.L. Barrett and the Youth for Christ Choir", 
+        "track": "Ever Since", 
+        "unix_time": 1358253120.0, 
+        "label": "Light in the Attic", 
+        "date_str": "2013-01-15", 
+        "time_str": "06:32:00"
+      }, 
+      {
+        "album": "On the Beach with the Paragons", 
+        "artist": "The Paragons", 
+        "track": "When the Lights are Low", 
+        "unix_time": 1358253480.0, 
+        "label": "Treasure Isle", 
+        "date_str": "2013-01-15", 
+        "time_str": "06:38:00"
+      }, 
+      {
+        "album": "Diablo Rojo Diablo Verde", 
+        "artist": "Pascuala Ilabaca y Fauna", 
+        "track": "Violeta y Frida", 
+        "unix_time": 1358253660.0, 
+        "label": "V&S World", 
+        "date_str": "2013-01-15", 
+        "time_str": "06:41:00"
+      }, 
+      {
+        "album": "Yaba Funk Roots", 
+        "artist": "Captain Yaba", 
+        "track": "Yaba Funk (Pre Mix)", 
+        "unix_time": 1358253840.0, 
+        "label": "Retroafric", 
+        "date_str": "2013-01-15", 
+        "time_str": "06:44:00"
+      }, 
+      {
+        "album": "The Story of the Clash, Vol. 1", 
+        "artist": "The Clash", 
+        "track": "The Magnificent Seven", 
+        "unix_time": 1358254200.0, 
+        "label": "Epic", 
+        "date_str": "2013-01-15", 
+        "time_str": "06:50:00"
+      }, 
+      {
+        "album": "Passing Ships", 
+        "artist": "Andrew Hill", 
+        "track": "Cascade", 
+        "unix_time": 1358254620.0, 
+        "label": "Blue Note", 
+        "date_str": "2013-01-15", 
+        "time_str": "06:57:00"
+      }, 
+      {
+        "album": "Six for Rollins (Free Jazz Classics, Vol. 3)", 
+        "artist": "The Vandermark Five", 
+        "track": "East Broadway Rundown", 
+        "unix_time": 1358255040.0, 
+        "label": "Atavistic", 
+        "date_str": "2013-01-15", 
+        "time_str": "07:04:00"
+      }, 
+      {
+        "album": "Last Kind Words", 
+        "artist": "Radio I-Ching", 
+        "track": "Last Kind Words", 
+        "unix_time": 1358255640.0, 
+        "label": "Resonant Music", 
+        "date_str": "2013-01-15", 
+        "time_str": "07:14:00"
+      }, 
+      {
+        "album": "4", 
+        "artist": "The Clarinet Trio", 
+        "track": "Catwalk Munzstrasse", 
+        "unix_time": 1358255820.0, 
+        "label": "Leo", 
+        "date_str": "2013-01-15", 
+        "time_str": "07:17:00"
+      }, 
+      {
+        "album": "Sin Fronteras", 
+        "artist": "Actis Dato Quartet", 
+        "track": "Fela", 
+        "unix_time": 1358256240.0, 
+        "label": "Leo", 
+        "date_str": "2013-01-15", 
+        "time_str": "07:24:00"
+      }, 
+      {
+        "album": "Sound Unity", 
+        "artist": "William Parker Quartet", 
+        "track": "Hawaii", 
+        "unix_time": 1358256780.0, 
+        "label": "AUM Fidelity", 
+        "date_str": "2013-01-15", 
+        "time_str": "07:33:00"
+      }
+    ]
+  ], 
+  [
+    "2013-01-22", 
+    [
+      {
+        "album": "Live at the Green Mill", 
+        "artist": "Ari Brown", 
+        "track": "Kylie's Lullaby", 
+        "unix_time": 1358852520.0, 
+        "label": "Delmark", 
+        "date_str": "2013-01-22", 
+        "time_str": "05:02:00"
+      }, 
+      {
+        "album": "Chicago Instrumentals, Vol. 2 (Soul-Jazz Edition)", 
+        "artist": "Grav", 
+        "track": "Down to Earth (Instrumental)", 
+        "unix_time": 1358853240.0, 
+        "label": "The T.R.O.Y. Blog", 
+        "date_str": "2013-01-22", 
+        "time_str": "05:14:00"
+      }, 
+      {
+        "album": "Joyful Noise", 
+        "artist": "Breakestra", 
+        "track": "Joyful Noise (12\" Edit)", 
+        "unix_time": 1358853420.0, 
+        "label": "Strut", 
+        "date_str": "2013-01-22", 
+        "time_str": "05:17:00"
+      }, 
+      {
+        "album": "Racubah!", 
+        "artist": "Harry Mosco", 
+        "track": "I Feel Funky", 
+        "unix_time": 1358853720.0, 
+        "label": "Comet", 
+        "date_str": "2013-01-22", 
+        "time_str": "05:22:00"
+      }, 
+      {
+        "album": "Panama! 3 - Calypso Paname\u00f1o, Guajira Jazz & Cumbia T\u00edpica on the Isthmus 1960-75 ", 
+        "artist": "Papi Brandao y sus Ejecutivos", 
+        "track": "Bilongo", 
+        "unix_time": 1358854080.0, 
+        "label": "Soundway", 
+        "date_str": "2013-01-22", 
+        "time_str": "05:28:00"
+      }, 
+      {
+        "album": "El Yerbero del Barrio", 
+        "artist": "Roberto y su Nuevo Montuno", 
+        "track": "Virazon", 
+        "unix_time": 1358854320.0, 
+        "label": "International", 
+        "date_str": "2013-01-22", 
+        "time_str": "05:32:00"
+      }, 
+      {
+        "album": "Descarga Oriental", 
+        "artist": "Maurice El M\u00e9dioni meets Roberto Rodriguez", 
+        "track": "Malika", 
+        "unix_time": 1358854500.0, 
+        "label": "Piranha", 
+        "date_str": "2013-01-22", 
+        "time_str": "05:35:00"
+      }, 
+      {
+        "album": "Triplicate", 
+        "artist": "Dave Holland Trio", 
+        "track": "Segment", 
+        "unix_time": 1358855040.0, 
+        "label": "ECM", 
+        "date_str": "2013-01-22", 
+        "time_str": "05:44:00"
+      }, 
+      {
+        "album": "Drunk on the Blood of the Holy Ones", 
+        "artist": "The Fully Celebrated", 
+        "track": "Reptoid Alliance", 
+        "unix_time": 1358855400.0, 
+        "label": "AUM Fidelity", 
+        "date_str": "2013-01-22", 
+        "time_str": "05:50:00"
+      }, 
+      {
+        "album": "News for Lulu", 
+        "artist": "John Zorn, George Lewis, Bill Frisell", 
+        "track": "Ol\u00e9", 
+        "unix_time": 1358855640.0, 
+        "label": "HatHut", 
+        "date_str": "2013-01-22", 
+        "time_str": "05:54:00"
+      }, 
+      {
+        "album": "When I'm Gone", 
+        "artist": "Elizabeth Cotten", 
+        "track": "Wilson Rag", 
+        "unix_time": 1358856000.0, 
+        "label": "Smithsonian Folkways", 
+        "date_str": "2013-01-22", 
+        "time_str": "06:00:00"
+      }, 
+      {
+        "album": "Backslider", 
+        "artist": "Charlie Parr", 
+        "track": "3-Stage Pacemaker Blues", 
+        "unix_time": 1358856300.0, 
+        "label": "Eclectone", 
+        "date_str": "2013-01-22", 
+        "time_str": "06:05:00"
+      }, 
+      {
+        "album": "Le Vol Arr\u00eat\u00e9", 
+        "artist": "Vladimir Vysotsky", 
+        "track": "Le Vol Arr\u00eat\u00e9", 
+        "unix_time": 1358856540.0, 
+        "label": "Le Chant Du Monde", 
+        "date_str": "2013-01-22", 
+        "time_str": "06:09:00"
+      }, 
+      {
+        "album": "Bahamas Goombay 1951-1959", 
+        "artist": "Delbon Johnson", 
+        "track": "Nassau Night", 
+        "unix_time": 1358856900.0, 
+        "label": "Fremeaux & Associes", 
+        "date_str": "2013-01-22", 
+        "time_str": "06:15:00"
+      }, 
+      {
+        "album": "All For You", 
+        "artist": "E.T. Mensah", 
+        "track": "Munsuro", 
+        "unix_time": 1358857080.0, 
+        "label": "Retroafric", 
+        "date_str": "2013-01-22", 
+        "time_str": "06:18:00"
+      }, 
+      {
+        "album": "The Best of Carlos Gardel", 
+        "artist": "Carlos Gardel", 
+        "track": "Volvio Una Noche", 
+        "unix_time": 1358857260.0, 
+        "label": "EMI", 
+        "date_str": "2013-01-22", 
+        "time_str": "06:21:00"
+      }, 
+      {
+        "album": "Fire in My Bones: Raw, Rare & Otherworldly African-American Gospel (1944-2007)", 
+        "artist": "Golden Stars of Greenwood, SC", 
+        "track": "Jesus' Blood", 
+        "unix_time": 1358857500.0, 
+        "label": "Tompkins Square", 
+        "date_str": "2013-01-22", 
+        "time_str": "06:25:00"
+      }, 
+      {
+        "album": "Fire in My Bones: Raw, Rare & Otherworldly African-American Gospel (1944-2007)", 
+        "artist": "The Phillips' Specials", 
+        "track": "I'm a Soldier", 
+        "unix_time": 1358857620.0, 
+        "label": "Tompkins Square", 
+        "date_str": "2013-01-22", 
+        "time_str": "06:27:00"
+      }, 
+      {
+        "album": " Guitars Of The Golden Triangle: Folk And Pop Music Of Myanmar (Burma) Vol. 2 ", 
+        "artist": "Lashlo Thein Aung", 
+        "track": "Don't Say Goodbye", 
+        "unix_time": 1358857800.0, 
+        "label": "Sublime Frequencies", 
+        "date_str": "2013-01-22", 
+        "time_str": "06:30:00"
+      }, 
+      {
+        "album": "Primitive Moments", 
+        "artist": "The Ponees", 
+        "track": "Move It, Groove It", 
+        "unix_time": 1358858040.0, 
+        "label": "Liquid Dilemma", 
+        "date_str": "2013-01-22", 
+        "time_str": "06:34:00"
+      }, 
+      {
+        "album": "Peel Slowly and See", 
+        "artist": "The Velvet Underground", 
+        "track": "I Can't Stand It", 
+        "unix_time": 1358858160.0, 
+        "label": "Polydor", 
+        "date_str": "2013-01-22", 
+        "time_str": "06:36:00"
+      }, 
+      {
+        "album": "Wallahi Le Zein!! Wezin, Jakwar And Guitar Boogie From The Islamic Republic Of Mauritania", 
+        "artist": "Baba ould Hembara & Badi ould Hembara", 
+        "track": "Anyi'ana", 
+        "unix_time": 1358858340.0, 
+        "label": "Latitudes", 
+        "date_str": "2013-01-22", 
+        "time_str": "06:39:00"
+      }, 
+      {
+        "album": "Raga Chandrakauns/Megh", 
+        "artist": "Indrakishore Mishra", 
+        "track": "Raga Chandrakauns - Dhrupad in Chautal", 
+        "unix_time": 1358858940.0, 
+        "label": "India Archives", 
+        "date_str": "2013-01-22", 
+        "time_str": "06:49:00"
+      }, 
+      {
+        "album": "Texas Thunder Soul 1968-1974", 
+        "artist": "Kashmere Stage Band", 
+        "track": "Al's Tune", 
+        "unix_time": 1358859720.0, 
+        "label": "Now Again", 
+        "date_str": "2013-01-22", 
+        "time_str": "07:02:00"
+      }, 
+      {
+        "album": "Let Your Soul Fly", 
+        "artist": "Mfalme", 
+        "track": "The Soul Thing", 
+        "unix_time": 1358859900.0, 
+        "label": "Asante", 
+        "date_str": "2013-01-22", 
+        "time_str": "07:05:00"
+      }, 
+      {
+        "album": "Psychicemotus", 
+        "artist": "Yusef Lateef", 
+        "track": "Semiocto", 
+        "unix_time": 1358860080.0, 
+        "label": "Impulse", 
+        "date_str": "2013-01-22", 
+        "time_str": "07:08:00"
+      }, 
+      {
+        "album": "The Ethiopian Princess Meets the Tantric Priest", 
+        "artist": "Indigo Trio with Michel Edelin", 
+        "track": "Ambre Sunset", 
+        "unix_time": 1358860380.0, 
+        "label": "Rogueart", 
+        "date_str": "2013-01-22", 
+        "time_str": "07:13:00"
+      }, 
+      {
+        "album": "Naked Dance! ", 
+        "artist": "Stephen Rush & Jeremy Edwards with Andrew Bishop", 
+        "track": "Naked Dance! Naked Dance!", 
+        "unix_time": 1358860860.0, 
+        "label": "self-released", 
+        "date_str": "2013-01-22", 
+        "time_str": "07:21:00"
+      }, 
+      {
+        "album": "Naked Dance! ", 
+        "artist": "Stephen Rush & Jeremy Edwards with Andrew Bishop", 
+        "track": "Aos", 
+        "unix_time": 1358861280.0, 
+        "label": "self-released", 
+        "date_str": "2013-01-22", 
+        "time_str": "07:28:00"
+      }, 
+      {
+        "album": "Diaspora Soul", 
+        "artist": "Steven Bernstein", 
+        "track": "L'Chaim", 
+        "unix_time": 1358861460.0, 
+        "label": "Tzadik", 
+        "date_str": "2013-01-22", 
+        "time_str": "07:31:00"
+      }, 
+      {
+        "album": "Konitz Meets Mulligan", 
+        "artist": "Lee Konitz & the Gerry Mulligan Quartet", 
+        "track": "Too Marvelous for Words", 
+        "unix_time": 1358861940.0, 
+        "label": "Pacific Jazz Records", 
+        "date_str": "2013-01-22", 
+        "time_str": "07:39:00"
+      }, 
+      {
+        "album": "Indigone Trio & Strings", 
+        "artist": "Indigone Trio & Strings", 
+        "track": "Shahgely", 
+        "unix_time": 1358862120.0, 
+        "label": "Ropeadope", 
+        "date_str": "2013-01-22", 
+        "time_str": "07:42:00"
+      }
+    ]
+  ], 
+  [
+    "2013-01-29", 
+    [
+      {
+        "album": "James Brown's Funky People", 
+        "artist": "Fred Wesley & the J.B.'s", 
+        "track": "Damn Right I Am Somebody", 
+        "unix_time": 1359457200.0, 
+        "label": "Polydor", 
+        "date_str": "2013-01-29", 
+        "time_str": "05:00:00"
+      }, 
+      {
+        "album": "New Ameryka: Part One (4th World War)", 
+        "artist": "Erykah Badu", 
+        "track": "Honey", 
+        "unix_time": 1359457560.0, 
+        "label": "Universal Motown", 
+        "date_str": "2013-01-29", 
+        "time_str": "05:06:00"
+      }, 
+      {
+        "album": "The Soul of Capitol Records: Rare & Well-Done (Vol. 1)", 
+        "artist": "The Salty Peppers", 
+        "track": "Uh Huh Yeah!", 
+        "unix_time": 1359457860.0, 
+        "label": "Capitol", 
+        "date_str": "2013-01-29", 
+        "time_str": "05:11:00"
+      }, 
+      {
+        "album": "Tribute to Jackie Mittoo", 
+        "artist": "Jackie Mittoo", 
+        "track": "Hot Tamale", 
+        "unix_time": 1359458040.0, 
+        "label": "Heartbeat", 
+        "date_str": "2013-01-29", 
+        "time_str": "05:14:00"
+      }, 
+      {
+        "album": "My Greatest Gift", 
+        "artist": "Aaron Neville", 
+        "track": "You Can Give But You Can't Take", 
+        "unix_time": 1359458280.0, 
+        "label": "Rounder", 
+        "date_str": "2013-01-29", 
+        "time_str": "05:18:00"
+      }, 
+      {
+        "album": "Songs in the Key of Life", 
+        "artist": "Stevie Wonder", 
+        "track": "All Day Sucker", 
+        "unix_time": 1359458460.0, 
+        "label": "Motown", 
+        "date_str": "2013-01-29", 
+        "time_str": "05:21:00"
+      }, 
+      {
+        "album": "African Fiesta, Vol. 1 (1962-63)", 
+        "artist": "Nico, Rochereau, Roger", 
+        "track": "Libaku ya nguma", 
+        "unix_time": 1359458820.0, 
+        "label": "Syllart", 
+        "date_str": "2013-01-29", 
+        "time_str": "05:27:00"
+      }, 
+      {
+        "album": "Minha M\u00e1quina Voadora ", 
+        "artist": "Ronnie Von", 
+        "track": "Viva o Chopp Escuro", 
+        "unix_time": 1359459060.0, 
+        "label": "Polydor", 
+        "date_str": "2013-01-29", 
+        "time_str": "05:31:00"
+      }, 
+      {
+        "album": "Gilberto Gil (C\u00e9rebro Eletr\u00f4nico)", 
+        "artist": "Gilberto Gil", 
+        "track": "Volks-Volkswagen Blue", 
+        "unix_time": 1359459300.0, 
+        "label": "Universal", 
+        "date_str": "2013-01-29", 
+        "time_str": "05:35:00"
+      }, 
+      {
+        "album": "Caetano Veloso (1968)", 
+        "artist": "Caetano Veloso", 
+        "track": "Ave Maria", 
+        "unix_time": 1359459480.0, 
+        "label": "Philips", 
+        "date_str": "2013-01-29", 
+        "time_str": "05:38:00"
+      }, 
+      {
+        "album": "Le Roi de la Bossa Nova", 
+        "artist": "Luiz Bonfa", 
+        "track": "Teu Olhar Triste", 
+        "unix_time": 1359459600.0, 
+        "label": "Fontana", 
+        "date_str": "2013-01-29", 
+        "time_str": "05:40:00"
+      }, 
+      {
+        "album": "How I Quit Smoking", 
+        "artist": "Lambchop", 
+        "track": "The Man Who Loved Beer", 
+        "unix_time": 1359459840.0, 
+        "label": "Merge", 
+        "date_str": "2013-01-29", 
+        "time_str": "05:44:00"
+      }, 
+      {
+        "album": "Shotgun Willie", 
+        "artist": "Willie Nelson", 
+        "track": "Bubbles in My Beer", 
+        "unix_time": 1359460020.0, 
+        "label": "Atlantic", 
+        "date_str": "2013-01-29", 
+        "time_str": "05:47:00"
+      }, 
+      {
+        "album": "I'm A Lonesome Fugitive", 
+        "artist": "Merle Haggard", 
+        "track": "Drink Up and Be Somebody", 
+        "unix_time": 1359460200.0, 
+        "label": "Capitol", 
+        "date_str": "2013-01-29", 
+        "time_str": "05:50:00"
+      }, 
+      {
+        "album": "Lonesome, On'ry and Mean", 
+        "artist": "Waylon Jennings", 
+        "track": "Me and Bobby McGee", 
+        "unix_time": 1359460320.0, 
+        "label": "RCA", 
+        "date_str": "2013-01-29", 
+        "time_str": "05:52:00"
+      }, 
+      {
+        "album": "Genuine Negro Jig", 
+        "artist": "Carolina Chocolate Drops", 
+        "track": "Why Don't You Do Right?", 
+        "unix_time": 1359460680.0, 
+        "label": "Nonesuch", 
+        "date_str": "2013-01-29", 
+        "time_str": "05:58:00"
+      }, 
+      {
+        "album": "The Folkways Years 1959-61", 
+        "artist": "Dave Van Ronk", 
+        "track": "In the Pines", 
+        "unix_time": 1359460860.0, 
+        "label": "Smithsonian Folkways", 
+        "date_str": "2013-01-29", 
+        "time_str": "06:01:00"
+      }, 
+      {
+        "album": "The Complete Folkways Recordings 1958", 
+        "artist": "Joseph Spence", 
+        "track": "When I Lay My Burden Down", 
+        "unix_time": 1359461100.0, 
+        "label": "Smithsonian Folkways", 
+        "date_str": "2013-01-29", 
+        "time_str": "06:05:00"
+      }, 
+      {
+        "album": "How Can I Keep From Singing, Vol. 1", 
+        "artist": "Memphis Sanctified Singers", 
+        "track": "He's Got Better Things For You", 
+        "unix_time": 1359461400.0, 
+        "label": "Yazoo", 
+        "date_str": "2013-01-29", 
+        "time_str": "06:10:00"
+      }, 
+      {
+        "album": "The Legendary Sidney Bechet", 
+        "artist": "Sidney Bechet and his New Orleans Feetwarmers", 
+        "track": "Stompy Jones", 
+        "unix_time": 1359461640.0, 
+        "label": "RCA", 
+        "date_str": "2013-01-29", 
+        "time_str": "06:14:00"
+      }, 
+      {
+        "album": "Farro Street Jive", 
+        "artist": "Little Brother Montgomery", 
+        "track": "No Special Rider Blues", 
+        "unix_time": 1359461820.0, 
+        "label": "Smithsonian Folkways", 
+        "date_str": "2013-01-29", 
+        "time_str": "06:17:00"
+      }, 
+      {
+        "album": "More Blues and the Abstract Truth", 
+        "artist": "Oliver Nelson", 
+        "track": "Goin' to Chicago Blues", 
+        "unix_time": 1359462000.0, 
+        "label": "Impulse", 
+        "date_str": "2013-01-29", 
+        "time_str": "06:20:00"
+      }, 
+      {
+        "album": "Howlin' Wolf", 
+        "artist": "Howlin' Wolf", 
+        "track": "Wang Dang Doodle", 
+        "unix_time": 1359462360.0, 
+        "label": "Chess", 
+        "date_str": "2013-01-29", 
+        "time_str": "06:26:00"
+      }, 
+      {
+        "album": "His JOB Recordings 1951-1954", 
+        "artist": "J.B. Lenoir", 
+        "track": "I Have Married", 
+        "unix_time": 1359462600.0, 
+        "label": "Paula", 
+        "date_str": "2013-01-29", 
+        "time_str": "06:30:00"
+      }, 
+      {
+        "album": "Materia Prima", 
+        "artist": "Viento de Agua Unplugged", 
+        "track": "Las Tarimas", 
+        "unix_time": 1359462780.0, 
+        "label": "Smithsonian Folkways", 
+        "date_str": "2013-01-29", 
+        "time_str": "06:33:00"
+      }, 
+      {
+        "album": "Concepts in Unity", 
+        "artist": "Grupo Folklorico y Experimental Nuevoyorquino", 
+        "track": "Canto Asoyin", 
+        "unix_time": 1359463020.0, 
+        "label": "Salsoul", 
+        "date_str": "2013-01-29", 
+        "time_str": "06:37:00"
+      }, 
+      {
+        "album": "Para Los Rumberos", 
+        "artist": "Tito Puente", 
+        "track": "Batuka", 
+        "unix_time": 1359463260.0, 
+        "label": "Fania", 
+        "date_str": "2013-01-29", 
+        "time_str": "06:41:00"
+      }, 
+      {
+        "album": "Serie Inmortales - La Cumbanchera", 
+        "artist": "Celia Cruz", 
+        "track": "Rumbanacoa", 
+        "unix_time": 1359463500.0, 
+        "label": "Yoyo", 
+        "date_str": "2013-01-29", 
+        "time_str": "06:45:00"
+      }, 
+      {
+        "album": "Irresistable Impulse", 
+        "artist": "James Chance", 
+        "track": "Super Bad", 
+        "unix_time": 1359463800.0, 
+        "label": "Tiger Style", 
+        "date_str": "2013-01-29", 
+        "time_str": "06:50:00"
+      }, 
+      {
+        "album": "DKV plays the music of Don Cherry Sant'Anna Arresi, Sardinia, August 31, 2008", 
+        "artist": "DKV Trio", 
+        "track": "Intro/Orfeu Negro (pt. 2)/The Thing", 
+        "unix_time": 1359464400.0, 
+        "label": "Not Two", 
+        "date_str": "2013-01-29", 
+        "time_str": "07:00:00"
+      }, 
+      {
+        "album": "The Dragon's Office", 
+        "artist": "Herculaneum", 
+        "track": "UCH&#362; ", 
+        "unix_time": 1359465180.0, 
+        "label": "EF", 
+        "date_str": "2013-01-29", 
+        "time_str": "07:13:00"
+      }, 
+      {
+        "album": "21st Century Chase", 
+        "artist": "Fred Anderson", 
+        "track": "Ode to Alvin Fielder", 
+        "unix_time": 1359465540.0, 
+        "label": "Delmark", 
+        "date_str": "2013-01-29", 
+        "time_str": "07:19:00"
+      }
+    ]
+  ], 
+  [
+    "2013-02-05", 
+    [
+      {
+        "album": "The Rough Guide to Music of Nigeria and Ghana", 
+        "artist": "Chief Stephen Osita Osadebe", 
+        "track": "Oyolima", 
+        "unix_time": 1360062060.0, 
+        "label": "Rough Guides", 
+        "date_str": "2013-02-05", 
+        "time_str": "05:01:00"
+      }, 
+      {
+        "album": "Rockin' Steady: The Best of Desmond Dekker", 
+        "artist": "Desmond Dekker", 
+        "track": "It Is Not Easy", 
+        "unix_time": 1360062600.0, 
+        "label": "Rhino", 
+        "date_str": "2013-02-05", 
+        "time_str": "05:10:00"
+      }, 
+      {
+        "album": "The Far East Suite", 
+        "artist": "Duke Ellington", 
+        "track": "Ad Lib on Nippon", 
+        "unix_time": 1360062720.0, 
+        "label": "Bluebird", 
+        "date_str": "2013-02-05", 
+        "time_str": "05:12:00"
+      }, 
+      {
+        "album": "O Universo Musical De Baden Powell", 
+        "artist": "Baden Powell", 
+        "track": "Fetinha Pro Poeta", 
+        "unix_time": 1360063440.0, 
+        "label": "Sunny Side", 
+        "date_str": "2013-02-05", 
+        "time_str": "05:24:00"
+      }, 
+      {
+        "album": "Lloyd Miller & the Heliocentrics", 
+        "artist": "Lloyd Miller & the Heliocentrics", 
+        "track": "Nava", 
+        "unix_time": 1360063680.0, 
+        "label": "Strut", 
+        "date_str": "2013-02-05", 
+        "time_str": "05:28:00"
+      }, 
+      {
+        "album": "Chicago Soul \u0096 Electric Blues, Funk and Soul : The New Sound of Chicago", 
+        "artist": "The Soul Stirrers", 
+        "track": "Why Am I Treated So Bad", 
+        "unix_time": 1360063920.0, 
+        "label": "Soul Jazz", 
+        "date_str": "2013-02-05", 
+        "time_str": "05:32:00"
+      }, 
+      {
+        "album": "Signals, Calls and Marches", 
+        "artist": "Mission of Burma", 
+        "track": "Academy Fight Song", 
+        "unix_time": 1360064100.0, 
+        "label": "Rykodisc", 
+        "date_str": "2013-02-05", 
+        "time_str": "05:35:00"
+      }, 
+      {
+        "album": "Soul Fire: The Majestic Collection", 
+        "artist": "Massak", 
+        "track": "B.L.A. Pt. 1", 
+        "unix_time": 1360064280.0, 
+        "label": "Soul Fire", 
+        "date_str": "2013-02-05", 
+        "time_str": "05:38:00"
+      }, 
+      {
+        "album": "What Does It All Mean? \u0096 1983-2006 Retrospective", 
+        "artist": "Steinski", 
+        "track": "Funk Construction (Prodigal Son Mix)", 
+        "unix_time": 1360064520.0, 
+        "label": "Illegal Art", 
+        "date_str": "2013-02-05", 
+        "time_str": "05:42:00"
+      }, 
+      {
+        "album": "Superrappin' Vol. 2", 
+        "artist": "Mr. Lif", 
+        "track": "Ol' Crew", 
+        "unix_time": 1360064700.0, 
+        "label": "Groove Attack", 
+        "date_str": "2013-02-05", 
+        "time_str": "05:45:00"
+      }, 
+      {
+        "album": "Hip Hop Forever", 
+        "artist": "Rawcotiks", 
+        "track": "Hardcore Hip Hop", 
+        "unix_time": 1360064940.0, 
+        "label": "BBE", 
+        "date_str": "2013-02-05", 
+        "time_str": "05:49:00"
+      }, 
+      {
+        "album": "The Birmingham Sound: Soul of Neal Hemphill Vol. 2 ", 
+        "artist": "Ralph \"Soul\" Jackson", 
+        "track": "Match Box", 
+        "unix_time": 1360065360.0, 
+        "label": "Rabbit Factory", 
+        "date_str": "2013-02-05", 
+        "time_str": "05:56:00"
+      }, 
+      {
+        "album": "Cotonou Club", 
+        "artist": "Orchestre Poly-Rhythmo", 
+        "track": "Pardon", 
+        "unix_time": 1360065480.0, 
+        "label": "Strut", 
+        "date_str": "2013-02-05", 
+        "time_str": "05:58:00"
+      }, 
+      {
+        "album": "Next Stop ... Soweto Vol. 3: Giants, Ministers And Makers: Jazz In South Africa 1963-1984", 
+        "artist": "The Soul Giants", 
+        "track": "Pinese's Dance", 
+        "unix_time": 1360065720.0, 
+        "label": "Strut", 
+        "date_str": "2013-02-05", 
+        "time_str": "06:02:00"
+      }, 
+      {
+        "album": "SuperSonic Jazz", 
+        "artist": "Sun Ra", 
+        "track": "Kingdom of Not", 
+        "unix_time": 1360066260.0, 
+        "label": "Evidence", 
+        "date_str": "2013-02-05", 
+        "time_str": "06:11:00"
+      }, 
+      {
+        "album": "Lady Soul", 
+        "artist": "Aretha Franklin", 
+        "track": "Groovin'", 
+        "unix_time": 1360066500.0, 
+        "label": "Atlantic", 
+        "date_str": "2013-02-05", 
+        "time_str": "06:15:00"
+      }, 
+      {
+        "album": "I Am Born to Preach the Gospel", 
+        "artist": "Washington Phillips", 
+        "track": "What Are They Doing in Heaven Today?", 
+        "unix_time": 1360066800.0, 
+        "label": "Yazoo", 
+        "date_str": "2013-02-05", 
+        "time_str": "06:20:00"
+      }, 
+      {
+        "album": "Olives and Orchids", 
+        "artist": "Herculaneum", 
+        "track": "Meridian", 
+        "unix_time": 1360066980.0, 
+        "label": "EF", 
+        "date_str": "2013-02-05", 
+        "time_str": "06:23:00"
+      }, 
+      {
+        "album": "Sticks and Stones", 
+        "artist": "Matana Roberts, Josh Abrams & Chad Taylor", 
+        "track": "Equally Strong", 
+        "unix_time": 1360067340.0, 
+        "label": "482 Music", 
+        "date_str": "2013-02-05", 
+        "time_str": "06:29:00"
+      }, 
+      {
+        "album": "Quantic Presents: The World's Rarest Funk 45s", 
+        "artist": "Gene Anderson", 
+        "track": "The Loneliest One", 
+        "unix_time": 1360067580.0, 
+        "label": "Jazzman", 
+        "date_str": "2013-02-05", 
+        "time_str": "06:33:00"
+      }, 
+      {
+        "album": "The 2 Tone Collection: A Checkered Past", 
+        "artist": "The Special AKA", 
+        "track": "Nelson Mandela", 
+        "unix_time": 1360067820.0, 
+        "label": "2 Tone", 
+        "date_str": "2013-02-05", 
+        "time_str": "06:37:00"
+      }, 
+      {
+        "album": "Marcus Garvey / Garvey's Ghost", 
+        "artist": "Burning Spear", 
+        "track": "Brain Food (Give Me)", 
+        "unix_time": 1360068060.0, 
+        "label": "Mango", 
+        "date_str": "2013-02-05", 
+        "time_str": "06:41:00"
+      }, 
+      {
+        "album": "Kinsmen", 
+        "artist": "Rudresh Mahanthappa & Kadri Gopalnath", 
+        "track": "Snake!", 
+        "unix_time": 1360068240.0, 
+        "label": "Pi", 
+        "date_str": "2013-02-05", 
+        "time_str": "06:44:00"
+      }, 
+      {
+        "album": "Day of Colours", 
+        "artist": "Rizwan-Muazzam Qawwali", 
+        "track": "One and Only One", 
+        "unix_time": 1360068600.0, 
+        "label": "Real World", 
+        "date_str": "2013-02-05", 
+        "time_str": "06:50:00"
+      }, 
+      {
+        "album": "Bamboo on the Mountains: Kmhmu Highlanders from Southeast Asia and the United States", 
+        "artist": "Thong Phetdala with Ta' Chan", 
+        "track": "Teum (Song) with Sngkuul (Mouth Organ)", 
+        "unix_time": 1360069440.0, 
+        "label": "Smithsonian Folkways", 
+        "date_str": "2013-02-05", 
+        "time_str": "07:04:00"
+      }, 
+      {
+        "album": "Tema Tres", 
+        "artist": "Tema Tres", 
+        "track": "Felicidade Aconteceu", 
+        "unix_time": 1360069680.0, 
+        "label": "Atonal", 
+        "date_str": "2013-02-05", 
+        "time_str": "07:08:00"
+      }, 
+      {
+        "album": "Excuse Me, Mr. Satie", 
+        "artist": "Keshavan Maslak/Katsuyuki Itakura", 
+        "track": "Same Thing with Palm Trees", 
+        "unix_time": 1360069800.0, 
+        "label": "Leo", 
+        "date_str": "2013-02-05", 
+        "time_str": "07:10:00"
+      }, 
+      {
+        "album": "The Color of Memory", 
+        "artist": "The Vandermark Five", 
+        "track": "Vehicle (for Magnus Broo)", 
+        "unix_time": 1360070220.0, 
+        "label": "Atavistic", 
+        "date_str": "2013-02-05", 
+        "time_str": "07:17:00"
+      }, 
+      {
+        "album": "The Line Up", 
+        "artist": "Bassdrumbone", 
+        "track": "A Cuppa", 
+        "unix_time": 1360070820.0, 
+        "label": "Clean Feed", 
+        "date_str": "2013-02-05", 
+        "time_str": "07:27:00"
+      }, 
+      {
+        "album": "Woody Plays Woody", 
+        "artist": "Woody Shaw", 
+        "track": "Organ Grinder", 
+        "unix_time": 1360071180.0, 
+        "label": "High Note", 
+        "date_str": "2013-02-05", 
+        "time_str": "07:33:00"
+      }
+    ]
+  ], 
+  [
+    "2013-02-12", 
+    [
+      {
+        "album": "The Chosen Few Brass Band N.O. LA", 
+        "artist": "The Chosen Few Brass Band", 
+        "track": "Mardi Gras Iko / Food Stamp Blues", 
+        "unix_time": 1360666800.0, 
+        "label": "Syla", 
+        "date_str": "2013-02-12", 
+        "time_str": "05:00:00"
+      }, 
+      {
+        "album": "Mardi Gras In New Orleans", 
+        "artist": "Dirty Dozen Brass Band", 
+        "track": "Mardi Gras in New Orleans", 
+        "unix_time": 1360667340.0, 
+        "label": "Rounder", 
+        "date_str": "2013-02-12", 
+        "time_str": "05:09:00"
+      }, 
+      {
+        "album": "Life is a Carnival", 
+        "artist": "The Wild Magnolias", 
+        "track": "All on a Mardi Gras Day", 
+        "unix_time": 1360667880.0, 
+        "label": "Metro Blue", 
+        "date_str": "2013-02-12", 
+        "time_str": "05:18:00"
+      }, 
+      {
+        "album": "Wild Tchopitoulas", 
+        "artist": "Wild Tchopitoulas", 
+        "track": "Big Chief Got a Golden Crown", 
+        "unix_time": 1360668060.0, 
+        "label": "Island", 
+        "date_str": "2013-02-12", 
+        "time_str": "05:21:00"
+      }, 
+      {
+        "album": "The Mardi Gras Indians Super Sunday Showdown", 
+        "artist": "The Wild Magnolias", 
+        "track": "Oops Upside Your Head", 
+        "unix_time": 1360668300.0, 
+        "label": "Rounder", 
+        "date_str": "2013-02-12", 
+        "time_str": "05:25:00"
+      }, 
+      {
+        "album": "Ya Ya", 
+        "artist": "Lee Dorsey", 
+        "track": "Ya Ya", 
+        "unix_time": 1360668900.0, 
+        "label": "Editions Atlas", 
+        "date_str": "2013-02-12", 
+        "time_str": "05:35:00"
+      }, 
+      {
+        "album": "Doctors, Professors, Kings and Queens", 
+        "artist": "The Hawketts", 
+        "track": "Mardi Gras Mambo", 
+        "unix_time": 1360669020.0, 
+        "label": "Shout Factory", 
+        "date_str": "2013-02-12", 
+        "time_str": "05:37:00"
+      }, 
+      {
+        "album": "7\" (Success 100)", 
+        "artist": "Rhythm Masters", 
+        "track": "I Can Do Anything You Can Do", 
+        "unix_time": 1360669140.0, 
+        "label": "Success", 
+        "date_str": "2013-02-12", 
+        "time_str": "05:39:00"
+      }, 
+      {
+        "album": "Here Come the Girls", 
+        "artist": "Ernie K-Doe", 
+        "track": "A Place Where We Can Be Free", 
+        "unix_time": 1360669380.0, 
+        "label": "Charly", 
+        "date_str": "2013-02-12", 
+        "time_str": "05:43:00"
+      }, 
+      {
+        "album": "7\"", 
+        "artist": "Sugar Boy and his Cane Cutters", 
+        "track": "Jock-a-Mo", 
+        "unix_time": 1360669560.0, 
+        "label": "Checker", 
+        "date_str": "2013-02-12", 
+        "time_str": "05:46:00"
+      }, 
+      {
+        "album": "Cow Island Hop", 
+        "artist": "Feufollet", 
+        "track": "Femme L'a Dit", 
+        "unix_time": 1360670040.0, 
+        "label": "Valcour", 
+        "date_str": "2013-02-12", 
+        "time_str": "05:54:00"
+      }, 
+      {
+        "album": "Doctors, Professors, Kings and Queens", 
+        "artist": "Clifton Chenier", 
+        "track": "Jambalaya", 
+        "unix_time": 1360670280.0, 
+        "label": "Shout Factory", 
+        "date_str": "2013-02-12", 
+        "time_str": "05:58:00"
+      }, 
+      {
+        "album": "Doctors, Professors, Kings and Queens", 
+        "artist": "BeauSoleil", 
+        "track": "Zydeco Gris-Gris", 
+        "unix_time": 1360670520.0, 
+        "label": "Shout Factory", 
+        "date_str": "2013-02-12", 
+        "time_str": "06:02:00"
+      }, 
+      {
+        "album": "The Greatest Rap Hits from Down South New Orleans Vol. 1", 
+        "artist": "Da Sha Ra", 
+        "track": "Bootin' Up", 
+        "unix_time": 1360670880.0, 
+        "label": "Don't Even Trip", 
+        "date_str": "2013-02-12", 
+        "time_str": "06:08:00"
+      }, 
+      {
+        "album": "Live in Time and Space", 
+        "artist": "Brass Monkey Brass Band", 
+        "track": "Saints", 
+        "unix_time": 1360671120.0, 
+        "label": "Weed", 
+        "date_str": "2013-02-12", 
+        "time_str": "06:12:00"
+      }, 
+      {
+        "album": "Live Mardi Gras in Montreaux", 
+        "artist": "Dirty Dozen Brass Band", 
+        "track": "Do It Fluid/Do It Again", 
+        "unix_time": 1360671600.0, 
+        "label": "Rounder", 
+        "date_str": "2013-02-12", 
+        "time_str": "06:20:00"
+      }, 
+      {
+        "album": "Wardell Quezergue: Sixty Smokin' Soul Senders", 
+        "artist": "Raymond Parker", 
+        "track": "Ring Around the Roses", 
+        "unix_time": 1360672260.0, 
+        "label": "Funky Delicacies", 
+        "date_str": "2013-02-12", 
+        "time_str": "06:31:00"
+      }, 
+      {
+        "album": "7\"", 
+        "artist": "Betty Wright", 
+        "track": "Shoorah! Shoorah!", 
+        "unix_time": 1360672440.0, 
+        "label": "Alston", 
+        "date_str": "2013-02-12", 
+        "time_str": "06:34:00"
+      }, 
+      {
+        "album": "Walking To New Orleans", 
+        "artist": "Fats Domino", 
+        "track": "Shu Rah", 
+        "unix_time": 1360672560.0, 
+        "label": "Capitol", 
+        "date_str": "2013-02-12", 
+        "time_str": "06:36:00"
+      }, 
+      {
+        "album": "New Orleans Piano", 
+        "artist": "Professor Longhair", 
+        "track": "Tipitina", 
+        "unix_time": 1360672680.0, 
+        "label": "Rounder", 
+        "date_str": "2013-02-12", 
+        "time_str": "06:38:00"
+      }, 
+      {
+        "album": "Ron Cuccia & the Jazz Poetry Group", 
+        "artist": "Ron Cuccia & the Jazz Poetry Group", 
+        "track": "Streets/My Darlin' New Orleans", 
+        "unix_time": 1360673100.0, 
+        "label": "Takoma", 
+        "date_str": "2013-02-12", 
+        "time_str": "06:45:00"
+      }, 
+      {
+        "album": "Creole Kings of New Orleans", 
+        "artist": "Lloyd Price", 
+        "track": "Frog Legs", 
+        "unix_time": 1360673340.0, 
+        "label": "Specialty", 
+        "date_str": "2013-02-12", 
+        "time_str": "06:49:00"
+      }, 
+      {
+        "album": "Get Low Down: The Soul of New Orleans '65-'67", 
+        "artist": "Prime Mates", 
+        "track": "Hot Tamales - Part 2", 
+        "unix_time": 1360673460.0, 
+        "label": "Sundazed", 
+        "date_str": "2013-02-12", 
+        "time_str": "06:51:00"
+      }, 
+      {
+        "album": "Wardell Quezergue: Sixty Smokin' Soul Senders", 
+        "artist": "The Fabuletts", 
+        "track": "Can't Stay Away", 
+        "unix_time": 1360673640.0, 
+        "label": "Funky Delicacies", 
+        "date_str": "2013-02-12", 
+        "time_str": "06:54:00"
+      }, 
+      {
+        "album": "Eddie Bo's Funky Funky New Orleans", 
+        "artist": "The Vibrettes", 
+        "track": "Humpty Dump (Parts 1 & 2)", 
+        "unix_time": 1360673820.0, 
+        "label": "Funky Delicacies", 
+        "date_str": "2013-02-12", 
+        "time_str": "06:57:00"
+      }, 
+      {
+        "album": "Vibe This! WWOZ on CD Spring 2007", 
+        "artist": "Soul Rebels", 
+        "track": "504", 
+        "unix_time": 1360674300.0, 
+        "label": "WWOZ", 
+        "date_str": "2013-02-12", 
+        "time_str": "07:05:00"
+      }, 
+      {
+        "album": "Ultimate Rebirth Brass Band", 
+        "artist": "Rebirth Brass Band", 
+        "track": "New Orleans Music", 
+        "unix_time": 1360674600.0, 
+        "label": "Mardi Gras", 
+        "date_str": "2013-02-12", 
+        "time_str": "07:10:00"
+      }, 
+      {
+        "album": "Treme: Music from the HBO Original Series, Season 1", 
+        "artist": "Kermit Ruffins & the Barbecue Swingers", 
+        "track": "Skokiaan", 
+        "unix_time": 1360674900.0, 
+        "label": "Geffen", 
+        "date_str": "2013-02-12", 
+        "time_str": "07:15:00"
+      }, 
+      {
+        "album": "Best of Louisiana Music", 
+        "artist": "Olympia Brass Band", 
+        "track": "No, It Ain't My Fault", 
+        "unix_time": 1360675140.0, 
+        "label": "Mardi Gras", 
+        "date_str": "2013-02-12", 
+        "time_str": "07:19:00"
+      }, 
+      {
+        "album": "Vibe This! WWOZ on CD Spring 2007", 
+        "artist": "Hot 8 Brass Band", 
+        "track": "J'isten to Me", 
+        "unix_time": 1360675440.0, 
+        "label": "WWOZ", 
+        "date_str": "2013-02-12", 
+        "time_str": "07:24:00"
+      }
+    ]
+  ], 
+  [
+    "2013-02-19", 
+    [
+      {
+        "album": "Som, Sangue e Ra\u00e7a", 
+        "artist": "Dom Salvador e Aboli\u00e7\u00e3o", 
+        "track": "Guanabara", 
+        "unix_time": 1361271780.0, 
+        "label": "CBS", 
+        "date_str": "2013-02-19", 
+        "time_str": "05:03:00"
+      }, 
+      {
+        "album": "\u00c9thiopiques 3 : Golden Years Of Modern Ethiopian Music 1969-1975", 
+        "artist": "Muluq\u00e8n M\u00e8ll\u00e8ss\u00e8", 
+        "track": "T\u00e8n\u00e8sh K\u00e8lb\u00e9 Lay ", 
+        "unix_time": 1361271960.0, 
+        "label": "Buda Musique", 
+        "date_str": "2013-02-19", 
+        "time_str": "05:06:00"
+      }, 
+      {
+        "album": "Next Stop... Soweto Vol. 2: Soul, Funk & Organ Grooves From The Townships 1969-1976", 
+        "artist": "The Heroes", 
+        "track": "Funky Message", 
+        "unix_time": 1361272260.0, 
+        "label": "Strut", 
+        "date_str": "2013-02-19", 
+        "time_str": "05:11:00"
+      }, 
+      {
+        "album": "Music from Saharan Cellphones: Volume 2", 
+        "artist": "Cheba Wassila", 
+        "track": "Hwa Heda", 
+        "unix_time": 1361272440.0, 
+        "label": "Sahel Sounds", 
+        "date_str": "2013-02-19", 
+        "time_str": "05:14:00"
+      }, 
+      {
+        "album": "Sit Down, Man", 
+        "artist": "Das Racist", 
+        "track": "Free Jazzmataz (produced by Vijay Iyer and Das Racist)", 
+        "unix_time": 1361272920.0, 
+        "label": "Mad Decent / Greedhead / Mishka", 
+        "date_str": "2013-02-19", 
+        "time_str": "05:22:00"
+      }, 
+      {
+        "album": "Land of 1000 Remixes", 
+        "artist": "Gang Starr ft. Nice & Smooth", 
+        "track": "DWYCK (Little Kids Remix)", 
+        "unix_time": 1361273160.0, 
+        "label": "Soul Sides", 
+        "date_str": "2013-02-19", 
+        "time_str": "05:26:00"
+      }, 
+      {
+        "album": "Barra Limpa", 
+        "artist": "Luiz Henrique", 
+        "track": "Vivo sonhando (Dreamer)", 
+        "unix_time": 1361273400.0, 
+        "label": "Verve", 
+        "date_str": "2013-02-19", 
+        "time_str": "05:30:00"
+      }, 
+      {
+        "album": "Mr. Soul of Jamaica", 
+        "artist": "Alton Ellis", 
+        "track": "You Make Me Happy", 
+        "unix_time": 1361273700.0, 
+        "label": "Treasure Isle", 
+        "date_str": "2013-02-19", 
+        "time_str": "05:35:00"
+      }, 
+      {
+        "album": "Island 40 Volume 2: 1964-69 Rhythm & Blues Beat", 
+        "artist": "The Pioneers", 
+        "track": "Long Shot Kick de Bucket", 
+        "unix_time": 1361273880.0, 
+        "label": "Island", 
+        "date_str": "2013-02-19", 
+        "time_str": "05:38:00"
+      }, 
+      {
+        "album": "Sweet and Dandy", 
+        "artist": "Toots and the Maytals", 
+        "track": "Sweet and Dandy", 
+        "unix_time": 1361274060.0, 
+        "label": "Jet Set", 
+        "date_str": "2013-02-19", 
+        "time_str": "05:41:00"
+      }, 
+      {
+        "album": "Out of New Orleans", 
+        "artist": "Fats Domino", 
+        "track": "So Glad", 
+        "unix_time": 1361274360.0, 
+        "label": "Bear Family", 
+        "date_str": "2013-02-19", 
+        "time_str": "05:46:00"
+      }, 
+      {
+        "album": "Jubilation! Great Gospel Performances \u0095 Volume One: Black Gospel ", 
+        "artist": "Edwin Hawkins Singers", 
+        "track": "Oh Happy Day", 
+        "unix_time": 1361274480.0, 
+        "label": "Rhino", 
+        "date_str": "2013-02-19", 
+        "time_str": "05:48:00"
+      }, 
+      {
+        "album": "Ten Commandments", 
+        "artist": "Brooklyn All-stars", 
+        "track": "Something Within Me", 
+        "unix_time": 1361274780.0, 
+        "label": "Jewel", 
+        "date_str": "2013-02-19", 
+        "time_str": "05:53:00"
+      }, 
+      {
+        "album": "Anthology of American Folk Music", 
+        "artist": "Alabama Sacred Harp Singers", 
+        "track": "Present Joys", 
+        "unix_time": 1361274900.0, 
+        "label": "Smithsonian Folkways", 
+        "date_str": "2013-02-19", 
+        "time_str": "05:55:00"
+      }, 
+      {
+        "album": "No Word from Tom", 
+        "artist": "Hem", 
+        "track": "Crazy Arms", 
+        "unix_time": 1361275260.0, 
+        "label": "Nettwerk Records", 
+        "date_str": "2013-02-19", 
+        "time_str": "06:01:00"
+      }, 
+      {
+        "album": "Whoopsadaisy", 
+        "artist": "Jenny Magnus", 
+        "track": "Crazy", 
+        "unix_time": 1361275440.0, 
+        "label": "Eighth Day", 
+        "date_str": "2013-02-19", 
+        "time_str": "06:04:00"
+      }, 
+      {
+        "album": "1937", 
+        "artist": "Django Reinhardt", 
+        "track": "You're Driving Me Crazy", 
+        "unix_time": 1361275560.0, 
+        "label": "Chronological Classics", 
+        "date_str": "2013-02-19", 
+        "time_str": "06:06:00"
+      }, 
+      {
+        "album": "Negro Religious Songs And Services ", 
+        "artist": "Joe Lee", 
+        "track": "Shine Like a Star in the Morning", 
+        "unix_time": 1361275860.0, 
+        "label": "Rounder", 
+        "date_str": "2013-02-19", 
+        "time_str": "06:11:00"
+      }, 
+      {
+        "album": "The Distant Future", 
+        "artist": "Flight of the Conchords", 
+        "track": "If You're Into It", 
+        "unix_time": 1361275980.0, 
+        "label": "Sub Pop", 
+        "date_str": "2013-02-19", 
+        "time_str": "06:13:00"
+      }, 
+      {
+        "album": "Hot Chocolate", 
+        "artist": "Hot Chocolate", 
+        "track": "Messin' with Sly", 
+        "unix_time": 1361276100.0, 
+        "label": "Numero Group", 
+        "date_str": "2013-02-19", 
+        "time_str": "06:15:00"
+      }, 
+      {
+        "album": "The Isleys Live ", 
+        "artist": "The Isley Brothers", 
+        "track": "Pop That Thang", 
+        "unix_time": 1361276340.0, 
+        "label": "Rhino", 
+        "date_str": "2013-02-19", 
+        "time_str": "06:19:00"
+      }, 
+      {
+        "album": "Local Customs: Burned at Boddie", 
+        "artist": "Harvey & the Phenomenals", 
+        "track": "Soul and Sunshine", 
+        "unix_time": 1361276520.0, 
+        "label": "Numero Group", 
+        "date_str": "2013-02-19", 
+        "time_str": "06:22:00"
+      }, 
+      {
+        "album": "One Night Stand: Live at the Harlem Square Club", 
+        "artist": "Sam Cooke", 
+        "track": "Havin' a Party", 
+        "unix_time": 1361276940.0, 
+        "label": "RCA", 
+        "date_str": "2013-02-19", 
+        "time_str": "06:29:00"
+      }, 
+      {
+        "album": "Pied Piper Presents a New Concept in Detroit Soul", 
+        "artist": "September Jones", 
+        "track": "Chink a Chank Baby", 
+        "unix_time": 1361277240.0, 
+        "label": "Kent", 
+        "date_str": "2013-02-19", 
+        "time_str": "06:34:00"
+      }, 
+      {
+        "album": "Gettin' It Off: Westbound Funk", 
+        "artist": "Donald Austin", 
+        "track": "Crazy Legs", 
+        "unix_time": 1361277360.0, 
+        "label": "Westbound", 
+        "date_str": "2013-02-19", 
+        "time_str": "06:36:00"
+      }, 
+      {
+        "album": "http://khmermusic.thecoleranch.com", 
+        "artist": "Pan Ron", 
+        "track": "Rom Som Leis Keh", 
+        "unix_time": 1361277660.0, 
+        "label": "The Cole Ranch", 
+        "date_str": "2013-02-19", 
+        "time_str": "06:41:00"
+      }, 
+      {
+        "album": "Aguilas and Cobras", 
+        "artist": "Brownout", 
+        "track": "Ayer y Hoy", 
+        "unix_time": 1361277960.0, 
+        "label": "Six Degrees", 
+        "date_str": "2013-02-19", 
+        "time_str": "06:46:00"
+      }, 
+      {
+        "album": "Losers Weepers", 
+        "artist": "Etta James", 
+        "track": "Take Out Insurance", 
+        "unix_time": 1361278140.0, 
+        "label": "Kent", 
+        "date_str": "2013-02-19", 
+        "time_str": "06:49:00"
+      }, 
+      {
+        "album": "Senegambian Sensation", 
+        "artist": "Super Eagles", 
+        "track": "Su Nous Harit", 
+        "unix_time": 1361278380.0, 
+        "label": "Retroafric", 
+        "date_str": "2013-02-19", 
+        "time_str": "06:53:00"
+      }, 
+      {
+        "album": " Nino et l'Orchestre Rock-A-Mambo numero 3", 
+        "artist": "Edo et Essous avec Orchestre Bantou", 
+        "track": "Nalembi Bipale", 
+        "unix_time": 1361278560.0, 
+        "label": "Columbia", 
+        "date_str": "2013-02-19", 
+        "time_str": "06:56:00"
+      }, 
+      {
+        "album": "Zambush Vol. 2: Zambian Hits from the 60s and 70s", 
+        "artist": "The Big Gold Six", 
+        "track": "Antu Onse Tighwilizane (Nyanja)", 
+        "unix_time": 1361278740.0, 
+        "label": "Sharp Wood", 
+        "date_str": "2013-02-19", 
+        "time_str": "06:59:00"
+      }, 
+      {
+        "album": "Diablos del Ritmo: The Colombian Melting Pot 1960-1985 ", 
+        "artist": "Myrian Makenwa", 
+        "track": "Amampondo", 
+        "unix_time": 1361279040.0, 
+        "label": "Analog Africa", 
+        "date_str": "2013-02-19", 
+        "time_str": "07:04:00"
+      }, 
+      {
+        "album": "Diablos del Ritmo: The Colombian Melting Pot 1960-1985 ", 
+        "artist": "Calixto Ochoa y Los Papaupas", 
+        "track": "Lumbalu", 
+        "unix_time": 1361279220.0, 
+        "label": "Analog Africa", 
+        "date_str": "2013-02-19", 
+        "time_str": "07:07:00"
+      }, 
+      {
+        "album": "Another One", 
+        "artist": "Oscar Pettiford", 
+        "track": "Bohemia After Dark", 
+        "unix_time": 1361279520.0, 
+        "label": "Bethlehem", 
+        "date_str": "2013-02-19", 
+        "time_str": "07:12:00"
+      }, 
+      {
+        "album": "Lenox Avenue Breakdown", 
+        "artist": "Arthur Blythe", 
+        "track": "Slidin' Through", 
+        "unix_time": 1361279880.0, 
+        "label": "Sony", 
+        "date_str": "2013-02-19", 
+        "time_str": "07:18:00"
+      }, 
+      {
+        "album": "Holiday for Skins", 
+        "artist": "Art Blakey", 
+        "track": "Aghano", 
+        "unix_time": 1361280480.0, 
+        "label": "Blue Note", 
+        "date_str": "2013-02-19", 
+        "time_str": "07:28:00"
+      }
+    ]
+  ], 
+  [
+    "2013-02-26", 
+    [
+      {
+        "album": "Am\u00e9lie soundtrack", 
+        "artist": "Al Bowlly with Roy Fox and his Orchestra", 
+        "track": "Guilty", 
+        "unix_time": 1361876460.0, 
+        "label": "Virgin", 
+        "date_str": "2013-02-26", 
+        "time_str": "05:01:00"
+      }, 
+      {
+        "album": "The Art of Traditional Fiddle", 
+        "artist": "Art Galbraith", 
+        "track": "Lay Your Good Money Down", 
+        "unix_time": 1361876640.0, 
+        "label": "Rounder", 
+        "date_str": "2013-02-26", 
+        "time_str": "05:04:00"
+      }, 
+      {
+        "album": "Helium", 
+        "artist": "Tin Hat Trio", 
+        "track": "Scrap", 
+        "unix_time": 1361876760.0, 
+        "label": "Blue Note", 
+        "date_str": "2013-02-26", 
+        "time_str": "05:06:00"
+      }, 
+      {
+        "album": "Intersections", 
+        "artist": "Kent Carter String Trio", 
+        "track": "Pulapka", 
+        "unix_time": 1361876880.0, 
+        "label": "Emanem", 
+        "date_str": "2013-02-26", 
+        "time_str": "05:08:00"
+      }, 
+      {
+        "album": "Live at Carlos 1", 
+        "artist": "Hamiet Bluiett & Concept", 
+        "track": "Oleo", 
+        "unix_time": 1361877240.0, 
+        "label": "Just a Memory", 
+        "date_str": "2013-02-26", 
+        "time_str": "05:14:00"
+      }, 
+      {
+        "album": "In Our Times", 
+        "artist": "School Days", 
+        "track": "What About (for Bobby Hutcherson)", 
+        "unix_time": 1361877840.0, 
+        "label": "Okkadisk", 
+        "date_str": "2013-02-26", 
+        "time_str": "05:24:00"
+      }, 
+      {
+        "album": "La Pachanga", 
+        "artist": "Arsenio Rodriguez", 
+        "track": "Que Mal Es Querer", 
+        "unix_time": 1361878500.0, 
+        "label": "Tico", 
+        "date_str": "2013-02-26", 
+        "time_str": "05:35:00"
+      }, 
+      {
+        "album": "Panama!: Latin, Calypso and Funk On the Isthmus 1965-75", 
+        "artist": "Bolita y Su Tentacion", 
+        "track": "Descarga Tentacion", 
+        "unix_time": 1361878620.0, 
+        "label": "Soundway", 
+        "date_str": "2013-02-26", 
+        "time_str": "05:37:00"
+      }, 
+      {
+        "album": "Ol' Virginia Soul - Encore! 1965-75", 
+        "artist": "Ida Sands", 
+        "track": "Start All Over Again", 
+        "unix_time": 1361879160.0, 
+        "label": "Arcania", 
+        "date_str": "2013-02-26", 
+        "time_str": "05:46:00"
+      }, 
+      {
+        "album": "Down In The Village", 
+        "artist": "Curtis Knight", 
+        "track": "Hi-Low", 
+        "unix_time": 1361879400.0, 
+        "label": "Paramount", 
+        "date_str": "2013-02-26", 
+        "time_str": "05:50:00"
+      }, 
+      {
+        "album": "Chicago Twinight Soul", 
+        "artist": "Syl Johnson", 
+        "track": "Right On", 
+        "unix_time": 1361879580.0, 
+        "label": "Numero Group", 
+        "date_str": "2013-02-26", 
+        "time_str": "05:53:00"
+      }, 
+      {
+        "album": "Pain", 
+        "artist": "Ohio Players", 
+        "track": "Players Balling (Players Doin' Their Own Thing)", 
+        "unix_time": 1361880060.0, 
+        "label": "Westbound", 
+        "date_str": "2013-02-26", 
+        "time_str": "06:01:00"
+      }, 
+      {
+        "album": "Origins of Guitar Music in Southern Congo & Northern Zambia 1950, '51, '52, '57, '58", 
+        "artist": "Pearson Kapeni", 
+        "track": "Akazi Aku Dowa", 
+        "unix_time": 1361880360.0, 
+        "label": "Sharp Wood", 
+        "date_str": "2013-02-26", 
+        "time_str": "06:06:00"
+      }, 
+      {
+        "album": "Le Disque d'Or", 
+        "artist": "Bentho Gustave Titiou & l'International Poly Rhythmo", 
+        "track": "So Ke Mi", 
+        "unix_time": 1361880540.0, 
+        "label": "Libert", 
+        "date_str": "2013-02-26", 
+        "time_str": "06:09:00"
+      }, 
+      {
+        "album": "Seya", 
+        "artist": "Oumou Sangare", 
+        "track": "Wele Wele Wintou", 
+        "unix_time": 1361881020.0, 
+        "label": "Nonesuch", 
+        "date_str": "2013-02-26", 
+        "time_str": "06:17:00"
+      }, 
+      {
+        "album": "Dancin' in the Streets", 
+        "artist": "Johannesburg Street Band", 
+        "track": "Whats the Matter Zulu?", 
+        "unix_time": 1361881380.0, 
+        "label": "Uni", 
+        "date_str": "2013-02-26", 
+        "time_str": "06:23:00"
+      }, 
+      {
+        "album": "Africadelic: The Best Of Manu Dibango", 
+        "artist": "Manu Dibango", 
+        "track": "Je Veux Etre Noir", 
+        "unix_time": 1361881560.0, 
+        "label": "Mercury", 
+        "date_str": "2013-02-26", 
+        "time_str": "06:26:00"
+      }, 
+      {
+        "album": "Concrete Jungle", 
+        "artist": "Nneka", 
+        "track": "Africans", 
+        "unix_time": 1361881740.0, 
+        "label": "Decon", 
+        "date_str": "2013-02-26", 
+        "time_str": "06:29:00"
+      }, 
+      {
+        "album": "Water", 
+        "artist": "Rafi Malkiel", 
+        "track": "Eden Rain", 
+        "unix_time": 1361881980.0, 
+        "label": "Tzadik", 
+        "date_str": "2013-02-26", 
+        "time_str": "06:33:00"
+      }, 
+      {
+        "album": "Volume Four", 
+        "artist": "Mighty Sparrow", 
+        "track": "Simpson (the Funeral Agency Man)", 
+        "unix_time": 1361882460.0, 
+        "label": "Ice", 
+        "date_str": "2013-02-26", 
+        "time_str": "06:41:00"
+      }, 
+      {
+        "album": "The Original Sound of Cumbia", 
+        "artist": "Lucho Yepez", 
+        "track": "La Gaita del Pato", 
+        "unix_time": 1361882760.0, 
+        "label": "Soundway", 
+        "date_str": "2013-02-26", 
+        "time_str": "06:46:00"
+      }, 
+      {
+        "album": "Spanker Madness", 
+        "artist": "Asylum Street Spankers", 
+        "track": "Winning the War on Drugs", 
+        "unix_time": 1361882880.0, 
+        "label": "Yellow Dog Records", 
+        "date_str": "2013-02-26", 
+        "time_str": "06:48:00"
+      }, 
+      {
+        "album": "1927-1934", 
+        "artist": "The Carter Family", 
+        "track": "Engine One-Forty-Three", 
+        "unix_time": 1361883180.0, 
+        "label": "JSP", 
+        "date_str": "2013-02-26", 
+        "time_str": "06:53:00"
+      }, 
+      {
+        "album": "The Greatest Songsters: Complete Works (1927-1929)", 
+        "artist": "Hambone Willie Newbern", 
+        "track": "She Could Toodle-oo", 
+        "unix_time": 1361883360.0, 
+        "label": "Document", 
+        "date_str": "2013-02-26", 
+        "time_str": "06:56:00"
+      }, 
+      {
+        "album": "Codebook", 
+        "artist": "Rudresh Mahanthappa", 
+        "track": "Play It Again Sam", 
+        "unix_time": 1361883720.0, 
+        "label": "Pi", 
+        "date_str": "2013-02-26", 
+        "time_str": "07:02:00"
+      }, 
+      {
+        "album": "Move Ever Onward", 
+        "artist": "Brother Ah", 
+        "track": "Boundless Rhythm", 
+        "unix_time": 1361884080.0, 
+        "label": "Ikef", 
+        "date_str": "2013-02-26", 
+        "time_str": "07:08:00"
+      }, 
+      {
+        "album": "NRG Ensemble", 
+        "artist": "Hal Russell", 
+        "track": "Lost Or?", 
+        "unix_time": 1361884500.0, 
+        "label": "Nessa", 
+        "date_str": "2013-02-26", 
+        "time_str": "07:15:00"
+      }, 
+      {
+        "album": "All Our Reasons", 
+        "artist": "Billy Hart", 
+        "track": "Tolli's Dance", 
+        "unix_time": 1361885220.0, 
+        "label": "ECM", 
+        "date_str": "2013-02-26", 
+        "time_str": "07:27:00"
+      }, 
+      {
+        "album": "Unfold Ordinary Mind", 
+        "artist": "Ben Goldberg", 
+        "track": "xcpf", 
+        "unix_time": 1361885640.0, 
+        "label": "BAG Production Records", 
+        "date_str": "2013-02-26", 
+        "time_str": "07:34:00"
+      }
+    ]
+  ], 
+  [
+    "2013-03-05", 
+    [
+      {
+        "album": "Blowout Comb", 
+        "artist": "Digable Planets", 
+        "track": "The Art of Easing", 
+        "unix_time": 1362482220.0, 
+        "label": "Pendulum", 
+        "date_str": "2013-03-05", 
+        "time_str": "05:17:00"
+      }, 
+      {
+        "album": "Out There", 
+        "artist": "The Heliocentrics", 
+        "track": "Before I Die", 
+        "unix_time": 1362482460.0, 
+        "label": "Out There", 
+        "date_str": "2013-03-05", 
+        "time_str": "05:21:00"
+      }, 
+      {
+        "album": "Akwaaba", 
+        "artist": "Francis Bebey", 
+        "track": "Sassandra", 
+        "unix_time": 1362482820.0, 
+        "label": "Original Music", 
+        "date_str": "2013-03-05", 
+        "time_str": "05:27:00"
+      }, 
+      {
+        "album": "A Wider Embrace", 
+        "artist": "Trevor Watts' Moire Music Drum Orchestra", 
+        "track": "Otublohu", 
+        "unix_time": 1362483360.0, 
+        "label": "ECM", 
+        "date_str": "2013-03-05", 
+        "time_str": "05:36:00"
+      }, 
+      {
+        "album": "The World Ends Afro Rock and Psychedelia in 1970s Nigeria", 
+        "artist": "The Elcados", 
+        "track": "Chokoi & Oreje", 
+        "unix_time": 1362483840.0, 
+        "label": "Soundway", 
+        "date_str": "2013-03-05", 
+        "time_str": "05:44:00"
+      }, 
+      {
+        "album": "The Bariba Sound 1970-1976", 
+        "artist": "Le Super Borgou de Parakou", 
+        "track": "Aske", 
+        "unix_time": 1362484320.0, 
+        "label": "Analog Africa", 
+        "date_str": "2013-03-05", 
+        "time_str": "05:52:00"
+      }, 
+      {
+        "album": "Ghana Special: Modern Highlife, Afro-Sounds & Ghanaian Blue 1968-81", 
+        "artist": "The Uhuru Dance Band", 
+        "track": "Yahyia Mu", 
+        "unix_time": 1362484500.0, 
+        "label": "Soundway", 
+        "date_str": "2013-03-05", 
+        "time_str": "05:55:00"
+      }, 
+      {
+        "album": "Coup De Chapeau: The New Wave hits Kinshasa, 1969-74", 
+        "artist": "Thu Zahina", 
+        "track": "La mama la pr\u00e9f\u00e9r\u00e9e", 
+        "unix_time": 1362484800.0, 
+        "label": "Retroafric", 
+        "date_str": "2013-03-05", 
+        "time_str": "06:00:00"
+      }, 
+      {
+        "album": "African Acoustic: Guitar Songs from Tanzania, Zambia and Zaire", 
+        "artist": "Losta Abelo", 
+        "track": "Maneno", 
+        "unix_time": 1362485160.0, 
+        "label": "Original Music", 
+        "date_str": "2013-03-05", 
+        "time_str": "06:06:00"
+      }, 
+      {
+        "album": "The Greatest Songsters: Complete Works (1927-29)", 
+        "artist": "Richard \"Rabbit\" Brown", 
+        "track": "I'm Not Jealous", 
+        "unix_time": 1362485400.0, 
+        "label": "Document", 
+        "date_str": "2013-03-05", 
+        "time_str": "06:10:00"
+      }, 
+      {
+        "album": "American Primitive, Vol. II: Pre-War Revenants (1897-1939)", 
+        "artist": "Henry Spaulding", 
+        "track": "Cairo Blues", 
+        "unix_time": 1362485580.0, 
+        "label": "Revenant", 
+        "date_str": "2013-03-05", 
+        "time_str": "06:13:00"
+      }, 
+      {
+        "album": "Negro Prison Camp Worksongs", 
+        "artist": "Prisoners at the Ramsey and Retrieve State Farms, Texas", 
+        "track": "Let Your Hammer Ring", 
+        "unix_time": 1362485760.0, 
+        "label": "Smithsonian Folkways", 
+        "date_str": "2013-03-05", 
+        "time_str": "06:16:00"
+      }, 
+      {
+        "album": "Anthology of American Folk Music", 
+        "artist": "The Middle Georgia Singing Convention No. 1", 
+        "track": "This Song of Love", 
+        "unix_time": 1362486180.0, 
+        "label": "Smithsonian Folkways", 
+        "date_str": "2013-03-05", 
+        "time_str": "06:23:00"
+      }, 
+      {
+        "album": "Goodbye, Babylon", 
+        "artist": "Blue Sky Boys", 
+        "track": "Come to the Savior", 
+        "unix_time": 1362486360.0, 
+        "label": "Dust to Digital", 
+        "date_str": "2013-03-05", 
+        "time_str": "06:26:00"
+      }, 
+      {
+        "album": "The Gilded Palace of Sin", 
+        "artist": "The Flying Burrito Brothers", 
+        "track": "Sin City", 
+        "unix_time": 1362486540.0, 
+        "label": "A&M", 
+        "date_str": "2013-03-05", 
+        "time_str": "06:29:00"
+      }, 
+      {
+        "album": "Central Rocks! The Central Avenue Scene 1951-58, Vol. 2", 
+        "artist": "Brother Woodman & the Chanters", 
+        "track": "Watts", 
+        "unix_time": 1362486900.0, 
+        "label": "Ace", 
+        "date_str": "2013-03-05", 
+        "time_str": "06:35:00"
+      }, 
+      {
+        "album": "Watts Funky", 
+        "artist": "Johnny Otis Show", 
+        "track": "Country Girl", 
+        "unix_time": 1362487020.0, 
+        "label": "Beat Goes Public", 
+        "date_str": "2013-03-05", 
+        "time_str": "06:37:00"
+      }, 
+      {
+        "album": "Express Yourself: The Best of Charles Wright", 
+        "artist": "Charles Wright & the Watts 103rd Street Rhythm Band", 
+        "track": "Ninety Day Cycle People", 
+        "unix_time": 1362487200.0, 
+        "label": "Warner Archive", 
+        "date_str": "2013-03-05", 
+        "time_str": "06:40:00"
+      }, 
+      {
+        "album": "Beg, Scream & Shout: The Big Ol' Box of '60s Soul", 
+        "artist": "The Soul Survivors", 
+        "track": "Expressway to your Heart", 
+        "unix_time": 1362487560.0, 
+        "label": "Rhino", 
+        "date_str": "2013-03-05", 
+        "time_str": "06:46:00"
+      }, 
+      {
+        "album": "Only for the Lonely", 
+        "artist": "Mavis Staples", 
+        "track": "That's the Way Love Is", 
+        "unix_time": 1362487680.0, 
+        "label": "Stax", 
+        "date_str": "2013-03-05", 
+        "time_str": "06:48:00"
+      }, 
+      {
+        "album": "Girl Group Sounds Lost & Found: One Kiss Can Lead to Another", 
+        "artist": "Yvonne Carroll", 
+        "track": "Mister Loveman", 
+        "unix_time": 1362487800.0, 
+        "label": "Rhino", 
+        "date_str": "2013-03-05", 
+        "time_str": "06:50:00"
+      }, 
+      {
+        "album": "The New Sound of Brazil", 
+        "artist": "Jo\u00e3o Donato", 
+        "track": "Samba de Orfeu", 
+        "unix_time": 1362487980.0, 
+        "label": "BMG", 
+        "date_str": "2013-03-05", 
+        "time_str": "06:53:00"
+      }, 
+      {
+        "album": "Afro/American Sketches", 
+        "artist": "Oliver Nelson", 
+        "track": "Message", 
+        "unix_time": 1362488160.0, 
+        "label": "Original Jazz Classics", 
+        "date_str": "2013-03-05", 
+        "time_str": "06:56:00"
+      }, 
+      {
+        "album": "Portrait of Jack Johnson", 
+        "artist": "Karl E.H. Siegfried", 
+        "track": "Roswell (for Roswell Rudd)", 
+        "unix_time": 1362488520.0, 
+        "label": "Imaginary Chicago", 
+        "date_str": "2013-03-05", 
+        "time_str": "07:02:00"
+      }, 
+      {
+        "album": "African Piano", 
+        "artist": "Abdullah Ibrahim", 
+        "track": "THE MOON", 
+        "unix_time": 1362489000.0, 
+        "label": "ECM", 
+        "date_str": "2013-03-05", 
+        "time_str": "07:10:00"
+      }, 
+      {
+        "album": "From the Bureau of Both", 
+        "artist": "Rova", 
+        "track": "Swapmeet! Swapmeet!", 
+        "unix_time": 1362489540.0, 
+        "label": "Black Saint", 
+        "date_str": "2013-03-05", 
+        "time_str": "07:19:00"
+      }, 
+      {
+        "album": "Oakland Duets", 
+        "artist": "Julius Hemphill & Abdul Wadud", 
+        "track": "\"C\"", 
+        "unix_time": 1362490020.0, 
+        "label": "Music & Arts", 
+        "date_str": "2013-03-05", 
+        "time_str": "07:27:00"
+      }, 
+      {
+        "album": "Arsenio Dice", 
+        "artist": "Arsenio Rodriguez", 
+        "track": "Ven Mi Mora", 
+        "unix_time": 1362490560.0, 
+        "label": "Tico", 
+        "date_str": "2013-03-05", 
+        "time_str": "07:36:00"
+      }
+    ]
+  ], 
+  [
+    "2013-03-12", 
+    [
+      {
+        "album": "Afrika Rising", 
+        "artist": "Nicole Mitchell - Black Earth Ensemble", 
+        "track": "Afrika Rising Trilogy II: Metamorphosis", 
+        "unix_time": 1363082400.0, 
+        "label": "Dreamtime", 
+        "date_str": "2013-03-12", 
+        "time_str": "05:00:00"
+      }, 
+      {
+        "album": "True Soul Deep Sounds from the Left of Stax, Vol. 1", 
+        "artist": "Thomas East", 
+        "track": "Sister Funk (Original Full Version)", 
+        "unix_time": 1363082820.0, 
+        "label": "Now Again", 
+        "date_str": "2013-03-12", 
+        "time_str": "05:07:00"
+      }, 
+      {
+        "album": "Next Stop... Soweto Vol. 2: Soul, Funk & Organ Grooves From The Townships 1969-1976", 
+        "artist": "Mahotella Queens", 
+        "track": "Wozani Mahipi", 
+        "unix_time": 1363083120.0, 
+        "label": "Strut", 
+        "date_str": "2013-03-12", 
+        "time_str": "05:12:00"
+      }, 
+      {
+        "album": "Akuko Na Egwu - Vol 4", 
+        "artist": "Gentleman Mike Ejeagha", 
+        "track": "Udo Ka Nma", 
+        "unix_time": 1363083420.0, 
+        "label": "Premier Records Limited", 
+        "date_str": "2013-03-12", 
+        "time_str": "05:17:00"
+      }, 
+      {
+        "album": "Belle Epoque", 
+        "artist": "Mose Se 'Fan Fan'", 
+        "track": "Suki Pembe Somo Somo", 
+        "unix_time": 1363083840.0, 
+        "label": "Retroafric", 
+        "date_str": "2013-03-12", 
+        "time_str": "05:24:00"
+      }, 
+      {
+        "album": "Etudes", 
+        "artist": "Charlie Haden & Paul Motian featuring Geri Allen", 
+        "track": "Lonely Woman", 
+        "unix_time": 1363084500.0, 
+        "label": "Soul Note", 
+        "date_str": "2013-03-12", 
+        "time_str": "05:35:00"
+      }, 
+      {
+        "album": "The Bad and the Beautiful", 
+        "artist": "H\u00e5kon Kornstad & H\u00e5vard Wiik", 
+        "track": "Law Years", 
+        "unix_time": 1363085100.0, 
+        "label": "Moserobie", 
+        "date_str": "2013-03-12", 
+        "time_str": "05:45:00"
+      }, 
+      {
+        "album": "Live on WNUR 12/1/99", 
+        "artist": "Northwoods Improvisers", 
+        "track": "Peace", 
+        "unix_time": 1363085460.0, 
+        "label": "WNUR", 
+        "date_str": "2013-03-12", 
+        "time_str": "05:51:00"
+      }, 
+      {
+        "album": "Beauty is a Rare Thing", 
+        "artist": "Ornette Coleman", 
+        "track": "Una Muy Bonita", 
+        "unix_time": 1363085820.0, 
+        "label": "Atlantic", 
+        "date_str": "2013-03-12", 
+        "time_str": "05:57:00"
+      }, 
+      {
+        "album": "Live at Newport 1963", 
+        "artist": "Joe Daley Trio", 
+        "track": "Ramblin'", 
+        "unix_time": 1363086300.0, 
+        "label": "RCA", 
+        "date_str": "2013-03-12", 
+        "time_str": "06:05:00"
+      }, 
+      {
+        "album": "Design in Time", 
+        "artist": "Sound in Action Trio", 
+        "track": "Feet Music", 
+        "unix_time": 1363086840.0, 
+        "label": "Delmark", 
+        "date_str": "2013-03-12", 
+        "time_str": "06:14:00"
+      }, 
+      {
+        "album": "Utility Hitter", 
+        "artist": "Barrage Double Trio", 
+        "track": "Turn Your Head (for Ornette Coleman)", 
+        "unix_time": 1363087320.0, 
+        "label": "Quinnah", 
+        "date_str": "2013-03-12", 
+        "time_str": "06:22:00"
+      }, 
+      {
+        "album": "Ghosts", 
+        "artist": "Ni\u00f9 Abdominaux Dangereux", 
+        "track": "Broadway Blues", 
+        "unix_time": 1363087620.0, 
+        "label": "ITM", 
+        "date_str": "2013-03-12", 
+        "time_str": "06:27:00"
+      }, 
+      {
+        "album": "Of Human Feelings", 
+        "artist": "Ornette Coleman and Prime Time", 
+        "track": "Him and Her", 
+        "unix_time": 1363087860.0, 
+        "label": "Antilles", 
+        "date_str": "2013-03-12", 
+        "time_str": "06:31:00"
+      }, 
+      {
+        "album": "The Opening of the Way", 
+        "artist": "Steve Coleman", 
+        "track": "Organic Movement", 
+        "unix_time": 1363088220.0, 
+        "label": "BMG", 
+        "date_str": "2013-03-12", 
+        "time_str": "06:37:00"
+      }, 
+      {
+        "album": "Fallen Angels - the Singles Collection", 
+        "artist": "The Heliocentrics", 
+        "track": "The Gorn", 
+        "unix_time": 1363088400.0, 
+        "label": "Now Again", 
+        "date_str": "2013-03-12", 
+        "time_str": "06:40:00"
+      }, 
+      {
+        "album": "A Lifetime in Oriental Jazz", 
+        "artist": "Lloyd Miller", 
+        "track": "Bizz-aire", 
+        "unix_time": 1363088640.0, 
+        "label": "Jazzman", 
+        "date_str": "2013-03-12", 
+        "time_str": "06:44:00"
+      }, 
+      {
+        "album": "Het", 
+        "artist": "Masada", 
+        "track": "Amarim", 
+        "unix_time": 1363088820.0, 
+        "label": "Tzadik", 
+        "date_str": "2013-03-12", 
+        "time_str": "06:47:00"
+      }, 
+      {
+        "album": "Calypso Cross Section", 
+        "artist": "Young Killer", 
+        "track": "Carolina", 
+        "unix_time": 1363089120.0, 
+        "label": "Cook", 
+        "date_str": "2013-03-12", 
+        "time_str": "06:52:00"
+      }, 
+      {
+        "album": "Hard Travelin' (The Asch Recordings, Vol. 3)", 
+        "artist": "Woody Guthrie", 
+        "track": "Better World A-Comin'", 
+        "unix_time": 1363089300.0, 
+        "label": "Smithsonian Folkways", 
+        "date_str": "2013-03-12", 
+        "time_str": "06:55:00"
+      }, 
+      {
+        "album": "Cabe\u00e7a El\u00e9trica, Cora\u00e7\u00e3o Ac\u00fastico", 
+        "artist": "Silv\u00e9rio Pessoa", 
+        "track": "Disposto a tudo", 
+        "unix_time": 1363089480.0, 
+        "label": "Tratore", 
+        "date_str": "2013-03-12", 
+        "time_str": "06:58:00"
+      }, 
+      {
+        "album": "Caetano Veloso (1971)", 
+        "artist": "Caetano Veloso", 
+        "track": "Maria Bethania", 
+        "unix_time": 1363089900.0, 
+        "label": "Polygram", 
+        "date_str": "2013-03-12", 
+        "time_str": "07:05:00"
+      }, 
+      {
+        "album": "Billie's Blues", 
+        "artist": "Billie Holiday", 
+        "track": "Blue Moon", 
+        "unix_time": 1363090320.0, 
+        "label": "Blue Note", 
+        "date_str": "2013-03-12", 
+        "time_str": "07:12:00"
+      }, 
+      {
+        "album": "Losers Weepers", 
+        "artist": "Etta James", 
+        "track": "You're the Fool", 
+        "unix_time": 1363090440.0, 
+        "label": "Kent", 
+        "date_str": "2013-03-12", 
+        "time_str": "07:14:00"
+      }, 
+      {
+        "album": "1000 Volts of Holt", 
+        "artist": "John Holt", 
+        "track": "Sister Big Stuff", 
+        "unix_time": 1363090620.0, 
+        "label": "Trojan", 
+        "date_str": "2013-03-12", 
+        "time_str": "07:17:00"
+      }, 
+      {
+        "album": "Blue Boy\u00e9", 
+        "artist": "Julius Hemphill", 
+        "track": "Homeboy Tootin' at the Dog/Star", 
+        "unix_time": 1363090860.0, 
+        "label": "Screwgun", 
+        "date_str": "2013-03-12", 
+        "time_str": "07:21:00"
+      }
+    ]
+  ], 
+  [
+    "2013-03-19", 
+    [
+      {
+        "album": "How Can I Keep from Singing, Vol. 1", 
+        "artist": "Roosevelt Graves and Brother", 
+        "track": "Woke Up This Morning", 
+        "unix_time": 1363687200.0, 
+        "label": "Yazoo", 
+        "date_str": "2013-03-19", 
+        "time_str": "05:00:00"
+      }, 
+      {
+        "album": "Voices of the Civil Rights Movement", 
+        "artist": "SNCC Freedom Singers led by Bernice Johnson", 
+        "track": "Woke Up This Morning with My Mind on Freedom", 
+        "unix_time": 1363687380.0, 
+        "label": "Smithsonian Folkways", 
+        "date_str": "2013-03-19", 
+        "time_str": "05:03:00"
+      }, 
+      {
+        "album": "Take it To the Street", 
+        "artist": "Rebirth Brass Band", 
+        "track": "Take it To the Street", 
+        "unix_time": 1363687620.0, 
+        "label": "Rounder", 
+        "date_str": "2013-03-19", 
+        "time_str": "05:07:00"
+      }, 
+      {
+        "album": "Oozy", 
+        "artist": "Brownout", 
+        "track": "Meter Beater", 
+        "unix_time": 1363687860.0, 
+        "label": "Nat Geo Music", 
+        "date_str": "2013-03-19", 
+        "time_str": "05:11:00"
+      }, 
+      {
+        "album": "RF10 7\"", 
+        "artist": "JC Brooks & the Uptown Sound", 
+        "track": "Get It Together", 
+        "unix_time": 1363688220.0, 
+        "label": "Rabbit Factory", 
+        "date_str": "2013-03-19", 
+        "time_str": "05:17:00"
+      }, 
+      {
+        "album": "Ebo Taylor", 
+        "artist": "Ebo Taylor", 
+        "track": "Heaven", 
+        "unix_time": 1363688460.0, 
+        "label": "Mr. Bongo", 
+        "date_str": "2013-03-19", 
+        "time_str": "05:21:00"
+      }, 
+      {
+        "album": "Pick a Bigger Weapon", 
+        "artist": "The Coup", 
+        "track": "Get that Monkey Off Your Back", 
+        "unix_time": 1363688820.0, 
+        "label": "Epitaph", 
+        "date_str": "2013-03-19", 
+        "time_str": "05:27:00"
+      }, 
+      {
+        "album": "I Got the Feelin'", 
+        "artist": "Billy Larkin", 
+        "track": "Russell & Williams Street", 
+        "unix_time": 1363689000.0, 
+        "label": "World Pacific", 
+        "date_str": "2013-03-19", 
+        "time_str": "05:30:00"
+      }, 
+      {
+        "album": "Cumbia Beat, Vol. 1", 
+        "artist": "Los Diablos Rojos", 
+        "track": "Malambo", 
+        "unix_time": 1363689300.0, 
+        "label": "Vampisoul", 
+        "date_str": "2013-03-19", 
+        "time_str": "05:35:00"
+      }, 
+      {
+        "album": "Back to Peru, Vol. 2", 
+        "artist": "Los Datsuns", 
+        "track": "En el Sol", 
+        "unix_time": 1363689540.0, 
+        "label": "Vampisoul", 
+        "date_str": "2013-03-19", 
+        "time_str": "05:39:00"
+      }, 
+      {
+        "album": "Jardin Interior", 
+        "artist": "Las Malas Amistades", 
+        "track": "Azul Reproche", 
+        "unix_time": 1363689780.0, 
+        "label": "Honest Jon's", 
+        "date_str": "2013-03-19", 
+        "time_str": "05:43:00"
+      }, 
+      {
+        "album": "Music of Hair", 
+        "artist": "Andrew Bird & Kat Eggleston", 
+        "track": "Nuthinduan Waltz", 
+        "unix_time": 1363690020.0, 
+        "label": "Wegawam", 
+        "date_str": "2013-03-19", 
+        "time_str": "05:47:00"
+      }, 
+      {
+        "album": "American IV", 
+        "artist": "Johnny Cash & Nick Cave", 
+        "track": "I'm So Lonesome I Could Cry", 
+        "unix_time": 1363690320.0, 
+        "label": "Def American", 
+        "date_str": "2013-03-19", 
+        "time_str": "05:52:00"
+      }, 
+      {
+        "album": "The Original Folkways Recordings, 1960-1962", 
+        "artist": "Doc Watson & Clarence Ashley", 
+        "track": "Amazing Grace", 
+        "unix_time": 1363690500.0, 
+        "label": "Smithsonian Folkways", 
+        "date_str": "2013-03-19", 
+        "time_str": "05:55:00"
+      }, 
+      {
+        "album": "The Wonderful World Of Hank Williams - 24 Greatest Hits", 
+        "artist": "Hank Williams", 
+        "track": "Rootie Tootie", 
+        "unix_time": 1363690860.0, 
+        "label": "Remember", 
+        "date_str": "2013-03-19", 
+        "time_str": "06:01:00"
+      }, 
+      {
+        "album": "Yours Always", 
+        "artist": "Willie Nelson", 
+        "track": "If You've Got the Money I've Got the Time", 
+        "unix_time": 1363690980.0, 
+        "label": "Sony", 
+        "date_str": "2013-03-19", 
+        "time_str": "06:03:00"
+      }, 
+      {
+        "album": "Os Mutantes", 
+        "artist": "Os Mutantes", 
+        "track": "Senhor F", 
+        "unix_time": 1363691160.0, 
+        "label": "Polydor", 
+        "date_str": "2013-03-19", 
+        "time_str": "06:06:00"
+      }, 
+      {
+        "album": "Congotronics, Vol. 1", 
+        "artist": "Konono No. 1", 
+        "track": "Ungudi Wele Wele", 
+        "unix_time": 1363691340.0, 
+        "label": "Crammed Disc", 
+        "date_str": "2013-03-19", 
+        "time_str": "06:09:00"
+      }, 
+      {
+        "album": "Sam Prekop", 
+        "artist": "Sam Prekop", 
+        "track": "faces and people", 
+        "unix_time": 1363691820.0, 
+        "label": "Thrill Jockey", 
+        "date_str": "2013-03-19", 
+        "time_str": "06:17:00"
+      }, 
+      {
+        "album": "Moondog", 
+        "artist": "Moondog", 
+        "track": "Minisym #1", 
+        "unix_time": 1363692240.0, 
+        "label": "CBS", 
+        "date_str": "2013-03-19", 
+        "time_str": "06:24:00"
+      }, 
+      {
+        "album": "Subway Salsa: The Montuno Records Story", 
+        "artist": "Zaperoko\t", 
+        "track": "El Zaperoko", 
+        "unix_time": 1363692660.0, 
+        "label": "Vampisoul", 
+        "date_str": "2013-03-19", 
+        "time_str": "06:31:00"
+      }, 
+      {
+        "album": "Ivory Coast Soul 2", 
+        "artist": "Nguenang", 
+        "track": "Wouck", 
+        "unix_time": 1363693020.0, 
+        "label": "Hot Casa", 
+        "date_str": "2013-03-19", 
+        "time_str": "06:37:00"
+      }, 
+      {
+        "album": "Thembi", 
+        "artist": "Pharoah Sanders", 
+        "track": "Thembi", 
+        "unix_time": 1363693500.0, 
+        "label": "Impulse", 
+        "date_str": "2013-03-19", 
+        "time_str": "06:45:00"
+      }, 
+      {
+        "album": "Volume 1: Piercing the Veil", 
+        "artist": "William Parker & Hamid Drake", 
+        "track": "Loom Song", 
+        "unix_time": 1363693920.0, 
+        "label": "AUM Fidelity", 
+        "date_str": "2013-03-19", 
+        "time_str": "06:52:00"
+      }, 
+      {
+        "album": "Khepera", 
+        "artist": "Randy Weston African Rhythms", 
+        "track": "Boram Xam Xam", 
+        "unix_time": 1363694340.0, 
+        "label": "Verve", 
+        "date_str": "2013-03-19", 
+        "time_str": "06:59:00"
+      }, 
+      {
+        "album": "Live at Tonic 2001", 
+        "artist": "Masada", 
+        "track": "Galshan", 
+        "unix_time": 1363694640.0, 
+        "label": "Tzadik", 
+        "date_str": "2013-03-19", 
+        "time_str": "07:04:00"
+      }, 
+      {
+        "album": "Afro Straight", 
+        "artist": "Ernest Dawkins", 
+        "track": "Juju", 
+        "unix_time": 1363695000.0, 
+        "label": "Delmark", 
+        "date_str": "2013-03-19", 
+        "time_str": "07:10:00"
+      }, 
+      {
+        "album": "Soft Focus", 
+        "artist": "Vox Arcana", 
+        "track": "Other Lights", 
+        "unix_time": 1363695600.0, 
+        "label": "Relay", 
+        "date_str": "2013-03-19", 
+        "time_str": "07:20:00"
+      }, 
+      {
+        "album": "Gather", 
+        "artist": "Fred Lonberg-Holm's Fast Citizens", 
+        "track": "Later News", 
+        "unix_time": 1363696080.0, 
+        "label": "Delmark", 
+        "date_str": "2013-03-19", 
+        "time_str": "07:28:00"
+      }
+    ]
+  ], 
+  [
+    "2013-03-26", 
+    [
+      {
+        "album": "Rockin' Steady: The Best of Desmond Dekker", 
+        "artist": "Desmond Dekker", 
+        "track": "This Woman", 
+        "unix_time": 1364292000.0, 
+        "label": "Rhino", 
+        "date_str": "2013-03-26", 
+        "time_str": "05:00:00"
+      }, 
+      {
+        "album": "Psychedelic Dub", 
+        "artist": "Mad Professor", 
+        "track": "Go Deh Nelson, Go Deh", 
+        "unix_time": 1364292180.0, 
+        "label": "Ariwa Sounds", 
+        "date_str": "2013-03-26", 
+        "time_str": "05:03:00"
+      }, 
+      {
+        "album": "Messenger Man", 
+        "artist": "Willi Williams", 
+        "track": "Dungeon Dub", 
+        "unix_time": 1364292180.0, 
+        "label": "Blood and Fire", 
+        "date_str": "2013-03-26", 
+        "time_str": "05:03:00"
+      }, 
+      {
+        "album": "Trojan Dub Box Set", 
+        "artist": "The Observers", 
+        "track": "Rasta Locks", 
+        "unix_time": 1364292420.0, 
+        "label": "Trojan", 
+        "date_str": "2013-03-26", 
+        "time_str": "05:07:00"
+      }, 
+      {
+        "album": "Things Fall Apart", 
+        "artist": "The Roots", 
+        "track": "Ain't Sayin' Nothin' New", 
+        "unix_time": 1364292780.0, 
+        "label": "MCA", 
+        "date_str": "2013-03-26", 
+        "time_str": "05:13:00"
+      }, 
+      {
+        "album": "Nigeria 70", 
+        "artist": "Oyelana, Tunji & the Benders", 
+        "track": "Ifa", 
+        "unix_time": 1364293020.0, 
+        "label": "Strut", 
+        "date_str": "2013-03-26", 
+        "time_str": "05:17:00"
+      }, 
+      {
+        "album": "Nigeria 70", 
+        "artist": "Ofo The Black Company", 
+        "track": "Allah Wakbarr", 
+        "unix_time": 1364293320.0, 
+        "label": "Strut", 
+        "date_str": "2013-03-26", 
+        "time_str": "05:22:00"
+      }, 
+      {
+        "album": "Nigeria Afrobeat Special: The New Explosive Sound in 1970\u0092s Nigeria", 
+        "artist": "Eric (Showboy) Akaeze & his Royal Ericos", 
+        "track": "We Dey Find Money", 
+        "unix_time": 1364293680.0, 
+        "label": "Soundway", 
+        "date_str": "2013-03-26", 
+        "time_str": "05:28:00"
+      }, 
+      {
+        "album": "Afro Baby: The Evolution Of The Afro-Sound In Nigeria 1970-79", 
+        "artist": "The Martins Brothers Dance Band", 
+        "track": "Ochonma", 
+        "unix_time": 1364294220.0, 
+        "label": "Soundway", 
+        "date_str": "2013-03-26", 
+        "time_str": "05:37:00"
+      }, 
+      {
+        "album": "Do Better if You Can", 
+        "artist": "Oriental Brothers International", 
+        "track": "Ebemana (Don't Cry Any More)", 
+        "unix_time": 1364294460.0, 
+        "label": "Original Music", 
+        "date_str": "2013-03-26", 
+        "time_str": "05:41:00"
+      }, 
+      {
+        "album": "Aki Special", 
+        "artist": "Prince Nico Mbarga", 
+        "track": "Free Education in Nigeria", 
+        "unix_time": 1364295000.0, 
+        "label": "Rounder Select", 
+        "date_str": "2013-03-26", 
+        "time_str": "05:50:00"
+      }, 
+      {
+        "album": "Nigeria Disco Funk Special; The Sound of the Underground Lagos Dancefloor 1974-79", 
+        "artist": "S-Job Movement", 
+        "track": "Love Affair", 
+        "unix_time": 1364295720.0, 
+        "label": "Soundway", 
+        "date_str": "2013-03-26", 
+        "time_str": "06:02:00"
+      }, 
+      {
+        "album": "Brand New Wayo: Funk, Fast Times & Nigerian Boogie Madness 1979-1983", 
+        "artist": "Kris Okotie", 
+        "track": "Show Me Your Backside", 
+        "unix_time": 1364296140.0, 
+        "label": "Comb & Razor", 
+        "date_str": "2013-03-26", 
+        "time_str": "06:09:00"
+      }, 
+      {
+        "album": "Poor Man No Get Brother: Assembly & Revolution 1969-1975", 
+        "artist": "Segun Bucknor", 
+        "track": "Adanri Sogbasogba", 
+        "unix_time": 1364296440.0, 
+        "label": "Strut", 
+        "date_str": "2013-03-26", 
+        "time_str": "06:14:00"
+      }, 
+      {
+        "album": "Azagas & Archibogs: The Sixties Sound of Lagos Highlife", 
+        "artist": "Tunde Oshofisan & His Rhythm \"Fadaka's\"", 
+        "track": "Jeje L'Omo Eko Nio", 
+        "unix_time": 1364296740.0, 
+        "label": "Original Music", 
+        "date_str": "2013-03-26", 
+        "time_str": "06:19:00"
+      }, 
+      {
+        "album": "Unreleased Recordings, 1965", 
+        "artist": "Cardinal Rex Jim Lawson", 
+        "track": "Bere Bote", 
+        "unix_time": 1364296920.0, 
+        "label": "Voice of America: African Music Treasures", 
+        "date_str": "2013-03-26", 
+        "time_str": "06:22:00"
+      }, 
+      {
+        "album": "Spaceship Lullaby (1954-60)", 
+        "artist": "Nu Sounds", 
+        "track": "Chicago USA", 
+        "unix_time": 1364297280.0, 
+        "label": "Unheard Music/Atavistic", 
+        "date_str": "2013-03-26", 
+        "time_str": "06:28:00"
+      }, 
+      {
+        "album": "The Dawn of Doo-Wop", 
+        "artist": "The Ravens", 
+        "track": "Ol' Man River", 
+        "unix_time": 1364297460.0, 
+        "label": "Proper", 
+        "date_str": "2013-03-26", 
+        "time_str": "06:31:00"
+      }, 
+      {
+        "album": "The Lord Will Make a Way: Early Recordings 1947-51", 
+        "artist": "The Sensational Nightingales", 
+        "track": "Guide My Mind", 
+        "unix_time": 1364297580.0, 
+        "label": "P-Vine Records", 
+        "date_str": "2013-03-26", 
+        "time_str": "06:33:00"
+      }, 
+      {
+        "album": "It's Jesus, Ya'll: Soulful Sound of Nashboro Gospel", 
+        "artist": "The Supreme Angels", 
+        "track": "I'm Going to Serve Jesus", 
+        "unix_time": 1364297760.0, 
+        "label": "Ace", 
+        "date_str": "2013-03-26", 
+        "time_str": "06:36:00"
+      }, 
+      {
+        "album": "Hard Hands", 
+        "artist": "Ray Barretto", 
+        "track": "Hard Hands", 
+        "unix_time": 1364298120.0, 
+        "label": "Fania", 
+        "date_str": "2013-03-26", 
+        "time_str": "06:42:00"
+      }, 
+      {
+        "album": "In the Ear of the Beholder", 
+        "artist": "Jorge Sylvester Afro-Caribbean Experimental Trio", 
+        "track": "Por La Clave", 
+        "unix_time": 1364298240.0, 
+        "label": "Jazz Magnet", 
+        "date_str": "2013-03-26", 
+        "time_str": "06:44:00"
+      }, 
+      {
+        "album": "Twelve Nights in Hollywood", 
+        "artist": "Ella Fitzgerald", 
+        "track": "Happiness is Just a Thing Called Joe", 
+        "unix_time": 1364298960.0, 
+        "label": "Verve", 
+        "date_str": "2013-03-26", 
+        "time_str": "06:56:00"
+      }, 
+      {
+        "album": "After You've Gone", 
+        "artist": "Roy Eldridge", 
+        "track": "Hi Ho Trailus Boot Whip", 
+        "unix_time": 1364299140.0, 
+        "label": "Decca/GRP", 
+        "date_str": "2013-03-26", 
+        "time_str": "06:59:00"
+      }, 
+      {
+        "album": "Mountain Passages", 
+        "artist": "Dave Douglas", 
+        "track": "Cannonball Run", 
+        "unix_time": 1364299380.0, 
+        "label": "Greenleaf", 
+        "date_str": "2013-03-26", 
+        "time_str": "07:03:00"
+      }, 
+      {
+        "album": "Flare Up", 
+        "artist": "Harry Beckett", 
+        "track": "Flare Up", 
+        "unix_time": 1364299680.0, 
+        "label": "Jazzprint", 
+        "date_str": "2013-03-26", 
+        "time_str": "07:08:00"
+      }, 
+      {
+        "album": "Back Together Again", 
+        "artist": "Fred Anderson & Hamid Drake", 
+        "track": "Losel Drolma", 
+        "unix_time": 1364299980.0, 
+        "label": "Thrill Jockey", 
+        "date_str": "2013-03-26", 
+        "time_str": "07:13:00"
+      }, 
+      {
+        "album": "Up Above", 
+        "artist": "Town & Country", 
+        "track": "Cloud Seeding", 
+        "unix_time": 1364300280.0, 
+        "label": "Thrill Jockey", 
+        "date_str": "2013-03-26", 
+        "time_str": "07:18:00"
+      }, 
+      {
+        "album": "Yemen: Music of the Yemenite Jews", 
+        "artist": "Perry Robinson / Wac&#322;aw Zimpel / Raphael Rogi&#324;ski / Michael Zerang", 
+        "track": "Once in the Desert", 
+        "unix_time": 1364300580.0, 
+        "label": "Multikulti Project", 
+        "date_str": "2013-03-26", 
+        "time_str": "07:23:00"
+      }, 
+      {
+        "album": "Paul Giallorenzo 3 featuring Ingebrigt H\u00e5ker Flaten & Tim Daisy", 
+        "artist": "Paul Giallorenzo 3", 
+        "track": "All Together Now", 
+        "unix_time": 1364301120.0, 
+        "label": "Not Two", 
+        "date_str": "2013-03-26", 
+        "time_str": "07:32:00"
+      }, 
+      {
+        "album": "Bulletproof", 
+        "artist": "Bristle", 
+        "track": "Notlob", 
+        "unix_time": 1364301480.0, 
+        "label": "Edgetone", 
+        "date_str": "2013-03-26", 
+        "time_str": "07:38:00"
+      }
+    ]
   ]
 ]

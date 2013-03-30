@@ -2,7 +2,7 @@
 {% block content %}
 <h1>Search</h1>
 <div id="track-form-wrapper" >
-    <form id="track-form" class="form-inline" action="{% url track %}" method="get" accept-charset="utf-8">
+    <form id="track-form" class="form-inline" action="{% url 'track' %}" method="get" accept-charset="utf-8">
         <label class="control-label" for="artist">Artist</label><input type="text" name="artist" value="{{ artist|default:"" }}" id="artist">
         <label class="control-label" for="title">Title</label><input type="text" name="title" value="{{ title|default:"" }}" id="title">
         <label class="control-label" for="album">Album</label><input type="text" name="album" value="{{ album|default:"" }}" id="album">
@@ -15,11 +15,11 @@
     {% regroup tracks by artist as artist_tracks %}
     {% for track in tracks %}
     <div class="track-wrapper">
-        <div class="track-edit"><a target="_blank" href="{% url admin:playlists_track_change track.id %}"><i class="icon icon-edit"></i></a></div>
+        <div class="track-edit"><a target="_blank" href="{% url 'admin:playlists_track_change' track.id %}"><i class="icon icon-edit"></i></a></div>
         <div class="track-details">
-            <div class="track-item track-artist"><a href="{% url track %}?artist={{ track.artist }}">{{ track.artist }}</a></div>
+            <div class="track-item track-artist"><a href="{% url 'track' %}?artist={{ track.artist }}">{{ track.artist }}</a></div>
             <div class="track-item track-title">{{ track.title }}</div>
-            {% if track.album %}<div class="track-item track-album"><a href="{% url track %}?album={{ track.album }}">{{ track.album }}</a></div>{% endif %}
+            {% if track.album %}<div class="track-item track-album"><a href="{% url 'track' %}?album={{ track.album }}">{{ track.album }}</a></div>{% endif %}
             {% if track.label %}<div class="track-item track-label">{{ track.label }}</div>{% endif %}
         </div>
         <div class="track-shows">

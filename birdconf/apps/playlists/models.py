@@ -61,7 +61,7 @@ class ShowTrack(models.Model):
 
 class AudioFile(models.Model):
     """(AudioFile description)"""
-    url = models.URLField(blank=False, verify_exists=True,unique=True)
+    url = models.URLField(blank=False, unique=True)
     show = models.ForeignKey(Show,blank=True)
 
     class Meta:

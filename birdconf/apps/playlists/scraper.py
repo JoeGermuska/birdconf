@@ -8,7 +8,7 @@ from urllib2 import urlopen
 from urlparse import urljoin
 from time import mktime
 import codecs
-from csvkit import UnicodeCSVWriter
+from csvkit import CSVKitReader
 from django.conf import settings
 import os, os.path
 import json

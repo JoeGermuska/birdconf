@@ -60,9 +60,8 @@ SECRET_KEY = 'z@vza&vmrv%$hhwue3+@9os&j%ml0wi_=_wdqv^ijfjftdf-v&'
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
-    'django.template.loaders.filesystem.load_template_source',
-    'django.template.loaders.app_directories.load_template_source',
-    'django.template.loaders.eggs.load_template_source',
+    'django.template.loaders.filesystem.Loader',
+    'django.template.loaders.app_directories.Loader',
 )
 
 TEMPLATE_CONTEXT_PROCESSORS = (
@@ -125,7 +124,7 @@ GOOGLE_ANALYTICS_KEY = "UA-9792248-6"
 
 # Logging
 logging.basicConfig(
-    level=logging.DEBUG,
+    level=logging.INFO,
 )
 
 # Allow for local (per-user) override
