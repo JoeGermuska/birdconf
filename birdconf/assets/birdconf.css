@@ -1,9 +1,15 @@
+
 div#track-form-wrapper {
   margin-left: 20px;
 }
 
-div#track-form-wrapper label,div#track-form-wrapper input {
-  font-size: 10px;
+body {
+  font-size: 18px;
+}
+
+input {
+  font-size: larger;
+  font-weight: bold;
 }
 
 #results { 
