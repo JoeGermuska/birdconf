@@ -1,0 +1,2115 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Playlist Editor</title>
+		<link rel="icon" type="image/vnd.microsoft.icon" href="playlist.ico" />
+		<link rel='stylesheet' type='text/css' href='css/reset.css?version=20130410072734'/>
+<link rel='stylesheet' type='text/css' href='css/smoothness/jquery-ui-1.8.17.custom.css?version=20130410072735'/>
+<link rel='stylesheet' type='text/css' href='css/main.css?version=20130410072734'/>
+
+		<script type='text/javascript' src='js/jquery-1.7.1.min.js?version=20130410072941'></script>
+<script type='text/javascript' src='js/jquery-ui-1.8.17.autocomplete.min.js?version=20130410072942'></script>
+<script type='text/javascript' src='js/main.js?version=20130415065302'></script>
+
+	</head>
+	<body><div class="header">
+<a href="http://www.wnur.org" id="logo"><img src="images/wnurlogo.jpg" alt="WNUR 89.3FM" title="WNUR Home" /></a><div class="signOut">Welcome: <span>jgermuska</span><br />
+						<a href="?handle=signOut" title="Click here to return to the login page">Sign out</a></div>
+<a class="back" href="/playlist/index.php?page=nav" onClick="return confirmBack2Menu()">Back to Menu</a>
+
+</div>
+<form action="/playlist/index.php?handle=playlist" method="post">
+<div class="infoBarWrapper">
+				<ul class="infoBar">
+					<li><label for="displayName_id">
+DJ:</label><input type="text" name="displayName" id="displayName_id" value="Joe G" /></li>
+					
+					<li><label for="date_id">
+Date:</label><input type="text" name="date" id="date_id" class="date" value="07/23/2013" /></li>
+					<li><label for="start_id">
+Time:</label><input type="text" name="start" id="start_id" title="The time your show starts" class="time" value="5:00am" /></li>
+					<li><label for="end_id" class="toNoColon">
+to</label><input type="text" name="end" id="end_id" title="The time your show ends" class="time" value="7:30am" /></li>
+					<li><label for="show_id">
+Show:</label><select name="show" id="show_id"><option value="">&nbsp;</option>
+<option value="17">Airplay</option>
+<option value="31">Being There</option>
+<option value="11">Blues</option>
+<option value="27">Both Kinds</option>
+<option value="38">Broadway My Way</option>
+<option value="18">Classical and Beyond</option>
+<option value="3">Continental Drift</option>
+<option value="36">Dedicated</option>
+<option value="25">El Zilencio</option>
+<option value="29">Expansion Experiment</option>
+<option value="19">Fast &#039;N&#039; Loud</option>
+<option value="8">Feedback</option>
+<option value="20">Folk</option>
+<option value="4">Freeform</option>
+<option value="22">Gospel</option>
+<option value="16">Hidden Forms</option>
+<option value="23">Hip-Hop</option>
+<option value="2" selected="selected">Jazz</option>
+<option value="12">Lotus Beat</option>
+<option value="28">Morning Sickness</option>
+<option value="5">News</option>
+<option value="37">Northwestern University Radio Drama</option>
+<option value="15">Power Hour</option>
+<option value="14">R and B Flashback</option>
+<option value="24">Reggae Vibrations</option>
+<option value="1">Rock</option>
+<option value="26">Ska Sound System</option>
+<option value="6">Sports</option>
+<option value="7">Sportsvoice</option>
+<option value="10">Streetbeat</option>
+<option value="9">This Is Hell!</option>
+<option value="40">Wild Mountain Nation</option>
+<option value="34">WNUR Handpicked</option></select></li>
+					<li style=""><label style="float: left;">Contributors:</label><ul><li id="otherUserName_id_0">
+							<fieldset ><label for="userId_id_0" class="space">
+&nbsp;</label><select name="userId_0" id="userId_id_0" class="otherUser"><option value="">&nbsp;</option>
+<option value="62"> CalebM</option>
+<option value="95"> Chris</option>
+<option value="148"> elizabeth</option>
+<option value="220"> Lisa</option>
+<option value="18"> Marshall</option>
+<option value="189"> Morrie</option>
+<option value="124"> PartTimeSuckers</option>
+<option value="75"> Rob</option>
+<option value="168"> Roshan</option>
+<option value="30"> Thomas</option>
+<option value="152"> Tillman</option>
+<option value="232"> Youliana</option>
+<option value="208">Aaron Garrido</option>
+<option value="2">Aaron Kuper (AKplaylist)</option>
+<option value="82">Aaron Kuper (avk354)</option>
+<option value="27">Aaron Menninga</option>
+<option value="161">Aaron Pepper</option>
+<option value="83">Aaron Quick (aquick)</option>
+<option value="282">Aaron Quick (aquick2012)</option>
+<option value="3">Adam Clark</option>
+<option value="197">Adam Conte</option>
+<option value="332">Adam Jacobson</option>
+<option value="170">Al Finley</option>
+<option value="5">Alain Drouot</option>
+<option value="231">Alan Richter</option>
+<option value="255">Alberto De Leon</option>
+<option value="133">Alejandro Ovalle (aovalle)</option>
+<option value="275">Alejandro Ovalle (a_ovalle)</option>
+<option value="115">Alex Lewis</option>
+<option value="120">Alex Zisis</option>
+<option value="188">Alexa Wong</option>
+<option value="156">Alison Ho (aho)</option>
+<option value="178">Alison Ho (ajh276)</option>
+<option value="249">Alison Ho</option>
+<option value="47">Allie Silver</option>
+<option value="98">Andrew Cho</option>
+<option value="80">Andrew Jarrett (ahj399)</option>
+<option value="171">Andrew Jarrett (AJarrett)</option>
+<option value="187">Andrew Schneider (aschneider)</option>
+<option value="257">Andrew Schneider (andrewschneider)</option>
+<option value="130">Andrew Senesi</option>
+<option value="233">Anne Carmack</option>
+<option value="87">Anne Disabato</option>
+<option value="235">Annie C</option>
+<option value="58">Arianna Hermosillo</option>
+<option value="335">Arjun Pahwa</option>
+<option value="17">Art / Peter Lange / Kostakis</option>
+<option value="314">Ash Jain</option>
+<option value="347">Ashina Hamilton</option>
+<option value="15">Ben Dunnington</option>
+<option value="103">Ben Keller</option>
+<option value="361">BILL DAHL</option>
+<option value="136">Blues Show</option>
+<option value="81">Breanne &amp;amp; Josh</option>
+<option value="134">Brendan Klinkenberg</option>
+<option value="215">Brendan Kredell</option>
+<option value="126">Brendon DiVincenzo</option>
+<option value="68">Brenna Scheving</option>
+<option value="158">Brent Matthews</option>
+<option value="333">Brian Campbell</option>
+<option value="184">Brian Reilly</option>
+<option value="176">Bridget Illing</option>
+<option value="248">Brittany Waddell</option>
+<option value="31">C.T. Heaney</option>
+<option value="146">Caitlin Radnis</option>
+<option value="283">Caleb Young</option>
+<option value="66">Cara Gagliano</option>
+<option value="40">Cecily Harwitt</option>
+<option value="225">Charles Waldman</option>
+<option value="113">Charlie Kirchen</option>
+<option value="284">Chris Hoffman</option>
+<option value="52">Chris Horner</option>
+<option value="32">Chris Wade</option>
+<option value="114">Christian Gero</option>
+<option value="260">Christian Keeve</option>
+<option value="315">Christophe Haubursin</option>
+<option value="191">Chuck Mertz (cmertz)</option>
+<option value="224">Chuck Mertz (thisishell)</option>
+<option value="346">Clarence Jones</option>
+<option value="227">clay grossman</option>
+<option value="292">Connor Godfrey</option>
+<option value="313">Dale Lehman</option>
+<option value="293">Dan Burke (danburke)</option>
+<option value="296">Dan Burke (dburke)</option>
+<option value="238">Dan Kugler</option>
+<option value="8">Dan Osher</option>
+<option value="93">Dan Perlman</option>
+<option value="202">Dan Sloan</option>
+<option value="217">Dan Springer</option>
+<option value="256">Dana Getz</option>
+<option value="88">Dana Kuehr</option>
+<option value="326">Daniel Callison</option>
+<option value="157">Daniel Mescher</option>
+<option value="245">Danielle Pierre (D_Pierre)</option>
+<option value="251">Danielle Pierre (daniellepierre)</option>
+<option value="337">Danielle Pierre</option>
+<option value="101">Danny Greenberg</option>
+<option value="144">Darren Pakravan</option>
+<option value="243">David Benjamin (davidb)</option>
+<option value="267">David Benjamin (dbenjamin)</option>
+<option value="362">David Freeman</option>
+<option value="317">David Marrero (marrerod)</option>
+<option value="321">David Marrero (DMarrero)</option>
+<option value="85">David Sumberg</option>
+<option value="42">David Wille (dlwille)</option>
+<option value="132">David Wille (d-long)</option>
+<option value="67">Declan Taintor (Declan T)</option>
+<option value="72">Declan Taintor (dtaintor)</option>
+<option value="179">Denise Lu</option>
+<option value="279">Derrick Santiago</option>
+<option value="35">Dillon Styke</option>
+<option value="41">DJ Deluge</option>
+<option value="37">Doug Kaplan</option>
+<option value="43">Drew Austin</option>
+<option value="214">Earl Watts</option>
+<option value="312">Eileen Hinckle (ehinckle)</option>
+<option value="320">Eileen Hinckle (ekh625)</option>
+<option value="110">Ejike Uzoigwe</option>
+<option value="358">Eli Gonzalez</option>
+<option value="209">Elise Chagas (elchagas)</option>
+<option value="259">Elise Chagas (elisechagas)</option>
+<option value="108">Elliot Bech</option>
+<option value="250">Elyssa Garrett</option>
+<option value="247">Emily Jan</option>
+<option value="26">Eric Ricks</option>
+<option value="92">Eric Van Orman</option>
+<option value="76">Erica Hart</option>
+<option value="21">Eryka Nosal</option>
+<option value="330">Ethan Senser</option>
+<option value="138">Ethan Simonoff</option>
+<option value="310">Evan Rindler</option>
+<option value="70">Ezra Arez Raez</option>
+<option value="36">Flavian Wallis</option>
+<option value="355">Folk DJ</option>
+<option value="165">Folk Show</option>
+<option value="228">Forrest Kelly</option>
+<option value="281">Gabe Schonfeld</option>
+<option value="129">Gabriela Zecker</option>
+<option value="288">Garrett Buzzard</option>
+<option value="297">Geoffrey Fenton</option>
+<option value="206">Gillian Levy</option>
+<option value="64">Grace Woodham</option>
+<option value="123">Gregory Uzelac</option>
+<option value="137">Grishma Shah</option>
+<option value="53">Haley Flannery</option>
+<option value="303">Hannah Lee</option>
+<option value="262">Harlynn Siler</option>
+<option value="121">Hayley Schilling</option>
+<option value="140">Hidden Forms</option>
+<option value="272">Jack Davis</option>
+<option value="289">Jacob Skaggs (jskaggs)</option>
+<option value="290">Jacob Skaggs (jskaggs)</option>
+<option value="308">James Hickman</option>
+<option value="86">James O</option>
+<option value="271">Janel Montfort</option>
+<option value="128">Jangsoon Park</option>
+<option value="100">Janna Herman</option>
+<option value="160">Jason Karaian</option>
+<option value="201">Jason Lederman</option>
+<option value="325">Jason Vanderlinden</option>
+<option value="311">Javier Lom</option>
+<option value="239">Jay Eychaner</option>
+<option value="210">Jay Ribakove</option>
+<option value="334">Jay Smith</option>
+<option value="182">Jenna Powell-Malloy</option>
+<option value="11">Jenny An</option>
+<option value="216">Jenny Bendelstein</option>
+<option value="318">Jessica Peng</option>
+<option value="234">Jim Hasani</option>
+<option value="339">Jocelyn Cooper</option>
+<option value="4">Joe Germuska</option>
+<option value="298">Joel Lewison</option>
+<option value="261">John Harberger</option>
+<option value="236">John  Hopp </option>
+<option value="84">John Pappas</option>
+<option value="186">John Rossiter</option>
+<option value="331">John  Serafin</option>
+<option value="105">John Warlick</option>
+<option value="223">Josh K</option>
+<option value="131">Josh Lau</option>
+<option value="277">julia kahn</option>
+<option value="20">Julia Mullen Gordon</option>
+<option value="54">Julian Zlatev</option>
+<option value="219">justin james</option>
+<option value="183">Kara Craig</option>
+<option value="173">Kara Goldsmith</option>
+<option value="162">Karima Daoudi</option>
+<option value="78">Karina Esparza</option>
+<option value="306">Karl Maher</option>
+<option value="77">Kate Puhala</option>
+<option value="71">Kate Watson</option>
+<option value="336">Kathryn Prescott</option>
+<option value="23">Kati Skelton</option>
+<option value="119">Katie Mullen</option>
+<option value="193">Katie N.</option>
+<option value="324">Kelly Nelson</option>
+<option value="180">Kelly Pappas (kmp888)</option>
+<option value="265">Kelly Pappas (kelly)</option>
+<option value="50">Kevin Leeds</option>
+<option value="149">Kimberly Seibel</option>
+<option value="204">Kristian Ayala</option>
+<option value="150">Laura Rosenfeld</option>
+<option value="79">Lauren C. Ruth</option>
+<option value="96">Lauren C. Virnoche</option>
+<option value="203">Lily Oberman</option>
+<option value="244">Lindsay Barranco</option>
+<option value="56">Lindsay F</option>
+<option value="155">Lindsey Kratochwill</option>
+<option value="211">Liv Jaeger</option>
+<option value="268">Liz Mandeville</option>
+<option value="212">Liz P</option>
+<option value="10">Lori Crasnic</option>
+<option value="356">Lou Kovitz</option>
+<option value="294">Louis Knapp</option>
+<option value="34">Lucas Segall</option>
+<option value="194">Luciano Tovar III</option>
+<option value="287">Lynn Orman</option>
+<option value="357">Lynn Orman Weiss</option>
+<option value="61">Lynn Stransky</option>
+<option value="16">m 50</option>
+<option value="327">Mackenzie Young</option>
+<option value="207">Madaline Goldstein</option>
+<option value="125">Mannie Kumar</option>
+<option value="38">Marv Goldsher</option>
+<option value="198">Maryam Jameel</option>
+<option value="102">Matt Gilk</option>
+<option value="104">Matt Ludwig (mattludwig)</option>
+<option value="280">Matt Ludwig (mludwig)</option>
+<option value="164">Matt Pacult</option>
+<option value="341">Matt Pathogen</option>
+<option value="221">Matt Rarey</option>
+<option value="33">Matt Weir</option>
+<option value="6">Matthew Golombisky</option>
+<option value="154">Matthew Grosinger</option>
+<option value="29">Matthew Litwiller</option>
+<option value="167">Max New</option>
+<option value="169">Max Yu</option>
+<option value="304">Michael Bortinger</option>
+<option value="39">Michael Brod (JMBrod13)</option>
+<option value="51">Michael Brod (michaelb)</option>
+<option value="1">Michael Corsa</option>
+<option value="45">Michael Mounier</option>
+<option value="230">Michael Oliphant</option>
+<option value="181">Michael Perri</option>
+<option value="135">Mike Baum (mjbaum18213)</option>
+<option value="285">Mike Baum (mbaum)</option>
+<option value="90">Mike Carter</option>
+<option value="25">Mike Sugarman</option>
+<option value="145">MIke Weinberg</option>
+<option value="199">Minna Zhou (MinnaZ)</option>
+<option value="205">Minna Zhou (minnaz)</option>
+<option value="246">Monica Yi</option>
+<option value="89">Mori Einsidler</option>
+<option value="28">morry barak</option>
+<option value="49">Neeta Sonalkar</option>
+<option value="258">Neil Lokken</option>
+<option value="59">Nicole Roth</option>
+<option value="177">Nikita Shulzhenko</option>
+<option value="323">Nyq Bonaventura</option>
+<option value="44">Oleg Evdokimov</option>
+<option value="109">Oliver Williams</option>
+<option value="359">oris washington</option>
+<option value="24">Pat Bishop (pbishop)</option>
+<option value="116">Pat Bishop (terribletown)</option>
+<option value="69">Pat and Ben</option>
+<option value="344">Patrick Harrington</option>
+<option value="174">Patrick Leonard</option>
+<option value="240">Paul Heid</option>
+<option value="74">Paul Riismandel</option>
+<option value="328">Paul VanKoughnett</option>
+<option value="91">Perri Jamie Kasen</option>
+<option value="172">Peter Toth</option>
+<option value="143">Phil Scepanski</option>
+<option value="273">Phil Scepanski </option>
+<option value="229">Rachel Schastok</option>
+<option value="213">Rachel Tollett</option>
+<option value="253">Ramona Roy</option>
+<option value="122">Raphaelle Neyton</option>
+<option value="97">Rebecca Nelson</option>
+<option value="139">Reggae Show</option>
+<option value="295">Richard Norwood</option>
+<option value="19">Richard Webner</option>
+<option value="360">RISA TOLENTINO</option>
+<option value="263">Robert Frye</option>
+<option value="147">Rock Show</option>
+<option value="46">Rocky Jones</option>
+<option value="190">Ron Lewis (Ron Lewis)</option>
+<option value="270">Ron Lewis (ronlewis)</option>
+<option value="127">Rudolph Eiland</option>
+<option value="195">Ryan Deeter</option>
+<option value="153">Ryan Lafferty</option>
+<option value="309">Ryan Milowicki</option>
+<option value="111">Ryan Stoddard</option>
+<option value="276">Sam Daub</option>
+<option value="185">Sam Toizer</option>
+<option value="302">Samantha Stahl</option>
+<option value="12">Samuel Wadsworth</option>
+<option value="14">Samuel B. Prime (spankyoldman)</option>
+<option value="57">Samuel B. Prime (samp)</option>
+<option value="254">Sandra Song</option>
+<option value="319">Sarah Sherman</option>
+<option value="118">Scott Olstad</option>
+<option value="192">Sean Burrill</option>
+<option value="22">Sean Kane</option>
+<option value="237">Sean Richards</option>
+<option value="340">Serene Darwish</option>
+<option value="73">Seth Snyder</option>
+<option value="226">shane r</option>
+<option value="338">Shannon Malik</option>
+<option value="175">Shaunacy Ferro</option>
+<option value="107">Shiraz Ahmed (sahmed)</option>
+<option value="166">Shiraz Ahmed (shiraz)</option>
+<option value="63">Shree Jariwala</option>
+<option value="218">Soren Nelson</option>
+<option value="222">Spencer Thayer (spencerthayer)</option>
+<option value="274">Spencer Thayer (sthayer)</option>
+<option value="316">Stann Champion</option>
+<option value="163">Stephen Ptacek</option>
+<option value="291">Stone Hansard</option>
+<option value="301">Sue Kessell</option>
+<option value="106">Suhyoung Lee</option>
+<option value="151">Sukhmit Kalsi</option>
+<option value="159">Sunyata Altenor</option>
+<option value="269">Svyat  N</option>
+<option value="343">Sydney Wolfson</option>
+<option value="55">T.J. Spalty</option>
+<option value="242">taylor burgart</option>
+<option value="9">Taylor D</option>
+<option value="60">Taylor Dearr</option>
+<option value="329">Ted Schwaba</option>
+<option value="307">Theresa C</option>
+<option value="305">Theresa Campagna</option>
+<option value="7">Theron Humiston</option>
+<option value="241">Thomas Hollingsworth</option>
+<option value="94">TJ Spalty</option>
+<option value="117">Toan Phan</option>
+<option value="322">Tolga and Christophe Ulman/Haubursin</option>
+<option value="286">Tom Hollingsworth</option>
+<option value="99">Tomas Beckmann</option>
+<option value="65">Tomi Mendel</option>
+<option value="48">Tommy Rousse</option>
+<option value="112">Trevor Ewen</option>
+<option value="266">Tristan Sokol</option>
+<option value="278">Vanessa Gonzalez-Block (vanessagb)</option>
+<option value="345">Vanessa Gonzalez-Block (Petral991)</option>
+<option value="264">Vicki  Sun</option>
+<option value="141">Victor Rodriguez</option>
+<option value="252">Victoria Sun</option>
+<option value="142">Wendy Pulliam-Leighton</option>
+<option value="300">Will Conroy</option>
+<option value="196">Will Kane</option>
+<option value="342">WNUR  Streetbeat</option>
+<option value="299">WZRD WZRD</option>
+<option value="13">Zach Robinson</option>
+<option value="200">Zach Silva</option></select><input type="hidden" name="userPlaylistId_0" id="userPlaylistId_id_0" value="" /><img onclick="form_section_repeat('otherUserName_id_0');return false;" src="images/plus-big.png" class="plus" alt="add another otherUserName" title="add another otherUserName" /><img onclick="form_section_remove('otherUserName_id_0');return false;" src="images/minus-big.png" class="minus" alt="delete this otherUserName" title="delete this otherUserName" /></fieldset></li></ul></li>
+					<li class="newLine"><label for="playlistTitle_id">
+Title:</label><input type="text" name="playlistTitle" id="playlistTitle_id" value="" /></li>
+					<li><label for="mood_id">
+Mood:</label><input type="text" name="mood" id="mood_id" value="" /></li>
+					<li><label for="djLink_id">
+DJ Link:</label><input type="text" name="djLink" id="djLink_id" value="" /></li>
+					<li><label for="listenLink_id">
+Listen Link:</label><input type="text" name="listenLink" id="listenLink_id" value="" /></li>
+				</ul>
+			</div>
+			
+	<span class="key">P=personal, N=new, R=reissue, L=local, Q=request</span>
+	<table id="tracks">
+		<tr>
+			<th class="tpe">Type</th>
+<th class="chbx" title="Personal: track from an album not in station record library">P</th>
+<th class="chbx" title="New: track from an album that is new">N</th>
+<th class="chbx" title="Reissue: track from a reissued album">R</th>
+<th class="chbx" title="Local: track from a local artist">L</th>
+<th class="chbx" title="Request: track requested by a listener">Q</th>
+<th class="art">Artist</th>
+<th>Track</th>
+<th class="lbm">Album</th>
+<th class="lbl">Label</th>
+<th class="strt" title="If the start time is AUTO then it will become the time when you click UPDATE.">Start</th>
+<th class="tgglr"><img src="./images/plus.png" id="more_all" onclick="expand_collapse('more');" style="display: inline;" alt="[+]" />
+						<img src="./images/minus.png" id="less_all" onclick="expand_collapse('less');" style="display: none;" alt="[-]" /></th>
+		</tr>
+<tr class="thistle" title="1" id="row_1">
+		<td><select name="format_1" title="type or media format"><option value="">&nbsp;</option>
+<option value="1" selected="selected">CD</option>
+<option value="2">Vinyl</option>
+<option value="3">MP3</option>
+<option value="4">7&quot;</option>
+<option value="5">Other</option></select></td>
+		<td class="cbx"><input type="checkbox" name="personal_1" title="Personal: track from an album not in station record library" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="new_1" title="New: track from an album that is new" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="reissue_1" title="Reissue: track from a reissued album" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="local_1" title="Local: track from a local artist" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="request_1" title="Request: track requested by a listener" value="1" /></td>
+		<td><input type="text" name="artist_1" title="artist" value="Little Richard" /></td>
+		<td><input type="text" name="track_1" title="track" value="Nuki Suki" /></td>
+		
+		<td><input type="text" name="album_1" title="album" value="What It Is! Funky Soul And Rare Grooves (1967-1977)" /></td>
+		<td><input type="text" name="label_1" title="label" value="Rhino" /></td>
+		<td><input type="text" name="timestamp_1" title="If the start time is AUTO then it will become the current time when you click UPDATE." class="timestamp" value="5:02am" /></td>
+		<td>
+			<input type="hidden" name="playlistTrackId_1" value="190582" />
+			<img src="./images/minus.png" alt="[-]" title="Collapse Extras Panel" id="less_1" style="display: none;" onclick="toggle_display(this.id);toggle_display('more_1');toggle_row('rowExtra_1');" />
+			<img src="./images/plus.png" alt="[+]" title="Expand Extras Panel" id="more_1" style="display: inline;" onclick="toggle_display(this.id);toggle_display('less_1'); toggle_row('rowExtra_1');" />
+		</td>
+	</tr>
+	<tr class="thistle" style="display: none" id="rowExtra_1">
+		<td colspan="12">
+			<table>
+				<tr>
+					<td><label for="recorded_1_id">
+Date Recorded:</label><input type="text" name="recorded_1" id="recorded_1_id" class="date" value="" /></td>
+<td><label for="released_1_id">
+Date Released:</label><input type="text" name="released_1" id="released_1_id" class="date" value="" /></td>
+<td><label for="artistLink_1_id">
+Artist Link:</label><input type="text" name="artistLink_1" id="artistLink_1_id" class="link" value="" /></td>
+<td><label for="labelLink_1_id">
+Label Link:</label><input type="text" name="labelLink_1" id="labelLink_1_id" class="link" value="" /></td>
+<td><label for="region_1_id">
+Country/Region:</label><input type="text" name="region_1" id="region_1_id" class="region" value="" /></td>
+<td><label for="composer_1_id">
+Songwriter/Composer:</label><input type="text" name="composer_1" id="composer_1_id" class="composer" title="composer" value="" /></td>
+				</tr>
+				<tr>
+					<td colspan="6"><input type="text" name="note_1" class="note" title="You can add an optional comment or divider.  If blank, nothing is displayed" value="" /></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+<tr class="altThistle" title="2" id="row_2">
+		<td><select name="format_2" title="type or media format"><option value="">&nbsp;</option>
+<option value="1" selected="selected">CD</option>
+<option value="2">Vinyl</option>
+<option value="3">MP3</option>
+<option value="4">7&quot;</option>
+<option value="5">Other</option></select></td>
+		<td class="cbx"><input type="checkbox" name="personal_2" title="Personal: track from an album not in station record library" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="new_2" title="New: track from an album that is new" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="reissue_2" title="Reissue: track from a reissued album" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="local_2" title="Local: track from a local artist" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="request_2" title="Request: track requested by a listener" value="1" /></td>
+		<td><input type="text" name="artist_2" title="artist" value="Philip Malela and the Movers" /></td>
+		<td><input type="text" name="track_2" title="track" value="Intandane" /></td>
+		
+		<td><input type="text" name="album_2" title="album" value="Next Stop ... Soweto Vol. 2: Soultown. R&amp;B, Funk &amp; Psych Sounds from the Townships 1969-1976" /></td>
+		<td><input type="text" name="label_2" title="label" value="Strut" /></td>
+		<td><input type="text" name="timestamp_2" title="If the start time is AUTO then it will become the current time when you click UPDATE." class="timestamp" value="5:07am" /></td>
+		<td>
+			<input type="hidden" name="playlistTrackId_2" value="190583" />
+			<img src="./images/minus.png" alt="[-]" title="Collapse Extras Panel" id="less_2" style="display: none;" onclick="toggle_display(this.id);toggle_display('more_2');toggle_row('rowExtra_2');" />
+			<img src="./images/plus.png" alt="[+]" title="Expand Extras Panel" id="more_2" style="display: inline;" onclick="toggle_display(this.id);toggle_display('less_2'); toggle_row('rowExtra_2');" />
+		</td>
+	</tr>
+	<tr class="altThistle" style="display: none" id="rowExtra_2">
+		<td colspan="12">
+			<table>
+				<tr>
+					<td><label for="recorded_2_id">
+Date Recorded:</label><input type="text" name="recorded_2" id="recorded_2_id" class="date" value="" /></td>
+<td><label for="released_2_id">
+Date Released:</label><input type="text" name="released_2" id="released_2_id" class="date" value="" /></td>
+<td><label for="artistLink_2_id">
+Artist Link:</label><input type="text" name="artistLink_2" id="artistLink_2_id" class="link" value="" /></td>
+<td><label for="labelLink_2_id">
+Label Link:</label><input type="text" name="labelLink_2" id="labelLink_2_id" class="link" value="" /></td>
+<td><label for="region_2_id">
+Country/Region:</label><input type="text" name="region_2" id="region_2_id" class="region" value="" /></td>
+<td><label for="composer_2_id">
+Songwriter/Composer:</label><input type="text" name="composer_2" id="composer_2_id" class="composer" title="composer" value="" /></td>
+				</tr>
+				<tr>
+					<td colspan="6"><input type="text" name="note_2" class="note" title="You can add an optional comment or divider.  If blank, nothing is displayed" value="" /></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+<tr class="thistle" title="3" id="row_3">
+		<td><select name="format_3" title="type or media format"><option value="">&nbsp;</option>
+<option value="1" selected="selected">CD</option>
+<option value="2">Vinyl</option>
+<option value="3">MP3</option>
+<option value="4">7&quot;</option>
+<option value="5">Other</option></select></td>
+		<td class="cbx"><input type="checkbox" name="personal_3" title="Personal: track from an album not in station record library" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="new_3" title="New: track from an album that is new" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="reissue_3" title="Reissue: track from a reissued album" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="local_3" title="Local: track from a local artist" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="request_3" title="Request: track requested by a listener" value="1" /></td>
+		<td><input type="text" name="artist_3" title="artist" value="Wganda Kenya" /></td>
+		<td><input type="text" name="track_3" title="track" value="Shakalaode" /></td>
+		
+		<td><input type="text" name="album_3" title="album" value="Diablos del Ritmo 1960-1985: The Colombian Melting Pot" /></td>
+		<td><input type="text" name="label_3" title="label" value="Analog Africa" /></td>
+		<td><input type="text" name="timestamp_3" title="If the start time is AUTO then it will become the current time when you click UPDATE." class="timestamp" value="5:10am" /></td>
+		<td>
+			<input type="hidden" name="playlistTrackId_3" value="190584" />
+			<img src="./images/minus.png" alt="[-]" title="Collapse Extras Panel" id="less_3" style="display: none;" onclick="toggle_display(this.id);toggle_display('more_3');toggle_row('rowExtra_3');" />
+			<img src="./images/plus.png" alt="[+]" title="Expand Extras Panel" id="more_3" style="display: inline;" onclick="toggle_display(this.id);toggle_display('less_3'); toggle_row('rowExtra_3');" />
+		</td>
+	</tr>
+	<tr class="thistle" style="display: none" id="rowExtra_3">
+		<td colspan="12">
+			<table>
+				<tr>
+					<td><label for="recorded_3_id">
+Date Recorded:</label><input type="text" name="recorded_3" id="recorded_3_id" class="date" value="" /></td>
+<td><label for="released_3_id">
+Date Released:</label><input type="text" name="released_3" id="released_3_id" class="date" value="" /></td>
+<td><label for="artistLink_3_id">
+Artist Link:</label><input type="text" name="artistLink_3" id="artistLink_3_id" class="link" value="" /></td>
+<td><label for="labelLink_3_id">
+Label Link:</label><input type="text" name="labelLink_3" id="labelLink_3_id" class="link" value="" /></td>
+<td><label for="region_3_id">
+Country/Region:</label><input type="text" name="region_3" id="region_3_id" class="region" value="" /></td>
+<td><label for="composer_3_id">
+Songwriter/Composer:</label><input type="text" name="composer_3" id="composer_3_id" class="composer" title="composer" value="" /></td>
+				</tr>
+				<tr>
+					<td colspan="6"><input type="text" name="note_3" class="note" title="You can add an optional comment or divider.  If blank, nothing is displayed" value="" /></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+<tr class="altThistle" title="4" id="row_4">
+		<td><select name="format_4" title="type or media format"><option value="">&nbsp;</option>
+<option value="1" selected="selected">CD</option>
+<option value="2">Vinyl</option>
+<option value="3">MP3</option>
+<option value="4">7&quot;</option>
+<option value="5">Other</option></select></td>
+		<td class="cbx"><input type="checkbox" name="personal_4" title="Personal: track from an album not in station record library" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="new_4" title="New: track from an album that is new" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="reissue_4" title="Reissue: track from a reissued album" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="local_4" title="Local: track from a local artist" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="request_4" title="Request: track requested by a listener" value="1" /></td>
+		<td><input type="text" name="artist_4" title="artist" value="Monteria Swing" /></td>
+		<td><input type="text" name="track_4" title="track" value="La Samaria" /></td>
+		
+		<td><input type="text" name="album_4" title="album" value="Cumbia Cumbia 2" /></td>
+		<td><input type="text" name="label_4" title="label" value="World Circuit" /></td>
+		<td><input type="text" name="timestamp_4" title="If the start time is AUTO then it will become the current time when you click UPDATE." class="timestamp" value="5:19am" /></td>
+		<td>
+			<input type="hidden" name="playlistTrackId_4" value="190585" />
+			<img src="./images/minus.png" alt="[-]" title="Collapse Extras Panel" id="less_4" style="display: none;" onclick="toggle_display(this.id);toggle_display('more_4');toggle_row('rowExtra_4');" />
+			<img src="./images/plus.png" alt="[+]" title="Expand Extras Panel" id="more_4" style="display: inline;" onclick="toggle_display(this.id);toggle_display('less_4'); toggle_row('rowExtra_4');" />
+		</td>
+	</tr>
+	<tr class="altThistle" style="display: none" id="rowExtra_4">
+		<td colspan="12">
+			<table>
+				<tr>
+					<td><label for="recorded_4_id">
+Date Recorded:</label><input type="text" name="recorded_4" id="recorded_4_id" class="date" value="" /></td>
+<td><label for="released_4_id">
+Date Released:</label><input type="text" name="released_4" id="released_4_id" class="date" value="" /></td>
+<td><label for="artistLink_4_id">
+Artist Link:</label><input type="text" name="artistLink_4" id="artistLink_4_id" class="link" value="" /></td>
+<td><label for="labelLink_4_id">
+Label Link:</label><input type="text" name="labelLink_4" id="labelLink_4_id" class="link" value="" /></td>
+<td><label for="region_4_id">
+Country/Region:</label><input type="text" name="region_4" id="region_4_id" class="region" value="" /></td>
+<td><label for="composer_4_id">
+Songwriter/Composer:</label><input type="text" name="composer_4" id="composer_4_id" class="composer" title="composer" value="" /></td>
+				</tr>
+				<tr>
+					<td colspan="6"><input type="text" name="note_4" class="note" title="You can add an optional comment or divider.  If blank, nothing is displayed" value="" /></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+<tr class="thistle" title="5" id="row_5">
+		<td><select name="format_5" title="type or media format"><option value="">&nbsp;</option>
+<option value="1" selected="selected">CD</option>
+<option value="2">Vinyl</option>
+<option value="3">MP3</option>
+<option value="4">7&quot;</option>
+<option value="5">Other</option></select></td>
+		<td class="cbx"><input type="checkbox" name="personal_5" title="Personal: track from an album not in station record library" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="new_5" title="New: track from an album that is new" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="reissue_5" title="Reissue: track from a reissued album" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="local_5" title="Local: track from a local artist" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="request_5" title="Request: track requested by a listener" value="1" /></td>
+		<td><input type="text" name="artist_5" title="artist" value="Instituto Mexicano del Sonido" /></td>
+		<td><input type="text" name="track_5" title="track" value="Cumbia" /></td>
+		
+		<td><input type="text" name="album_5" title="album" value="Cumbia! Bestial" /></td>
+		<td><input type="text" name="label_5" title="label" value="Chusma" /></td>
+		<td><input type="text" name="timestamp_5" title="If the start time is AUTO then it will become the current time when you click UPDATE." class="timestamp" value="5:22am" /></td>
+		<td>
+			<input type="hidden" name="playlistTrackId_5" value="190586" />
+			<img src="./images/minus.png" alt="[-]" title="Collapse Extras Panel" id="less_5" style="display: none;" onclick="toggle_display(this.id);toggle_display('more_5');toggle_row('rowExtra_5');" />
+			<img src="./images/plus.png" alt="[+]" title="Expand Extras Panel" id="more_5" style="display: inline;" onclick="toggle_display(this.id);toggle_display('less_5'); toggle_row('rowExtra_5');" />
+		</td>
+	</tr>
+	<tr class="thistle" style="display: none" id="rowExtra_5">
+		<td colspan="12">
+			<table>
+				<tr>
+					<td><label for="recorded_5_id">
+Date Recorded:</label><input type="text" name="recorded_5" id="recorded_5_id" class="date" value="" /></td>
+<td><label for="released_5_id">
+Date Released:</label><input type="text" name="released_5" id="released_5_id" class="date" value="" /></td>
+<td><label for="artistLink_5_id">
+Artist Link:</label><input type="text" name="artistLink_5" id="artistLink_5_id" class="link" value="" /></td>
+<td><label for="labelLink_5_id">
+Label Link:</label><input type="text" name="labelLink_5" id="labelLink_5_id" class="link" value="" /></td>
+<td><label for="region_5_id">
+Country/Region:</label><input type="text" name="region_5" id="region_5_id" class="region" value="" /></td>
+<td><label for="composer_5_id">
+Songwriter/Composer:</label><input type="text" name="composer_5" id="composer_5_id" class="composer" title="composer" value="" /></td>
+				</tr>
+				<tr>
+					<td colspan="6"><input type="text" name="note_5" class="note" title="You can add an optional comment or divider.  If blank, nothing is displayed" value="" /></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+<tr class="altThistle" title="6" id="row_6">
+		<td><select name="format_6" title="type or media format"><option value="">&nbsp;</option>
+<option value="1" selected="selected">CD</option>
+<option value="2">Vinyl</option>
+<option value="3">MP3</option>
+<option value="4">7&quot;</option>
+<option value="5">Other</option></select></td>
+		<td class="cbx"><input type="checkbox" name="personal_6" title="Personal: track from an album not in station record library" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="new_6" title="New: track from an album that is new" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="reissue_6" title="Reissue: track from a reissued album" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="local_6" title="Local: track from a local artist" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="request_6" title="Request: track requested by a listener" value="1" /></td>
+		<td><input type="text" name="artist_6" title="artist" value="Tommy McCook" /></td>
+		<td><input type="text" name="track_6" title="track" value="Heatwave" /></td>
+		
+		<td><input type="text" name="album_6" title="album" value="200% Dynamite" /></td>
+		<td><input type="text" name="label_6" title="label" value="Soul Jazz" /></td>
+		<td><input type="text" name="timestamp_6" title="If the start time is AUTO then it will become the current time when you click UPDATE." class="timestamp" value="5:25am" /></td>
+		<td>
+			<input type="hidden" name="playlistTrackId_6" value="190587" />
+			<img src="./images/minus.png" alt="[-]" title="Collapse Extras Panel" id="less_6" style="display: none;" onclick="toggle_display(this.id);toggle_display('more_6');toggle_row('rowExtra_6');" />
+			<img src="./images/plus.png" alt="[+]" title="Expand Extras Panel" id="more_6" style="display: inline;" onclick="toggle_display(this.id);toggle_display('less_6'); toggle_row('rowExtra_6');" />
+		</td>
+	</tr>
+	<tr class="altThistle" style="display: none" id="rowExtra_6">
+		<td colspan="12">
+			<table>
+				<tr>
+					<td><label for="recorded_6_id">
+Date Recorded:</label><input type="text" name="recorded_6" id="recorded_6_id" class="date" value="" /></td>
+<td><label for="released_6_id">
+Date Released:</label><input type="text" name="released_6" id="released_6_id" class="date" value="" /></td>
+<td><label for="artistLink_6_id">
+Artist Link:</label><input type="text" name="artistLink_6" id="artistLink_6_id" class="link" value="" /></td>
+<td><label for="labelLink_6_id">
+Label Link:</label><input type="text" name="labelLink_6" id="labelLink_6_id" class="link" value="" /></td>
+<td><label for="region_6_id">
+Country/Region:</label><input type="text" name="region_6" id="region_6_id" class="region" value="" /></td>
+<td><label for="composer_6_id">
+Songwriter/Composer:</label><input type="text" name="composer_6" id="composer_6_id" class="composer" title="composer" value="" /></td>
+				</tr>
+				<tr>
+					<td colspan="6"><input type="text" name="note_6" class="note" title="You can add an optional comment or divider.  If blank, nothing is displayed" value="" /></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+<tr class="thistle" title="7" id="row_7">
+		<td><select name="format_7" title="type or media format"><option value="">&nbsp;</option>
+<option value="1" selected="selected">CD</option>
+<option value="2">Vinyl</option>
+<option value="3">MP3</option>
+<option value="4">7&quot;</option>
+<option value="5">Other</option></select></td>
+		<td class="cbx"><input type="checkbox" name="personal_7" title="Personal: track from an album not in station record library" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="new_7" title="New: track from an album that is new" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="reissue_7" title="Reissue: track from a reissued album" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="local_7" title="Local: track from a local artist" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="request_7" title="Request: track requested by a listener" value="1" /></td>
+		<td><input type="text" name="artist_7" title="artist" value="The Upsetters" /></td>
+		<td><input type="text" name="track_7" title="track" value="Heat Proof" /></td>
+		
+		<td><input type="text" name="album_7" title="album" value="The Upsetter" /></td>
+		<td><input type="text" name="label_7" title="label" value="Trojan" /></td>
+		<td><input type="text" name="timestamp_7" title="If the start time is AUTO then it will become the current time when you click UPDATE." class="timestamp" value="5:29am" /></td>
+		<td>
+			<input type="hidden" name="playlistTrackId_7" value="190588" />
+			<img src="./images/minus.png" alt="[-]" title="Collapse Extras Panel" id="less_7" style="display: none;" onclick="toggle_display(this.id);toggle_display('more_7');toggle_row('rowExtra_7');" />
+			<img src="./images/plus.png" alt="[+]" title="Expand Extras Panel" id="more_7" style="display: inline;" onclick="toggle_display(this.id);toggle_display('less_7'); toggle_row('rowExtra_7');" />
+		</td>
+	</tr>
+	<tr class="thistle" style="display: none" id="rowExtra_7">
+		<td colspan="12">
+			<table>
+				<tr>
+					<td><label for="recorded_7_id">
+Date Recorded:</label><input type="text" name="recorded_7" id="recorded_7_id" class="date" value="" /></td>
+<td><label for="released_7_id">
+Date Released:</label><input type="text" name="released_7" id="released_7_id" class="date" value="" /></td>
+<td><label for="artistLink_7_id">
+Artist Link:</label><input type="text" name="artistLink_7" id="artistLink_7_id" class="link" value="" /></td>
+<td><label for="labelLink_7_id">
+Label Link:</label><input type="text" name="labelLink_7" id="labelLink_7_id" class="link" value="" /></td>
+<td><label for="region_7_id">
+Country/Region:</label><input type="text" name="region_7" id="region_7_id" class="region" value="" /></td>
+<td><label for="composer_7_id">
+Songwriter/Composer:</label><input type="text" name="composer_7" id="composer_7_id" class="composer" title="composer" value="" /></td>
+				</tr>
+				<tr>
+					<td colspan="6"><input type="text" name="note_7" class="note" title="You can add an optional comment or divider.  If blank, nothing is displayed" value="" /></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+<tr class="altThistle" title="8" id="row_8">
+		<td><select name="format_8" title="type or media format"><option value="">&nbsp;</option>
+<option value="1" selected="selected">CD</option>
+<option value="2">Vinyl</option>
+<option value="3">MP3</option>
+<option value="4">7&quot;</option>
+<option value="5">Other</option></select></td>
+		<td class="cbx"><input type="checkbox" name="personal_8" title="Personal: track from an album not in station record library" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="new_8" title="New: track from an album that is new" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="reissue_8" title="Reissue: track from a reissued album" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="local_8" title="Local: track from a local artist" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="request_8" title="Request: track requested by a listener" value="1" /></td>
+		<td><input type="text" name="artist_8" title="artist" value="The Gaylads" /></td>
+		<td><input type="text" name="track_8" title="track" value="Africa" /></td>
+		
+		<td><input type="text" name="album_8" title="album" value="Mojo Presents Studio One Selector" /></td>
+		<td><input type="text" name="label_8" title="label" value="Mojo" /></td>
+		<td><input type="text" name="timestamp_8" title="If the start time is AUTO then it will become the current time when you click UPDATE." class="timestamp" value="5:31am" /></td>
+		<td>
+			<input type="hidden" name="playlistTrackId_8" value="190589" />
+			<img src="./images/minus.png" alt="[-]" title="Collapse Extras Panel" id="less_8" style="display: none;" onclick="toggle_display(this.id);toggle_display('more_8');toggle_row('rowExtra_8');" />
+			<img src="./images/plus.png" alt="[+]" title="Expand Extras Panel" id="more_8" style="display: inline;" onclick="toggle_display(this.id);toggle_display('less_8'); toggle_row('rowExtra_8');" />
+		</td>
+	</tr>
+	<tr class="altThistle" style="display: none" id="rowExtra_8">
+		<td colspan="12">
+			<table>
+				<tr>
+					<td><label for="recorded_8_id">
+Date Recorded:</label><input type="text" name="recorded_8" id="recorded_8_id" class="date" value="" /></td>
+<td><label for="released_8_id">
+Date Released:</label><input type="text" name="released_8" id="released_8_id" class="date" value="" /></td>
+<td><label for="artistLink_8_id">
+Artist Link:</label><input type="text" name="artistLink_8" id="artistLink_8_id" class="link" value="" /></td>
+<td><label for="labelLink_8_id">
+Label Link:</label><input type="text" name="labelLink_8" id="labelLink_8_id" class="link" value="" /></td>
+<td><label for="region_8_id">
+Country/Region:</label><input type="text" name="region_8" id="region_8_id" class="region" value="" /></td>
+<td><label for="composer_8_id">
+Songwriter/Composer:</label><input type="text" name="composer_8" id="composer_8_id" class="composer" title="composer" value="" /></td>
+				</tr>
+				<tr>
+					<td colspan="6"><input type="text" name="note_8" class="note" title="You can add an optional comment or divider.  If blank, nothing is displayed" value="" /></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+<tr class="thistle" title="9" id="row_9">
+		<td><select name="format_9" title="type or media format"><option value="">&nbsp;</option>
+<option value="1" selected="selected">CD</option>
+<option value="2">Vinyl</option>
+<option value="3">MP3</option>
+<option value="4">7&quot;</option>
+<option value="5">Other</option></select></td>
+		<td class="cbx"><input type="checkbox" name="personal_9" title="Personal: track from an album not in station record library" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="new_9" title="New: track from an album that is new" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="reissue_9" title="Reissue: track from a reissued album" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="local_9" title="Local: track from a local artist" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="request_9" title="Request: track requested by a listener" value="1" /></td>
+		<td><input type="text" name="artist_9" title="artist" value="The Roots" /></td>
+		<td><input type="text" name="track_9" title="track" value="Din Da Da" /></td>
+		
+		<td><input type="text" name="album_9" title="album" value="Home Grown! The Beginner&#039;s Guide To Understanding The Roots, Volume Two" /></td>
+		<td><input type="text" name="label_9" title="label" value="Geffen Records" /></td>
+		<td><input type="text" name="timestamp_9" title="If the start time is AUTO then it will become the current time when you click UPDATE." class="timestamp" value="5:35am" /></td>
+		<td>
+			<input type="hidden" name="playlistTrackId_9" value="190590" />
+			<img src="./images/minus.png" alt="[-]" title="Collapse Extras Panel" id="less_9" style="display: none;" onclick="toggle_display(this.id);toggle_display('more_9');toggle_row('rowExtra_9');" />
+			<img src="./images/plus.png" alt="[+]" title="Expand Extras Panel" id="more_9" style="display: inline;" onclick="toggle_display(this.id);toggle_display('less_9'); toggle_row('rowExtra_9');" />
+		</td>
+	</tr>
+	<tr class="thistle" style="display: none" id="rowExtra_9">
+		<td colspan="12">
+			<table>
+				<tr>
+					<td><label for="recorded_9_id">
+Date Recorded:</label><input type="text" name="recorded_9" id="recorded_9_id" class="date" value="" /></td>
+<td><label for="released_9_id">
+Date Released:</label><input type="text" name="released_9" id="released_9_id" class="date" value="" /></td>
+<td><label for="artistLink_9_id">
+Artist Link:</label><input type="text" name="artistLink_9" id="artistLink_9_id" class="link" value="" /></td>
+<td><label for="labelLink_9_id">
+Label Link:</label><input type="text" name="labelLink_9" id="labelLink_9_id" class="link" value="" /></td>
+<td><label for="region_9_id">
+Country/Region:</label><input type="text" name="region_9" id="region_9_id" class="region" value="" /></td>
+<td><label for="composer_9_id">
+Songwriter/Composer:</label><input type="text" name="composer_9" id="composer_9_id" class="composer" title="composer" value="" /></td>
+				</tr>
+				<tr>
+					<td colspan="6"><input type="text" name="note_9" class="note" title="You can add an optional comment or divider.  If blank, nothing is displayed" value="" /></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+<tr class="altThistle" title="10" id="row_10">
+		<td><select name="format_10" title="type or media format"><option value="">&nbsp;</option>
+<option value="1" selected="selected">CD</option>
+<option value="2">Vinyl</option>
+<option value="3">MP3</option>
+<option value="4">7&quot;</option>
+<option value="5">Other</option></select></td>
+		<td class="cbx"><input type="checkbox" name="personal_10" title="Personal: track from an album not in station record library" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="new_10" title="New: track from an album that is new" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="reissue_10" title="Reissue: track from a reissued album" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="local_10" title="Local: track from a local artist" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="request_10" title="Request: track requested by a listener" value="1" /></td>
+		<td><input type="text" name="artist_10" title="artist" value="Mighty Hannibal" /></td>
+		<td><input type="text" name="track_10" title="track" value="Get in the Groove" /></td>
+		
+		<td><input type="text" name="album_10" title="album" value="The Best of Loma Records: The Rise and Fall of a 1960&#039;s Soul Label" /></td>
+		<td><input type="text" name="label_10" title="label" value="Warner Archives" /></td>
+		<td><input type="text" name="timestamp_10" title="If the start time is AUTO then it will become the current time when you click UPDATE." class="timestamp" value="5:45am" /></td>
+		<td>
+			<input type="hidden" name="playlistTrackId_10" value="190591" />
+			<img src="./images/minus.png" alt="[-]" title="Collapse Extras Panel" id="less_10" style="display: none;" onclick="toggle_display(this.id);toggle_display('more_10');toggle_row('rowExtra_10');" />
+			<img src="./images/plus.png" alt="[+]" title="Expand Extras Panel" id="more_10" style="display: inline;" onclick="toggle_display(this.id);toggle_display('less_10'); toggle_row('rowExtra_10');" />
+		</td>
+	</tr>
+	<tr class="altThistle" style="display: none" id="rowExtra_10">
+		<td colspan="12">
+			<table>
+				<tr>
+					<td><label for="recorded_10_id">
+Date Recorded:</label><input type="text" name="recorded_10" id="recorded_10_id" class="date" value="" /></td>
+<td><label for="released_10_id">
+Date Released:</label><input type="text" name="released_10" id="released_10_id" class="date" value="" /></td>
+<td><label for="artistLink_10_id">
+Artist Link:</label><input type="text" name="artistLink_10" id="artistLink_10_id" class="link" value="" /></td>
+<td><label for="labelLink_10_id">
+Label Link:</label><input type="text" name="labelLink_10" id="labelLink_10_id" class="link" value="" /></td>
+<td><label for="region_10_id">
+Country/Region:</label><input type="text" name="region_10" id="region_10_id" class="region" value="" /></td>
+<td><label for="composer_10_id">
+Songwriter/Composer:</label><input type="text" name="composer_10" id="composer_10_id" class="composer" title="composer" value="" /></td>
+				</tr>
+				<tr>
+					<td colspan="6"><input type="text" name="note_10" class="note" title="You can add an optional comment or divider.  If blank, nothing is displayed" value="" /></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+<tr class="thistle" title="11" id="row_11">
+		<td><select name="format_11" title="type or media format"><option value="">&nbsp;</option>
+<option value="1" selected="selected">CD</option>
+<option value="2">Vinyl</option>
+<option value="3">MP3</option>
+<option value="4">7&quot;</option>
+<option value="5">Other</option></select></td>
+		<td class="cbx"><input type="checkbox" name="personal_11" title="Personal: track from an album not in station record library" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="new_11" title="New: track from an album that is new" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="reissue_11" title="Reissue: track from a reissued album" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="local_11" title="Local: track from a local artist" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="request_11" title="Request: track requested by a listener" value="1" /></td>
+		<td><input type="text" name="artist_11" title="artist" value="Elijah &amp; the Ebonites" /></td>
+		<td><input type="text" name="track_11" title="track" value="Hot Grits!!!" /></td>
+		
+		<td><input type="text" name="album_11" title="album" value="Eccentric Soul: The Capsoul Label" /></td>
+		<td><input type="text" name="label_11" title="label" value="Numero Group" /></td>
+		<td><input type="text" name="timestamp_11" title="If the start time is AUTO then it will become the current time when you click UPDATE." class="timestamp" value="5:47am" /></td>
+		<td>
+			<input type="hidden" name="playlistTrackId_11" value="190592" />
+			<img src="./images/minus.png" alt="[-]" title="Collapse Extras Panel" id="less_11" style="display: none;" onclick="toggle_display(this.id);toggle_display('more_11');toggle_row('rowExtra_11');" />
+			<img src="./images/plus.png" alt="[+]" title="Expand Extras Panel" id="more_11" style="display: inline;" onclick="toggle_display(this.id);toggle_display('less_11'); toggle_row('rowExtra_11');" />
+		</td>
+	</tr>
+	<tr class="thistle" style="display: none" id="rowExtra_11">
+		<td colspan="12">
+			<table>
+				<tr>
+					<td><label for="recorded_11_id">
+Date Recorded:</label><input type="text" name="recorded_11" id="recorded_11_id" class="date" value="" /></td>
+<td><label for="released_11_id">
+Date Released:</label><input type="text" name="released_11" id="released_11_id" class="date" value="" /></td>
+<td><label for="artistLink_11_id">
+Artist Link:</label><input type="text" name="artistLink_11" id="artistLink_11_id" class="link" value="" /></td>
+<td><label for="labelLink_11_id">
+Label Link:</label><input type="text" name="labelLink_11" id="labelLink_11_id" class="link" value="" /></td>
+<td><label for="region_11_id">
+Country/Region:</label><input type="text" name="region_11" id="region_11_id" class="region" value="" /></td>
+<td><label for="composer_11_id">
+Songwriter/Composer:</label><input type="text" name="composer_11" id="composer_11_id" class="composer" title="composer" value="" /></td>
+				</tr>
+				<tr>
+					<td colspan="6"><input type="text" name="note_11" class="note" title="You can add an optional comment or divider.  If blank, nothing is displayed" value="" /></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+<tr class="altThistle" title="12" id="row_12">
+		<td><select name="format_12" title="type or media format"><option value="">&nbsp;</option>
+<option value="1" selected="selected">CD</option>
+<option value="2">Vinyl</option>
+<option value="3">MP3</option>
+<option value="4">7&quot;</option>
+<option value="5">Other</option></select></td>
+		<td class="cbx"><input type="checkbox" name="personal_12" title="Personal: track from an album not in station record library" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="new_12" title="New: track from an album that is new" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="reissue_12" title="Reissue: track from a reissued album" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="local_12" title="Local: track from a local artist" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="request_12" title="Request: track requested by a listener" value="1" /></td>
+		<td><input type="text" name="artist_12" title="artist" value="The Fabulous Rhythm Makers" /></td>
+		<td><input type="text" name="track_12" title="track" value="Mini, Mini Afro Twist" /></td>
+		
+		<td><input type="text" name="album_12" title="album" value="Eccentric Soul; The Forte Label" /></td>
+		<td><input type="text" name="label_12" title="label" value="Numero Group" /></td>
+		<td><input type="text" name="timestamp_12" title="If the start time is AUTO then it will become the current time when you click UPDATE." class="timestamp" value="5:51am" /></td>
+		<td>
+			<input type="hidden" name="playlistTrackId_12" value="190593" />
+			<img src="./images/minus.png" alt="[-]" title="Collapse Extras Panel" id="less_12" style="display: none;" onclick="toggle_display(this.id);toggle_display('more_12');toggle_row('rowExtra_12');" />
+			<img src="./images/plus.png" alt="[+]" title="Expand Extras Panel" id="more_12" style="display: inline;" onclick="toggle_display(this.id);toggle_display('less_12'); toggle_row('rowExtra_12');" />
+		</td>
+	</tr>
+	<tr class="altThistle" style="display: none" id="rowExtra_12">
+		<td colspan="12">
+			<table>
+				<tr>
+					<td><label for="recorded_12_id">
+Date Recorded:</label><input type="text" name="recorded_12" id="recorded_12_id" class="date" value="" /></td>
+<td><label for="released_12_id">
+Date Released:</label><input type="text" name="released_12" id="released_12_id" class="date" value="" /></td>
+<td><label for="artistLink_12_id">
+Artist Link:</label><input type="text" name="artistLink_12" id="artistLink_12_id" class="link" value="" /></td>
+<td><label for="labelLink_12_id">
+Label Link:</label><input type="text" name="labelLink_12" id="labelLink_12_id" class="link" value="" /></td>
+<td><label for="region_12_id">
+Country/Region:</label><input type="text" name="region_12" id="region_12_id" class="region" value="" /></td>
+<td><label for="composer_12_id">
+Songwriter/Composer:</label><input type="text" name="composer_12" id="composer_12_id" class="composer" title="composer" value="" /></td>
+				</tr>
+				<tr>
+					<td colspan="6"><input type="text" name="note_12" class="note" title="You can add an optional comment or divider.  If blank, nothing is displayed" value="" /></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+<tr class="thistle" title="13" id="row_13">
+		<td><select name="format_13" title="type or media format"><option value="">&nbsp;</option>
+<option value="1" selected="selected">CD</option>
+<option value="2">Vinyl</option>
+<option value="3">MP3</option>
+<option value="4">7&quot;</option>
+<option value="5">Other</option></select></td>
+		<td class="cbx"><input type="checkbox" name="personal_13" title="Personal: track from an album not in station record library" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="new_13" title="New: track from an album that is new" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="reissue_13" title="Reissue: track from a reissued album" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="local_13" title="Local: track from a local artist" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="request_13" title="Request: track requested by a listener" value="1" /></td>
+		<td><input type="text" name="artist_13" title="artist" value="Ramblers International" /></td>
+		<td><input type="text" name="track_13" title="track" value="Nmere Dan Biribi Ara" /></td>
+		
+		<td><input type="text" name="album_13" title="album" value="The Hit Sound of the Ramblers Dance Band, Vol. 2" /></td>
+		<td><input type="text" name="label_13" title="label" value="Flame Tree" /></td>
+		<td><input type="text" name="timestamp_13" title="If the start time is AUTO then it will become the current time when you click UPDATE." class="timestamp" value="5:54am" /></td>
+		<td>
+			<input type="hidden" name="playlistTrackId_13" value="190594" />
+			<img src="./images/minus.png" alt="[-]" title="Collapse Extras Panel" id="less_13" style="display: none;" onclick="toggle_display(this.id);toggle_display('more_13');toggle_row('rowExtra_13');" />
+			<img src="./images/plus.png" alt="[+]" title="Expand Extras Panel" id="more_13" style="display: inline;" onclick="toggle_display(this.id);toggle_display('less_13'); toggle_row('rowExtra_13');" />
+		</td>
+	</tr>
+	<tr class="thistle" style="display: none" id="rowExtra_13">
+		<td colspan="12">
+			<table>
+				<tr>
+					<td><label for="recorded_13_id">
+Date Recorded:</label><input type="text" name="recorded_13" id="recorded_13_id" class="date" value="" /></td>
+<td><label for="released_13_id">
+Date Released:</label><input type="text" name="released_13" id="released_13_id" class="date" value="" /></td>
+<td><label for="artistLink_13_id">
+Artist Link:</label><input type="text" name="artistLink_13" id="artistLink_13_id" class="link" value="" /></td>
+<td><label for="labelLink_13_id">
+Label Link:</label><input type="text" name="labelLink_13" id="labelLink_13_id" class="link" value="" /></td>
+<td><label for="region_13_id">
+Country/Region:</label><input type="text" name="region_13" id="region_13_id" class="region" value="" /></td>
+<td><label for="composer_13_id">
+Songwriter/Composer:</label><input type="text" name="composer_13" id="composer_13_id" class="composer" title="composer" value="" /></td>
+				</tr>
+				<tr>
+					<td colspan="6"><input type="text" name="note_13" class="note" title="You can add an optional comment or divider.  If blank, nothing is displayed" value="" /></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+<tr class="altThistle" title="14" id="row_14">
+		<td><select name="format_14" title="type or media format"><option value="">&nbsp;</option>
+<option value="1" selected="selected">CD</option>
+<option value="2">Vinyl</option>
+<option value="3">MP3</option>
+<option value="4">7&quot;</option>
+<option value="5">Other</option></select></td>
+		<td class="cbx"><input type="checkbox" name="personal_14" title="Personal: track from an album not in station record library" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="new_14" title="New: track from an album that is new" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="reissue_14" title="Reissue: track from a reissued album" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="local_14" title="Local: track from a local artist" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="request_14" title="Request: track requested by a listener" value="1" /></td>
+		<td><input type="text" name="artist_14" title="artist" value="Godwin Omobuwa &amp; his Archibogs" /></td>
+		<td><input type="text" name="track_14" title="track" value="You Cheat Me You Cheat Me" /></td>
+		
+		<td><input type="text" name="album_14" title="album" value="Money No Be Sand" /></td>
+		<td><input type="text" name="label_14" title="label" value="Original Music" /></td>
+		<td><input type="text" name="timestamp_14" title="If the start time is AUTO then it will become the current time when you click UPDATE." class="timestamp" value="5:57am" /></td>
+		<td>
+			<input type="hidden" name="playlistTrackId_14" value="190595" />
+			<img src="./images/minus.png" alt="[-]" title="Collapse Extras Panel" id="less_14" style="display: none;" onclick="toggle_display(this.id);toggle_display('more_14');toggle_row('rowExtra_14');" />
+			<img src="./images/plus.png" alt="[+]" title="Expand Extras Panel" id="more_14" style="display: inline;" onclick="toggle_display(this.id);toggle_display('less_14'); toggle_row('rowExtra_14');" />
+		</td>
+	</tr>
+	<tr class="altThistle" style="display: none" id="rowExtra_14">
+		<td colspan="12">
+			<table>
+				<tr>
+					<td><label for="recorded_14_id">
+Date Recorded:</label><input type="text" name="recorded_14" id="recorded_14_id" class="date" value="" /></td>
+<td><label for="released_14_id">
+Date Released:</label><input type="text" name="released_14" id="released_14_id" class="date" value="" /></td>
+<td><label for="artistLink_14_id">
+Artist Link:</label><input type="text" name="artistLink_14" id="artistLink_14_id" class="link" value="" /></td>
+<td><label for="labelLink_14_id">
+Label Link:</label><input type="text" name="labelLink_14" id="labelLink_14_id" class="link" value="" /></td>
+<td><label for="region_14_id">
+Country/Region:</label><input type="text" name="region_14" id="region_14_id" class="region" value="" /></td>
+<td><label for="composer_14_id">
+Songwriter/Composer:</label><input type="text" name="composer_14" id="composer_14_id" class="composer" title="composer" value="" /></td>
+				</tr>
+				<tr>
+					<td colspan="6"><input type="text" name="note_14" class="note" title="You can add an optional comment or divider.  If blank, nothing is displayed" value="" /></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+<tr class="thistle" title="15" id="row_15">
+		<td><select name="format_15" title="type or media format"><option value="">&nbsp;</option>
+<option value="1" selected="selected">CD</option>
+<option value="2">Vinyl</option>
+<option value="3">MP3</option>
+<option value="4">7&quot;</option>
+<option value="5">Other</option></select></td>
+		<td class="cbx"><input type="checkbox" name="personal_15" title="Personal: track from an album not in station record library" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="new_15" title="New: track from an album that is new" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="reissue_15" title="Reissue: track from a reissued album" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="local_15" title="Local: track from a local artist" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="request_15" title="Request: track requested by a listener" value="1" /></td>
+		<td><input type="text" name="artist_15" title="artist" value="Wilson Moreira" /></td>
+		<td><input type="text" name="track_15" title="track" value="Quero Voce" /></td>
+		
+		<td><input type="text" name="album_15" title="album" value="Brazil - Roots - Samba" /></td>
+		<td><input type="text" name="label_15" title="label" value="Rounder" /></td>
+		<td><input type="text" name="timestamp_15" title="If the start time is AUTO then it will become the current time when you click UPDATE." class="timestamp" value="6:00am" /></td>
+		<td>
+			<input type="hidden" name="playlistTrackId_15" value="190596" />
+			<img src="./images/minus.png" alt="[-]" title="Collapse Extras Panel" id="less_15" style="display: none;" onclick="toggle_display(this.id);toggle_display('more_15');toggle_row('rowExtra_15');" />
+			<img src="./images/plus.png" alt="[+]" title="Expand Extras Panel" id="more_15" style="display: inline;" onclick="toggle_display(this.id);toggle_display('less_15'); toggle_row('rowExtra_15');" />
+		</td>
+	</tr>
+	<tr class="thistle" style="display: none" id="rowExtra_15">
+		<td colspan="12">
+			<table>
+				<tr>
+					<td><label for="recorded_15_id">
+Date Recorded:</label><input type="text" name="recorded_15" id="recorded_15_id" class="date" value="" /></td>
+<td><label for="released_15_id">
+Date Released:</label><input type="text" name="released_15" id="released_15_id" class="date" value="" /></td>
+<td><label for="artistLink_15_id">
+Artist Link:</label><input type="text" name="artistLink_15" id="artistLink_15_id" class="link" value="" /></td>
+<td><label for="labelLink_15_id">
+Label Link:</label><input type="text" name="labelLink_15" id="labelLink_15_id" class="link" value="" /></td>
+<td><label for="region_15_id">
+Country/Region:</label><input type="text" name="region_15" id="region_15_id" class="region" value="" /></td>
+<td><label for="composer_15_id">
+Songwriter/Composer:</label><input type="text" name="composer_15" id="composer_15_id" class="composer" title="composer" value="" /></td>
+				</tr>
+				<tr>
+					<td colspan="6"><input type="text" name="note_15" class="note" title="You can add an optional comment or divider.  If blank, nothing is displayed" value="" /></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+<tr class="altThistle" title="16" id="row_16">
+		<td><select name="format_16" title="type or media format"><option value="">&nbsp;</option>
+<option value="1" selected="selected">CD</option>
+<option value="2">Vinyl</option>
+<option value="3">MP3</option>
+<option value="4">7&quot;</option>
+<option value="5">Other</option></select></td>
+		<td class="cbx"><input type="checkbox" name="personal_16" title="Personal: track from an album not in station record library" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="new_16" title="New: track from an album that is new" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="reissue_16" title="Reissue: track from a reissued album" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="local_16" title="Local: track from a local artist" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="request_16" title="Request: track requested by a listener" value="1" /></td>
+		<td><input type="text" name="artist_16" title="artist" value="Joyce" /></td>
+		<td><input type="text" name="track_16" title="track" value="Improvisado" /></td>
+		
+		<td><input type="text" name="album_16" title="album" value="Joyce" /></td>
+		<td><input type="text" name="label_16" title="label" value="Philips" /></td>
+		<td><input type="text" name="timestamp_16" title="If the start time is AUTO then it will become the current time when you click UPDATE." class="timestamp" value="6:02am" /></td>
+		<td>
+			<input type="hidden" name="playlistTrackId_16" value="190597" />
+			<img src="./images/minus.png" alt="[-]" title="Collapse Extras Panel" id="less_16" style="display: none;" onclick="toggle_display(this.id);toggle_display('more_16');toggle_row('rowExtra_16');" />
+			<img src="./images/plus.png" alt="[+]" title="Expand Extras Panel" id="more_16" style="display: inline;" onclick="toggle_display(this.id);toggle_display('less_16'); toggle_row('rowExtra_16');" />
+		</td>
+	</tr>
+	<tr class="altThistle" style="display: none" id="rowExtra_16">
+		<td colspan="12">
+			<table>
+				<tr>
+					<td><label for="recorded_16_id">
+Date Recorded:</label><input type="text" name="recorded_16" id="recorded_16_id" class="date" value="" /></td>
+<td><label for="released_16_id">
+Date Released:</label><input type="text" name="released_16" id="released_16_id" class="date" value="" /></td>
+<td><label for="artistLink_16_id">
+Artist Link:</label><input type="text" name="artistLink_16" id="artistLink_16_id" class="link" value="" /></td>
+<td><label for="labelLink_16_id">
+Label Link:</label><input type="text" name="labelLink_16" id="labelLink_16_id" class="link" value="" /></td>
+<td><label for="region_16_id">
+Country/Region:</label><input type="text" name="region_16" id="region_16_id" class="region" value="" /></td>
+<td><label for="composer_16_id">
+Songwriter/Composer:</label><input type="text" name="composer_16" id="composer_16_id" class="composer" title="composer" value="" /></td>
+				</tr>
+				<tr>
+					<td colspan="6"><input type="text" name="note_16" class="note" title="You can add an optional comment or divider.  If blank, nothing is displayed" value="" /></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+<tr class="thistle" title="17" id="row_17">
+		<td><select name="format_17" title="type or media format"><option value="">&nbsp;</option>
+<option value="1" selected="selected">CD</option>
+<option value="2">Vinyl</option>
+<option value="3">MP3</option>
+<option value="4">7&quot;</option>
+<option value="5">Other</option></select></td>
+		<td class="cbx"><input type="checkbox" name="personal_17" title="Personal: track from an album not in station record library" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="new_17" title="New: track from an album that is new" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="reissue_17" title="Reissue: track from a reissued album" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="local_17" title="Local: track from a local artist" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="request_17" title="Request: track requested by a listener" value="1" /></td>
+		<td><input type="text" name="artist_17" title="artist" value="Love" /></td>
+		<td><input type="text" name="track_17" title="track" value="Everybody&#039;s Gotta Live" /></td>
+		
+		<td><input type="text" name="album_17" title="album" value="Reel to Real" /></td>
+		<td><input type="text" name="label_17" title="label" value="RSO" /></td>
+		<td><input type="text" name="timestamp_17" title="If the start time is AUTO then it will become the current time when you click UPDATE." class="timestamp" value="6:07am" /></td>
+		<td>
+			<input type="hidden" name="playlistTrackId_17" value="190598" />
+			<img src="./images/minus.png" alt="[-]" title="Collapse Extras Panel" id="less_17" style="display: none;" onclick="toggle_display(this.id);toggle_display('more_17');toggle_row('rowExtra_17');" />
+			<img src="./images/plus.png" alt="[+]" title="Expand Extras Panel" id="more_17" style="display: inline;" onclick="toggle_display(this.id);toggle_display('less_17'); toggle_row('rowExtra_17');" />
+		</td>
+	</tr>
+	<tr class="thistle" style="display: none" id="rowExtra_17">
+		<td colspan="12">
+			<table>
+				<tr>
+					<td><label for="recorded_17_id">
+Date Recorded:</label><input type="text" name="recorded_17" id="recorded_17_id" class="date" value="" /></td>
+<td><label for="released_17_id">
+Date Released:</label><input type="text" name="released_17" id="released_17_id" class="date" value="" /></td>
+<td><label for="artistLink_17_id">
+Artist Link:</label><input type="text" name="artistLink_17" id="artistLink_17_id" class="link" value="" /></td>
+<td><label for="labelLink_17_id">
+Label Link:</label><input type="text" name="labelLink_17" id="labelLink_17_id" class="link" value="" /></td>
+<td><label for="region_17_id">
+Country/Region:</label><input type="text" name="region_17" id="region_17_id" class="region" value="" /></td>
+<td><label for="composer_17_id">
+Songwriter/Composer:</label><input type="text" name="composer_17" id="composer_17_id" class="composer" title="composer" value="" /></td>
+				</tr>
+				<tr>
+					<td colspan="6"><input type="text" name="note_17" class="note" title="You can add an optional comment or divider.  If blank, nothing is displayed" value="" /></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+<tr class="altThistle" title="18" id="row_18">
+		<td><select name="format_18" title="type or media format"><option value="">&nbsp;</option>
+<option value="1" selected="selected">CD</option>
+<option value="2">Vinyl</option>
+<option value="3">MP3</option>
+<option value="4">7&quot;</option>
+<option value="5">Other</option></select></td>
+		<td class="cbx"><input type="checkbox" name="personal_18" title="Personal: track from an album not in station record library" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="new_18" title="New: track from an album that is new" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="reissue_18" title="Reissue: track from a reissued album" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="local_18" title="Local: track from a local artist" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="request_18" title="Request: track requested by a listener" value="1" /></td>
+		<td><input type="text" name="artist_18" title="artist" value="Ethel Waters" /></td>
+		<td><input type="text" name="track_18" title="track" value="Am I Blue?" /></td>
+		
+		<td><input type="text" name="album_18" title="album" value="The Classics Sampler" /></td>
+		<td><input type="text" name="label_18" title="label" value="Chronological Classics" /></td>
+		<td><input type="text" name="timestamp_18" title="If the start time is AUTO then it will become the current time when you click UPDATE." class="timestamp" value="6:10am" /></td>
+		<td>
+			<input type="hidden" name="playlistTrackId_18" value="190599" />
+			<img src="./images/minus.png" alt="[-]" title="Collapse Extras Panel" id="less_18" style="display: none;" onclick="toggle_display(this.id);toggle_display('more_18');toggle_row('rowExtra_18');" />
+			<img src="./images/plus.png" alt="[+]" title="Expand Extras Panel" id="more_18" style="display: inline;" onclick="toggle_display(this.id);toggle_display('less_18'); toggle_row('rowExtra_18');" />
+		</td>
+	</tr>
+	<tr class="altThistle" style="display: none" id="rowExtra_18">
+		<td colspan="12">
+			<table>
+				<tr>
+					<td><label for="recorded_18_id">
+Date Recorded:</label><input type="text" name="recorded_18" id="recorded_18_id" class="date" value="" /></td>
+<td><label for="released_18_id">
+Date Released:</label><input type="text" name="released_18" id="released_18_id" class="date" value="" /></td>
+<td><label for="artistLink_18_id">
+Artist Link:</label><input type="text" name="artistLink_18" id="artistLink_18_id" class="link" value="" /></td>
+<td><label for="labelLink_18_id">
+Label Link:</label><input type="text" name="labelLink_18" id="labelLink_18_id" class="link" value="" /></td>
+<td><label for="region_18_id">
+Country/Region:</label><input type="text" name="region_18" id="region_18_id" class="region" value="" /></td>
+<td><label for="composer_18_id">
+Songwriter/Composer:</label><input type="text" name="composer_18" id="composer_18_id" class="composer" title="composer" value="" /></td>
+				</tr>
+				<tr>
+					<td colspan="6"><input type="text" name="note_18" class="note" title="You can add an optional comment or divider.  If blank, nothing is displayed" value="" /></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+<tr class="thistle" title="19" id="row_19">
+		<td><select name="format_19" title="type or media format"><option value="">&nbsp;</option>
+<option value="1" selected="selected">CD</option>
+<option value="2">Vinyl</option>
+<option value="3">MP3</option>
+<option value="4">7&quot;</option>
+<option value="5">Other</option></select></td>
+		<td class="cbx"><input type="checkbox" name="personal_19" title="Personal: track from an album not in station record library" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="new_19" title="New: track from an album that is new" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="reissue_19" title="Reissue: track from a reissued album" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="local_19" title="Local: track from a local artist" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="request_19" title="Request: track requested by a listener" value="1" /></td>
+		<td><input type="text" name="artist_19" title="artist" value="Big Joe Turner" /></td>
+		<td><input type="text" name="track_19" title="track" value="Watch That Jive" /></td>
+		
+		<td><input type="text" name="album_19" title="album" value="Have No Fear, Big Joe Turner is Here" /></td>
+		<td><input type="text" name="label_19" title="label" value="Savoy" /></td>
+		<td><input type="text" name="timestamp_19" title="If the start time is AUTO then it will become the current time when you click UPDATE." class="timestamp" value="6:14am" /></td>
+		<td>
+			<input type="hidden" name="playlistTrackId_19" value="190600" />
+			<img src="./images/minus.png" alt="[-]" title="Collapse Extras Panel" id="less_19" style="display: none;" onclick="toggle_display(this.id);toggle_display('more_19');toggle_row('rowExtra_19');" />
+			<img src="./images/plus.png" alt="[+]" title="Expand Extras Panel" id="more_19" style="display: inline;" onclick="toggle_display(this.id);toggle_display('less_19'); toggle_row('rowExtra_19');" />
+		</td>
+	</tr>
+	<tr class="thistle" style="display: none" id="rowExtra_19">
+		<td colspan="12">
+			<table>
+				<tr>
+					<td><label for="recorded_19_id">
+Date Recorded:</label><input type="text" name="recorded_19" id="recorded_19_id" class="date" value="" /></td>
+<td><label for="released_19_id">
+Date Released:</label><input type="text" name="released_19" id="released_19_id" class="date" value="" /></td>
+<td><label for="artistLink_19_id">
+Artist Link:</label><input type="text" name="artistLink_19" id="artistLink_19_id" class="link" value="" /></td>
+<td><label for="labelLink_19_id">
+Label Link:</label><input type="text" name="labelLink_19" id="labelLink_19_id" class="link" value="" /></td>
+<td><label for="region_19_id">
+Country/Region:</label><input type="text" name="region_19" id="region_19_id" class="region" value="" /></td>
+<td><label for="composer_19_id">
+Songwriter/Composer:</label><input type="text" name="composer_19" id="composer_19_id" class="composer" title="composer" value="" /></td>
+				</tr>
+				<tr>
+					<td colspan="6"><input type="text" name="note_19" class="note" title="You can add an optional comment or divider.  If blank, nothing is displayed" value="" /></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+<tr class="altThistle" title="20" id="row_20">
+		<td><select name="format_20" title="type or media format"><option value="">&nbsp;</option>
+<option value="1" selected="selected">CD</option>
+<option value="2">Vinyl</option>
+<option value="3">MP3</option>
+<option value="4">7&quot;</option>
+<option value="5">Other</option></select></td>
+		<td class="cbx"><input type="checkbox" name="personal_20" title="Personal: track from an album not in station record library" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="new_20" title="New: track from an album that is new" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="reissue_20" title="Reissue: track from a reissued album" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="local_20" title="Local: track from a local artist" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="request_20" title="Request: track requested by a listener" value="1" /></td>
+		<td><input type="text" name="artist_20" title="artist" value="Willie Mercer" /></td>
+		<td><input type="text" name="track_20" title="track" value="Tightwad" /></td>
+		
+		<td><input type="text" name="album_20" title="album" value="Shout, Brother, Shout: 1950&#039;s R&amp;B from the Legendary Trumpet Records Label" /></td>
+		<td><input type="text" name="label_20" title="label" value="Alligator" /></td>
+		<td><input type="text" name="timestamp_20" title="If the start time is AUTO then it will become the current time when you click UPDATE." class="timestamp" value="6:16am" /></td>
+		<td>
+			<input type="hidden" name="playlistTrackId_20" value="190601" />
+			<img src="./images/minus.png" alt="[-]" title="Collapse Extras Panel" id="less_20" style="display: none;" onclick="toggle_display(this.id);toggle_display('more_20');toggle_row('rowExtra_20');" />
+			<img src="./images/plus.png" alt="[+]" title="Expand Extras Panel" id="more_20" style="display: inline;" onclick="toggle_display(this.id);toggle_display('less_20'); toggle_row('rowExtra_20');" />
+		</td>
+	</tr>
+	<tr class="altThistle" style="display: none" id="rowExtra_20">
+		<td colspan="12">
+			<table>
+				<tr>
+					<td><label for="recorded_20_id">
+Date Recorded:</label><input type="text" name="recorded_20" id="recorded_20_id" class="date" value="" /></td>
+<td><label for="released_20_id">
+Date Released:</label><input type="text" name="released_20" id="released_20_id" class="date" value="" /></td>
+<td><label for="artistLink_20_id">
+Artist Link:</label><input type="text" name="artistLink_20" id="artistLink_20_id" class="link" value="" /></td>
+<td><label for="labelLink_20_id">
+Label Link:</label><input type="text" name="labelLink_20" id="labelLink_20_id" class="link" value="" /></td>
+<td><label for="region_20_id">
+Country/Region:</label><input type="text" name="region_20" id="region_20_id" class="region" value="" /></td>
+<td><label for="composer_20_id">
+Songwriter/Composer:</label><input type="text" name="composer_20" id="composer_20_id" class="composer" title="composer" value="" /></td>
+				</tr>
+				<tr>
+					<td colspan="6"><input type="text" name="note_20" class="note" title="You can add an optional comment or divider.  If blank, nothing is displayed" value="" /></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+<tr class="thistle" title="21" id="row_21">
+		<td><select name="format_21" title="type or media format"><option value="">&nbsp;</option>
+<option value="1" selected="selected">CD</option>
+<option value="2">Vinyl</option>
+<option value="3">MP3</option>
+<option value="4">7&quot;</option>
+<option value="5">Other</option></select></td>
+		<td class="cbx"><input type="checkbox" name="personal_21" title="Personal: track from an album not in station record library" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="new_21" title="New: track from an album that is new" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="reissue_21" title="Reissue: track from a reissued album" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="local_21" title="Local: track from a local artist" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="request_21" title="Request: track requested by a listener" value="1" /></td>
+		<td><input type="text" name="artist_21" title="artist" value="Mahotella Queens" /></td>
+		<td><input type="text" name="track_21" title="track" value="Umuzwa Ngedwa" /></td>
+		
+		<td><input type="text" name="album_21" title="album" value="Classic Mbaqanga Girl Groups, vol 4" /></td>
+		<td><input type="text" name="label_21" title="label" value="Electric Jive" /></td>
+		<td><input type="text" name="timestamp_21" title="If the start time is AUTO then it will become the current time when you click UPDATE." class="timestamp" value="6:20am" /></td>
+		<td>
+			<input type="hidden" name="playlistTrackId_21" value="190602" />
+			<img src="./images/minus.png" alt="[-]" title="Collapse Extras Panel" id="less_21" style="display: none;" onclick="toggle_display(this.id);toggle_display('more_21');toggle_row('rowExtra_21');" />
+			<img src="./images/plus.png" alt="[+]" title="Expand Extras Panel" id="more_21" style="display: inline;" onclick="toggle_display(this.id);toggle_display('less_21'); toggle_row('rowExtra_21');" />
+		</td>
+	</tr>
+	<tr class="thistle" style="display: none" id="rowExtra_21">
+		<td colspan="12">
+			<table>
+				<tr>
+					<td><label for="recorded_21_id">
+Date Recorded:</label><input type="text" name="recorded_21" id="recorded_21_id" class="date" value="" /></td>
+<td><label for="released_21_id">
+Date Released:</label><input type="text" name="released_21" id="released_21_id" class="date" value="" /></td>
+<td><label for="artistLink_21_id">
+Artist Link:</label><input type="text" name="artistLink_21" id="artistLink_21_id" class="link" value="" /></td>
+<td><label for="labelLink_21_id">
+Label Link:</label><input type="text" name="labelLink_21" id="labelLink_21_id" class="link" value="" /></td>
+<td><label for="region_21_id">
+Country/Region:</label><input type="text" name="region_21" id="region_21_id" class="region" value="" /></td>
+<td><label for="composer_21_id">
+Songwriter/Composer:</label><input type="text" name="composer_21" id="composer_21_id" class="composer" title="composer" value="" /></td>
+				</tr>
+				<tr>
+					<td colspan="6"><input type="text" name="note_21" class="note" title="You can add an optional comment or divider.  If blank, nothing is displayed" value="" /></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+<tr class="altThistle" title="22" id="row_22">
+		<td><select name="format_22" title="type or media format"><option value="">&nbsp;</option>
+<option value="1" selected="selected">CD</option>
+<option value="2">Vinyl</option>
+<option value="3">MP3</option>
+<option value="4">7&quot;</option>
+<option value="5">Other</option></select></td>
+		<td class="cbx"><input type="checkbox" name="personal_22" title="Personal: track from an album not in station record library" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="new_22" title="New: track from an album that is new" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="reissue_22" title="Reissue: track from a reissued album" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="local_22" title="Local: track from a local artist" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="request_22" title="Request: track requested by a listener" value="1" /></td>
+		<td><input type="text" name="artist_22" title="artist" value="Gwigwi Mrwebi" /></td>
+		<td><input type="text" name="track_22" title="track" value="Ezindongeni" /></td>
+		
+		<td><input type="text" name="album_22" title="album" value="Mbaqanga Songs" /></td>
+		<td><input type="text" name="label_22" title="label" value="Honest Jon&#039;s Records" /></td>
+		<td><input type="text" name="timestamp_22" title="If the start time is AUTO then it will become the current time when you click UPDATE." class="timestamp" value="6:22am" /></td>
+		<td>
+			<input type="hidden" name="playlistTrackId_22" value="190603" />
+			<img src="./images/minus.png" alt="[-]" title="Collapse Extras Panel" id="less_22" style="display: none;" onclick="toggle_display(this.id);toggle_display('more_22');toggle_row('rowExtra_22');" />
+			<img src="./images/plus.png" alt="[+]" title="Expand Extras Panel" id="more_22" style="display: inline;" onclick="toggle_display(this.id);toggle_display('less_22'); toggle_row('rowExtra_22');" />
+		</td>
+	</tr>
+	<tr class="altThistle" style="display: none" id="rowExtra_22">
+		<td colspan="12">
+			<table>
+				<tr>
+					<td><label for="recorded_22_id">
+Date Recorded:</label><input type="text" name="recorded_22" id="recorded_22_id" class="date" value="" /></td>
+<td><label for="released_22_id">
+Date Released:</label><input type="text" name="released_22" id="released_22_id" class="date" value="" /></td>
+<td><label for="artistLink_22_id">
+Artist Link:</label><input type="text" name="artistLink_22" id="artistLink_22_id" class="link" value="" /></td>
+<td><label for="labelLink_22_id">
+Label Link:</label><input type="text" name="labelLink_22" id="labelLink_22_id" class="link" value="" /></td>
+<td><label for="region_22_id">
+Country/Region:</label><input type="text" name="region_22" id="region_22_id" class="region" value="" /></td>
+<td><label for="composer_22_id">
+Songwriter/Composer:</label><input type="text" name="composer_22" id="composer_22_id" class="composer" title="composer" value="" /></td>
+				</tr>
+				<tr>
+					<td colspan="6"><input type="text" name="note_22" class="note" title="You can add an optional comment or divider.  If blank, nothing is displayed" value="" /></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+<tr class="thistle" title="23" id="row_23">
+		<td><select name="format_23" title="type or media format"><option value="">&nbsp;</option>
+<option value="1" selected="selected">CD</option>
+<option value="2">Vinyl</option>
+<option value="3">MP3</option>
+<option value="4">7&quot;</option>
+<option value="5">Other</option></select></td>
+		<td class="cbx"><input type="checkbox" name="personal_23" title="Personal: track from an album not in station record library" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="new_23" title="New: track from an album that is new" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="reissue_23" title="Reissue: track from a reissued album" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="local_23" title="Local: track from a local artist" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="request_23" title="Request: track requested by a listener" value="1" /></td>
+		<td><input type="text" name="artist_23" title="artist" value="Delroy Wilson" /></td>
+		<td><input type="text" name="track_23" title="track" value="I Want Justice" /></td>
+		
+		<td><input type="text" name="album_23" title="album" value="Mojo Presents Studio One Selector" /></td>
+		<td><input type="text" name="label_23" title="label" value="Mojo" /></td>
+		<td><input type="text" name="timestamp_23" title="If the start time is AUTO then it will become the current time when you click UPDATE." class="timestamp" value="6:26am" /></td>
+		<td>
+			<input type="hidden" name="playlistTrackId_23" value="190604" />
+			<img src="./images/minus.png" alt="[-]" title="Collapse Extras Panel" id="less_23" style="display: none;" onclick="toggle_display(this.id);toggle_display('more_23');toggle_row('rowExtra_23');" />
+			<img src="./images/plus.png" alt="[+]" title="Expand Extras Panel" id="more_23" style="display: inline;" onclick="toggle_display(this.id);toggle_display('less_23'); toggle_row('rowExtra_23');" />
+		</td>
+	</tr>
+	<tr class="thistle" style="display: none" id="rowExtra_23">
+		<td colspan="12">
+			<table>
+				<tr>
+					<td><label for="recorded_23_id">
+Date Recorded:</label><input type="text" name="recorded_23" id="recorded_23_id" class="date" value="" /></td>
+<td><label for="released_23_id">
+Date Released:</label><input type="text" name="released_23" id="released_23_id" class="date" value="" /></td>
+<td><label for="artistLink_23_id">
+Artist Link:</label><input type="text" name="artistLink_23" id="artistLink_23_id" class="link" value="" /></td>
+<td><label for="labelLink_23_id">
+Label Link:</label><input type="text" name="labelLink_23" id="labelLink_23_id" class="link" value="" /></td>
+<td><label for="region_23_id">
+Country/Region:</label><input type="text" name="region_23" id="region_23_id" class="region" value="" /></td>
+<td><label for="composer_23_id">
+Songwriter/Composer:</label><input type="text" name="composer_23" id="composer_23_id" class="composer" title="composer" value="" /></td>
+				</tr>
+				<tr>
+					<td colspan="6"><input type="text" name="note_23" class="note" title="You can add an optional comment or divider.  If blank, nothing is displayed" value="" /></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+<tr class="altThistle" title="24" id="row_24">
+		<td><select name="format_24" title="type or media format"><option value="">&nbsp;</option>
+<option value="1" selected="selected">CD</option>
+<option value="2">Vinyl</option>
+<option value="3">MP3</option>
+<option value="4">7&quot;</option>
+<option value="5">Other</option></select></td>
+		<td class="cbx"><input type="checkbox" name="personal_24" title="Personal: track from an album not in station record library" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="new_24" title="New: track from an album that is new" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="reissue_24" title="Reissue: track from a reissued album" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="local_24" title="Local: track from a local artist" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="request_24" title="Request: track requested by a listener" value="1" /></td>
+		<td><input type="text" name="artist_24" title="artist" value="Detroit Emeralds" /></td>
+		<td><input type="text" name="track_24" title="track" value="Things are Looking Up" /></td>
+		
+		<td><input type="text" name="album_24" title="album" value="The Westbound Sound of Detroit" /></td>
+		<td><input type="text" name="label_24" title="label" value="Westbound" /></td>
+		<td><input type="text" name="timestamp_24" title="If the start time is AUTO then it will become the current time when you click UPDATE." class="timestamp" value="6:28am" /></td>
+		<td>
+			<input type="hidden" name="playlistTrackId_24" value="190605" />
+			<img src="./images/minus.png" alt="[-]" title="Collapse Extras Panel" id="less_24" style="display: none;" onclick="toggle_display(this.id);toggle_display('more_24');toggle_row('rowExtra_24');" />
+			<img src="./images/plus.png" alt="[+]" title="Expand Extras Panel" id="more_24" style="display: inline;" onclick="toggle_display(this.id);toggle_display('less_24'); toggle_row('rowExtra_24');" />
+		</td>
+	</tr>
+	<tr class="altThistle" style="display: none" id="rowExtra_24">
+		<td colspan="12">
+			<table>
+				<tr>
+					<td><label for="recorded_24_id">
+Date Recorded:</label><input type="text" name="recorded_24" id="recorded_24_id" class="date" value="" /></td>
+<td><label for="released_24_id">
+Date Released:</label><input type="text" name="released_24" id="released_24_id" class="date" value="" /></td>
+<td><label for="artistLink_24_id">
+Artist Link:</label><input type="text" name="artistLink_24" id="artistLink_24_id" class="link" value="" /></td>
+<td><label for="labelLink_24_id">
+Label Link:</label><input type="text" name="labelLink_24" id="labelLink_24_id" class="link" value="" /></td>
+<td><label for="region_24_id">
+Country/Region:</label><input type="text" name="region_24" id="region_24_id" class="region" value="" /></td>
+<td><label for="composer_24_id">
+Songwriter/Composer:</label><input type="text" name="composer_24" id="composer_24_id" class="composer" title="composer" value="" /></td>
+				</tr>
+				<tr>
+					<td colspan="6"><input type="text" name="note_24" class="note" title="You can add an optional comment or divider.  If blank, nothing is displayed" value="" /></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+<tr class="thistle" title="25" id="row_25">
+		<td><select name="format_25" title="type or media format"><option value="">&nbsp;</option>
+<option value="1" selected="selected">CD</option>
+<option value="2">Vinyl</option>
+<option value="3">MP3</option>
+<option value="4">7&quot;</option>
+<option value="5">Other</option></select></td>
+		<td class="cbx"><input type="checkbox" name="personal_25" title="Personal: track from an album not in station record library" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="new_25" title="New: track from an album that is new" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="reissue_25" title="Reissue: track from a reissued album" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="local_25" title="Local: track from a local artist" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="request_25" title="Request: track requested by a listener" value="1" /></td>
+		<td><input type="text" name="artist_25" title="artist" value="Madison&#039;s Lively Stones" /></td>
+		<td><input type="text" name="track_25" title="track" value="Never Going to Let You Go" /></td>
+		
+		<td><input type="text" name="album_25" title="album" value="Saints&#039; Paradise: Trombone Shout Bands from the United House of Prayer" /></td>
+		<td><input type="text" name="label_25" title="label" value="Smithsonian Folkways" /></td>
+		<td><input type="text" name="timestamp_25" title="If the start time is AUTO then it will become the current time when you click UPDATE." class="timestamp" value="6:34am" /></td>
+		<td>
+			<input type="hidden" name="playlistTrackId_25" value="190606" />
+			<img src="./images/minus.png" alt="[-]" title="Collapse Extras Panel" id="less_25" style="display: none;" onclick="toggle_display(this.id);toggle_display('more_25');toggle_row('rowExtra_25');" />
+			<img src="./images/plus.png" alt="[+]" title="Expand Extras Panel" id="more_25" style="display: inline;" onclick="toggle_display(this.id);toggle_display('less_25'); toggle_row('rowExtra_25');" />
+		</td>
+	</tr>
+	<tr class="thistle" style="display: none" id="rowExtra_25">
+		<td colspan="12">
+			<table>
+				<tr>
+					<td><label for="recorded_25_id">
+Date Recorded:</label><input type="text" name="recorded_25" id="recorded_25_id" class="date" value="" /></td>
+<td><label for="released_25_id">
+Date Released:</label><input type="text" name="released_25" id="released_25_id" class="date" value="" /></td>
+<td><label for="artistLink_25_id">
+Artist Link:</label><input type="text" name="artistLink_25" id="artistLink_25_id" class="link" value="" /></td>
+<td><label for="labelLink_25_id">
+Label Link:</label><input type="text" name="labelLink_25" id="labelLink_25_id" class="link" value="" /></td>
+<td><label for="region_25_id">
+Country/Region:</label><input type="text" name="region_25" id="region_25_id" class="region" value="" /></td>
+<td><label for="composer_25_id">
+Songwriter/Composer:</label><input type="text" name="composer_25" id="composer_25_id" class="composer" title="composer" value="" /></td>
+				</tr>
+				<tr>
+					<td colspan="6"><input type="text" name="note_25" class="note" title="You can add an optional comment or divider.  If blank, nothing is displayed" value="" /></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+<tr class="altThistle" title="26" id="row_26">
+		<td><select name="format_26" title="type or media format"><option value="">&nbsp;</option>
+<option value="1" selected="selected">CD</option>
+<option value="2">Vinyl</option>
+<option value="3">MP3</option>
+<option value="4">7&quot;</option>
+<option value="5">Other</option></select></td>
+		<td class="cbx"><input type="checkbox" name="personal_26" title="Personal: track from an album not in station record library" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="new_26" title="New: track from an album that is new" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="reissue_26" title="Reissue: track from a reissued album" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="local_26" title="Local: track from a local artist" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="request_26" title="Request: track requested by a listener" value="1" /></td>
+		<td><input type="text" name="artist_26" title="artist" value="Marvin Gaye" /></td>
+		<td><input type="text" name="track_26" title="track" value="&#039;T&#039; Plays It Cool" /></td>
+		
+		<td><input type="text" name="album_26" title="album" value="Trouble Man" /></td>
+		<td><input type="text" name="label_26" title="label" value="Tamla" /></td>
+		<td><input type="text" name="timestamp_26" title="If the start time is AUTO then it will become the current time when you click UPDATE." class="timestamp" value="6:37am" /></td>
+		<td>
+			<input type="hidden" name="playlistTrackId_26" value="190607" />
+			<img src="./images/minus.png" alt="[-]" title="Collapse Extras Panel" id="less_26" style="display: none;" onclick="toggle_display(this.id);toggle_display('more_26');toggle_row('rowExtra_26');" />
+			<img src="./images/plus.png" alt="[+]" title="Expand Extras Panel" id="more_26" style="display: inline;" onclick="toggle_display(this.id);toggle_display('less_26'); toggle_row('rowExtra_26');" />
+		</td>
+	</tr>
+	<tr class="altThistle" style="display: none" id="rowExtra_26">
+		<td colspan="12">
+			<table>
+				<tr>
+					<td><label for="recorded_26_id">
+Date Recorded:</label><input type="text" name="recorded_26" id="recorded_26_id" class="date" value="" /></td>
+<td><label for="released_26_id">
+Date Released:</label><input type="text" name="released_26" id="released_26_id" class="date" value="" /></td>
+<td><label for="artistLink_26_id">
+Artist Link:</label><input type="text" name="artistLink_26" id="artistLink_26_id" class="link" value="" /></td>
+<td><label for="labelLink_26_id">
+Label Link:</label><input type="text" name="labelLink_26" id="labelLink_26_id" class="link" value="" /></td>
+<td><label for="region_26_id">
+Country/Region:</label><input type="text" name="region_26" id="region_26_id" class="region" value="" /></td>
+<td><label for="composer_26_id">
+Songwriter/Composer:</label><input type="text" name="composer_26" id="composer_26_id" class="composer" title="composer" value="" /></td>
+				</tr>
+				<tr>
+					<td colspan="6"><input type="text" name="note_26" class="note" title="You can add an optional comment or divider.  If blank, nothing is displayed" value="" /></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+<tr class="thistle" title="27" id="row_27">
+		<td><select name="format_27" title="type or media format"><option value="">&nbsp;</option>
+<option value="1" selected="selected">CD</option>
+<option value="2">Vinyl</option>
+<option value="3">MP3</option>
+<option value="4">7&quot;</option>
+<option value="5">Other</option></select></td>
+		<td class="cbx"><input type="checkbox" name="personal_27" title="Personal: track from an album not in station record library" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="new_27" title="New: track from an album that is new" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="reissue_27" title="Reissue: track from a reissued album" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="local_27" title="Local: track from a local artist" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="request_27" title="Request: track requested by a listener" value="1" /></td>
+		<td><input type="text" name="artist_27" title="artist" value="The Quantic Soul Orchestra" /></td>
+		<td><input type="text" name="track_27" title="track" value="West Pier Getdown" /></td>
+		
+		<td><input type="text" name="album_27" title="album" value="Pushin&#039; On" /></td>
+		<td><input type="text" name="label_27" title="label" value="Tru Thoughts" /></td>
+		<td><input type="text" name="timestamp_27" title="If the start time is AUTO then it will become the current time when you click UPDATE." class="timestamp" value="6:41am" /></td>
+		<td>
+			<input type="hidden" name="playlistTrackId_27" value="190608" />
+			<img src="./images/minus.png" alt="[-]" title="Collapse Extras Panel" id="less_27" style="display: none;" onclick="toggle_display(this.id);toggle_display('more_27');toggle_row('rowExtra_27');" />
+			<img src="./images/plus.png" alt="[+]" title="Expand Extras Panel" id="more_27" style="display: inline;" onclick="toggle_display(this.id);toggle_display('less_27'); toggle_row('rowExtra_27');" />
+		</td>
+	</tr>
+	<tr class="thistle" style="display: none" id="rowExtra_27">
+		<td colspan="12">
+			<table>
+				<tr>
+					<td><label for="recorded_27_id">
+Date Recorded:</label><input type="text" name="recorded_27" id="recorded_27_id" class="date" value="" /></td>
+<td><label for="released_27_id">
+Date Released:</label><input type="text" name="released_27" id="released_27_id" class="date" value="" /></td>
+<td><label for="artistLink_27_id">
+Artist Link:</label><input type="text" name="artistLink_27" id="artistLink_27_id" class="link" value="" /></td>
+<td><label for="labelLink_27_id">
+Label Link:</label><input type="text" name="labelLink_27" id="labelLink_27_id" class="link" value="" /></td>
+<td><label for="region_27_id">
+Country/Region:</label><input type="text" name="region_27" id="region_27_id" class="region" value="" /></td>
+<td><label for="composer_27_id">
+Songwriter/Composer:</label><input type="text" name="composer_27" id="composer_27_id" class="composer" title="composer" value="" /></td>
+				</tr>
+				<tr>
+					<td colspan="6"><input type="text" name="note_27" class="note" title="You can add an optional comment or divider.  If blank, nothing is displayed" value="" /></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+<tr class="altThistle" title="28" id="row_28">
+		<td><select name="format_28" title="type or media format"><option value="">&nbsp;</option>
+<option value="1" selected="selected">CD</option>
+<option value="2">Vinyl</option>
+<option value="3">MP3</option>
+<option value="4">7&quot;</option>
+<option value="5">Other</option></select></td>
+		<td class="cbx"><input type="checkbox" name="personal_28" title="Personal: track from an album not in station record library" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="new_28" title="New: track from an album that is new" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="reissue_28" title="Reissue: track from a reissued album" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="local_28" title="Local: track from a local artist" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="request_28" title="Request: track requested by a listener" value="1" /></td>
+		<td><input type="text" name="artist_28" title="artist" value="Houria Aichi" /></td>
+		<td><input type="text" name="track_28" title="track" value="Vent de la Montagne/Six Sous" /></td>
+		
+		<td><input type="text" name="album_28" title="album" value="Rough Guide to the Music of North Africa" /></td>
+		<td><input type="text" name="label_28" title="label" value="Rough Guides" /></td>
+		<td><input type="text" name="timestamp_28" title="If the start time is AUTO then it will become the current time when you click UPDATE." class="timestamp" value="6:46am" /></td>
+		<td>
+			<input type="hidden" name="playlistTrackId_28" value="190609" />
+			<img src="./images/minus.png" alt="[-]" title="Collapse Extras Panel" id="less_28" style="display: none;" onclick="toggle_display(this.id);toggle_display('more_28');toggle_row('rowExtra_28');" />
+			<img src="./images/plus.png" alt="[+]" title="Expand Extras Panel" id="more_28" style="display: inline;" onclick="toggle_display(this.id);toggle_display('less_28'); toggle_row('rowExtra_28');" />
+		</td>
+	</tr>
+	<tr class="altThistle" style="display: none" id="rowExtra_28">
+		<td colspan="12">
+			<table>
+				<tr>
+					<td><label for="recorded_28_id">
+Date Recorded:</label><input type="text" name="recorded_28" id="recorded_28_id" class="date" value="" /></td>
+<td><label for="released_28_id">
+Date Released:</label><input type="text" name="released_28" id="released_28_id" class="date" value="" /></td>
+<td><label for="artistLink_28_id">
+Artist Link:</label><input type="text" name="artistLink_28" id="artistLink_28_id" class="link" value="" /></td>
+<td><label for="labelLink_28_id">
+Label Link:</label><input type="text" name="labelLink_28" id="labelLink_28_id" class="link" value="" /></td>
+<td><label for="region_28_id">
+Country/Region:</label><input type="text" name="region_28" id="region_28_id" class="region" value="" /></td>
+<td><label for="composer_28_id">
+Songwriter/Composer:</label><input type="text" name="composer_28" id="composer_28_id" class="composer" title="composer" value="" /></td>
+				</tr>
+				<tr>
+					<td colspan="6"><input type="text" name="note_28" class="note" title="You can add an optional comment or divider.  If blank, nothing is displayed" value="" /></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+<tr class="thistle" title="29" id="row_29">
+		<td><select name="format_29" title="type or media format"><option value="">&nbsp;</option>
+<option value="1" selected="selected">CD</option>
+<option value="2">Vinyl</option>
+<option value="3">MP3</option>
+<option value="4">7&quot;</option>
+<option value="5">Other</option></select></td>
+		<td class="cbx"><input type="checkbox" name="personal_29" title="Personal: track from an album not in station record library" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="new_29" title="New: track from an album that is new" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="reissue_29" title="Reissue: track from a reissued album" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="local_29" title="Local: track from a local artist" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="request_29" title="Request: track requested by a listener" value="1" /></td>
+		<td><input type="text" name="artist_29" title="artist" value="Thelonious Monk" /></td>
+		<td><input type="text" name="track_29" title="track" value="Nutty" /></td>
+		
+		<td><input type="text" name="album_29" title="album" value="The Columbia Years (1962-1968)" /></td>
+		<td><input type="text" name="label_29" title="label" value="Columbia" /></td>
+		<td><input type="text" name="timestamp_29" title="If the start time is AUTO then it will become the current time when you click UPDATE." class="timestamp" value="6:51am" /></td>
+		<td>
+			<input type="hidden" name="playlistTrackId_29" value="190610" />
+			<img src="./images/minus.png" alt="[-]" title="Collapse Extras Panel" id="less_29" style="display: none;" onclick="toggle_display(this.id);toggle_display('more_29');toggle_row('rowExtra_29');" />
+			<img src="./images/plus.png" alt="[+]" title="Expand Extras Panel" id="more_29" style="display: inline;" onclick="toggle_display(this.id);toggle_display('less_29'); toggle_row('rowExtra_29');" />
+		</td>
+	</tr>
+	<tr class="thistle" style="display: none" id="rowExtra_29">
+		<td colspan="12">
+			<table>
+				<tr>
+					<td><label for="recorded_29_id">
+Date Recorded:</label><input type="text" name="recorded_29" id="recorded_29_id" class="date" value="" /></td>
+<td><label for="released_29_id">
+Date Released:</label><input type="text" name="released_29" id="released_29_id" class="date" value="" /></td>
+<td><label for="artistLink_29_id">
+Artist Link:</label><input type="text" name="artistLink_29" id="artistLink_29_id" class="link" value="" /></td>
+<td><label for="labelLink_29_id">
+Label Link:</label><input type="text" name="labelLink_29" id="labelLink_29_id" class="link" value="" /></td>
+<td><label for="region_29_id">
+Country/Region:</label><input type="text" name="region_29" id="region_29_id" class="region" value="" /></td>
+<td><label for="composer_29_id">
+Songwriter/Composer:</label><input type="text" name="composer_29" id="composer_29_id" class="composer" title="composer" value="" /></td>
+				</tr>
+				<tr>
+					<td colspan="6"><input type="text" name="note_29" class="note" title="You can add an optional comment or divider.  If blank, nothing is displayed" value="" /></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+<tr class="altThistle" title="30" id="row_30">
+		<td><select name="format_30" title="type or media format"><option value="">&nbsp;</option>
+<option value="1" selected="selected">CD</option>
+<option value="2">Vinyl</option>
+<option value="3">MP3</option>
+<option value="4">7&quot;</option>
+<option value="5">Other</option></select></td>
+		<td class="cbx"><input type="checkbox" name="personal_30" title="Personal: track from an album not in station record library" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="new_30" title="New: track from an album that is new" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="reissue_30" title="Reissue: track from a reissued album" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="local_30" title="Local: track from a local artist" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="request_30" title="Request: track requested by a listener" value="1" /></td>
+		<td><input type="text" name="artist_30" title="artist" value="The Whammies" /></td>
+		<td><input type="text" name="track_30" title="track" value="Shuffle Boil" /></td>
+		
+		<td><input type="text" name="album_30" title="album" value="Play the Music of Steve Lacy, Vol. 2" /></td>
+		<td><input type="text" name="label_30" title="label" value="Driff" /></td>
+		<td><input type="text" name="timestamp_30" title="If the start time is AUTO then it will become the current time when you click UPDATE." class="timestamp" value="7:05am" /></td>
+		<td>
+			<input type="hidden" name="playlistTrackId_30" value="190611" />
+			<img src="./images/minus.png" alt="[-]" title="Collapse Extras Panel" id="less_30" style="display: none;" onclick="toggle_display(this.id);toggle_display('more_30');toggle_row('rowExtra_30');" />
+			<img src="./images/plus.png" alt="[+]" title="Expand Extras Panel" id="more_30" style="display: inline;" onclick="toggle_display(this.id);toggle_display('less_30'); toggle_row('rowExtra_30');" />
+		</td>
+	</tr>
+	<tr class="altThistle" style="display: none" id="rowExtra_30">
+		<td colspan="12">
+			<table>
+				<tr>
+					<td><label for="recorded_30_id">
+Date Recorded:</label><input type="text" name="recorded_30" id="recorded_30_id" class="date" value="" /></td>
+<td><label for="released_30_id">
+Date Released:</label><input type="text" name="released_30" id="released_30_id" class="date" value="" /></td>
+<td><label for="artistLink_30_id">
+Artist Link:</label><input type="text" name="artistLink_30" id="artistLink_30_id" class="link" value="" /></td>
+<td><label for="labelLink_30_id">
+Label Link:</label><input type="text" name="labelLink_30" id="labelLink_30_id" class="link" value="" /></td>
+<td><label for="region_30_id">
+Country/Region:</label><input type="text" name="region_30" id="region_30_id" class="region" value="" /></td>
+<td><label for="composer_30_id">
+Songwriter/Composer:</label><input type="text" name="composer_30" id="composer_30_id" class="composer" title="composer" value="" /></td>
+				</tr>
+				<tr>
+					<td colspan="6"><input type="text" name="note_30" class="note" title="You can add an optional comment or divider.  If blank, nothing is displayed" value="" /></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+<tr class="thistle" title="31" id="row_31">
+		<td><select name="format_31" title="type or media format"><option value="">&nbsp;</option>
+<option value="1" selected="selected">CD</option>
+<option value="2">Vinyl</option>
+<option value="3">MP3</option>
+<option value="4">7&quot;</option>
+<option value="5">Other</option></select></td>
+		<td class="cbx"><input type="checkbox" name="personal_31" title="Personal: track from an album not in station record library" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="new_31" title="New: track from an album that is new" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="reissue_31" title="Reissue: track from a reissued album" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="local_31" title="Local: track from a local artist" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="request_31" title="Request: track requested by a listener" value="1" /></td>
+		<td><input type="text" name="artist_31" title="artist" value="David Boykin Trio" /></td>
+		<td><input type="text" name="track_31" title="track" value="Walk, Turn, Bat, Shimmy" /></td>
+		
+		<td><input type="text" name="album_31" title="album" value="Live at Dorchester Projects" /></td>
+		<td><input type="text" name="label_31" title="label" value="Sonic Healing Ministries" /></td>
+		<td><input type="text" name="timestamp_31" title="If the start time is AUTO then it will become the current time when you click UPDATE." class="timestamp" value="7:11am" /></td>
+		<td>
+			<input type="hidden" name="playlistTrackId_31" value="190612" />
+			<img src="./images/minus.png" alt="[-]" title="Collapse Extras Panel" id="less_31" style="display: none;" onclick="toggle_display(this.id);toggle_display('more_31');toggle_row('rowExtra_31');" />
+			<img src="./images/plus.png" alt="[+]" title="Expand Extras Panel" id="more_31" style="display: inline;" onclick="toggle_display(this.id);toggle_display('less_31'); toggle_row('rowExtra_31');" />
+		</td>
+	</tr>
+	<tr class="thistle" style="display: none" id="rowExtra_31">
+		<td colspan="12">
+			<table>
+				<tr>
+					<td><label for="recorded_31_id">
+Date Recorded:</label><input type="text" name="recorded_31" id="recorded_31_id" class="date" value="" /></td>
+<td><label for="released_31_id">
+Date Released:</label><input type="text" name="released_31" id="released_31_id" class="date" value="" /></td>
+<td><label for="artistLink_31_id">
+Artist Link:</label><input type="text" name="artistLink_31" id="artistLink_31_id" class="link" value="" /></td>
+<td><label for="labelLink_31_id">
+Label Link:</label><input type="text" name="labelLink_31" id="labelLink_31_id" class="link" value="" /></td>
+<td><label for="region_31_id">
+Country/Region:</label><input type="text" name="region_31" id="region_31_id" class="region" value="" /></td>
+<td><label for="composer_31_id">
+Songwriter/Composer:</label><input type="text" name="composer_31" id="composer_31_id" class="composer" title="composer" value="" /></td>
+				</tr>
+				<tr>
+					<td colspan="6"><input type="text" name="note_31" class="note" title="You can add an optional comment or divider.  If blank, nothing is displayed" value="" /></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+<tr class="altThistle" title="32" id="row_32">
+		<td><select name="format_32" title="type or media format"><option value="">&nbsp;</option>
+<option value="1" selected="selected">CD</option>
+<option value="2">Vinyl</option>
+<option value="3">MP3</option>
+<option value="4">7&quot;</option>
+<option value="5">Other</option></select></td>
+		<td class="cbx"><input type="checkbox" name="personal_32" title="Personal: track from an album not in station record library" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="new_32" title="New: track from an album that is new" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="reissue_32" title="Reissue: track from a reissued album" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="local_32" title="Local: track from a local artist" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="request_32" title="Request: track requested by a listener" value="1" /></td>
+		<td><input type="text" name="artist_32" title="artist" value="Gabriel Alegria Afro-Peruvian Sextet" /></td>
+		<td><input type="text" name="track_32" title="track" value="El Primer Final" /></td>
+		
+		<td><input type="text" name="album_32" title="album" value="Ciudad de Los Reyes" /></td>
+		<td><input type="text" name="label_32" title="label" value="Saponegro" /></td>
+		<td><input type="text" name="timestamp_32" title="If the start time is AUTO then it will become the current time when you click UPDATE." class="timestamp" value="7:16am" /></td>
+		<td>
+			<input type="hidden" name="playlistTrackId_32" value="190613" />
+			<img src="./images/minus.png" alt="[-]" title="Collapse Extras Panel" id="less_32" style="display: none;" onclick="toggle_display(this.id);toggle_display('more_32');toggle_row('rowExtra_32');" />
+			<img src="./images/plus.png" alt="[+]" title="Expand Extras Panel" id="more_32" style="display: inline;" onclick="toggle_display(this.id);toggle_display('less_32'); toggle_row('rowExtra_32');" />
+		</td>
+	</tr>
+	<tr class="altThistle" style="display: none" id="rowExtra_32">
+		<td colspan="12">
+			<table>
+				<tr>
+					<td><label for="recorded_32_id">
+Date Recorded:</label><input type="text" name="recorded_32" id="recorded_32_id" class="date" value="" /></td>
+<td><label for="released_32_id">
+Date Released:</label><input type="text" name="released_32" id="released_32_id" class="date" value="" /></td>
+<td><label for="artistLink_32_id">
+Artist Link:</label><input type="text" name="artistLink_32" id="artistLink_32_id" class="link" value="" /></td>
+<td><label for="labelLink_32_id">
+Label Link:</label><input type="text" name="labelLink_32" id="labelLink_32_id" class="link" value="" /></td>
+<td><label for="region_32_id">
+Country/Region:</label><input type="text" name="region_32" id="region_32_id" class="region" value="" /></td>
+<td><label for="composer_32_id">
+Songwriter/Composer:</label><input type="text" name="composer_32" id="composer_32_id" class="composer" title="composer" value="" /></td>
+				</tr>
+				<tr>
+					<td colspan="6"><input type="text" name="note_32" class="note" title="You can add an optional comment or divider.  If blank, nothing is displayed" value="" /></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+<tr class="thistle" title="33" id="row_33">
+		<td><select name="format_33" title="type or media format"><option value="">&nbsp;</option>
+<option value="1" selected="selected">CD</option>
+<option value="2">Vinyl</option>
+<option value="3">MP3</option>
+<option value="4">7&quot;</option>
+<option value="5">Other</option></select></td>
+		<td class="cbx"><input type="checkbox" name="personal_33" title="Personal: track from an album not in station record library" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="new_33" title="New: track from an album that is new" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="reissue_33" title="Reissue: track from a reissued album" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="local_33" title="Local: track from a local artist" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="request_33" title="Request: track requested by a listener" value="1" /></td>
+		<td><input type="text" name="artist_33" title="artist" value="Joe Lovano Us Five" /></td>
+		<td><input type="text" name="track_33" title="track" value="In a Spin" /></td>
+		
+		<td><input type="text" name="album_33" title="album" value="Cross Culture" /></td>
+		<td><input type="text" name="label_33" title="label" value="Blue Note" /></td>
+		<td><input type="text" name="timestamp_33" title="If the start time is AUTO then it will become the current time when you click UPDATE." class="timestamp" value="7:23am" /></td>
+		<td>
+			<input type="hidden" name="playlistTrackId_33" value="190614" />
+			<img src="./images/minus.png" alt="[-]" title="Collapse Extras Panel" id="less_33" style="display: none;" onclick="toggle_display(this.id);toggle_display('more_33');toggle_row('rowExtra_33');" />
+			<img src="./images/plus.png" alt="[+]" title="Expand Extras Panel" id="more_33" style="display: inline;" onclick="toggle_display(this.id);toggle_display('less_33'); toggle_row('rowExtra_33');" />
+		</td>
+	</tr>
+	<tr class="thistle" style="display: none" id="rowExtra_33">
+		<td colspan="12">
+			<table>
+				<tr>
+					<td><label for="recorded_33_id">
+Date Recorded:</label><input type="text" name="recorded_33" id="recorded_33_id" class="date" value="" /></td>
+<td><label for="released_33_id">
+Date Released:</label><input type="text" name="released_33" id="released_33_id" class="date" value="" /></td>
+<td><label for="artistLink_33_id">
+Artist Link:</label><input type="text" name="artistLink_33" id="artistLink_33_id" class="link" value="" /></td>
+<td><label for="labelLink_33_id">
+Label Link:</label><input type="text" name="labelLink_33" id="labelLink_33_id" class="link" value="" /></td>
+<td><label for="region_33_id">
+Country/Region:</label><input type="text" name="region_33" id="region_33_id" class="region" value="" /></td>
+<td><label for="composer_33_id">
+Songwriter/Composer:</label><input type="text" name="composer_33" id="composer_33_id" class="composer" title="composer" value="" /></td>
+				</tr>
+				<tr>
+					<td colspan="6"><input type="text" name="note_33" class="note" title="You can add an optional comment or divider.  If blank, nothing is displayed" value="" /></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+<tr class="altThistle" title="34" id="row_34">
+		<td><select name="format_34" title="type or media format"><option value="">&nbsp;</option>
+<option value="1" selected="selected">CD</option>
+<option value="2">Vinyl</option>
+<option value="3">MP3</option>
+<option value="4">7&quot;</option>
+<option value="5">Other</option></select></td>
+		<td class="cbx"><input type="checkbox" name="personal_34" title="Personal: track from an album not in station record library" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="new_34" title="New: track from an album that is new" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="reissue_34" title="Reissue: track from a reissued album" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="local_34" title="Local: track from a local artist" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="request_34" title="Request: track requested by a listener" value="1" /></td>
+		<td><input type="text" name="artist_34" title="artist" value="Kahil El&#039; Zabar Quartet" /></td>
+		<td><input type="text" name="track_34" title="track" value="Central Park West" /></td>
+		
+		<td><input type="text" name="album_34" title="album" value="What It Is!" /></td>
+		<td><input type="text" name="label_34" title="label" value="Delmark" /></td>
+		<td><input type="text" name="timestamp_34" title="If the start time is AUTO then it will become the current time when you click UPDATE." class="timestamp" value="7:28am" /></td>
+		<td>
+			<input type="hidden" name="playlistTrackId_34" value="190615" />
+			<img src="./images/minus.png" alt="[-]" title="Collapse Extras Panel" id="less_34" style="display: none;" onclick="toggle_display(this.id);toggle_display('more_34');toggle_row('rowExtra_34');" />
+			<img src="./images/plus.png" alt="[+]" title="Expand Extras Panel" id="more_34" style="display: inline;" onclick="toggle_display(this.id);toggle_display('less_34'); toggle_row('rowExtra_34');" />
+		</td>
+	</tr>
+	<tr class="altThistle" style="display: none" id="rowExtra_34">
+		<td colspan="12">
+			<table>
+				<tr>
+					<td><label for="recorded_34_id">
+Date Recorded:</label><input type="text" name="recorded_34" id="recorded_34_id" class="date" value="" /></td>
+<td><label for="released_34_id">
+Date Released:</label><input type="text" name="released_34" id="released_34_id" class="date" value="" /></td>
+<td><label for="artistLink_34_id">
+Artist Link:</label><input type="text" name="artistLink_34" id="artistLink_34_id" class="link" value="" /></td>
+<td><label for="labelLink_34_id">
+Label Link:</label><input type="text" name="labelLink_34" id="labelLink_34_id" class="link" value="" /></td>
+<td><label for="region_34_id">
+Country/Region:</label><input type="text" name="region_34" id="region_34_id" class="region" value="" /></td>
+<td><label for="composer_34_id">
+Songwriter/Composer:</label><input type="text" name="composer_34" id="composer_34_id" class="composer" title="composer" value="" /></td>
+				</tr>
+				<tr>
+					<td colspan="6"><input type="text" name="note_34" class="note" title="You can add an optional comment or divider.  If blank, nothing is displayed" value="" /></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+<tr class="thistle" title="35" id="row_35">
+		<td><select name="format_35" title="type or media format"><option value="">&nbsp;</option>
+<option value="1" selected="selected">CD</option>
+<option value="2">Vinyl</option>
+<option value="3">MP3</option>
+<option value="4">7&quot;</option>
+<option value="5">Other</option></select></td>
+		<td class="cbx"><input type="checkbox" name="personal_35" title="Personal: track from an album not in station record library" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="new_35" title="New: track from an album that is new" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="reissue_35" title="Reissue: track from a reissued album" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="local_35" title="Local: track from a local artist" value="1" /></td>
+		<td class="cbx"><input type="checkbox" name="request_35" title="Request: track requested by a listener" value="1" /></td>
+		<td><input type="text" name="artist_35" title="artist" class="focusFirst" /></td>
+		<td><input type="text" name="track_35" title="track" /></td>
+		
+		<td><input type="text" name="album_35" title="album" /></td>
+		<td><input type="text" name="label_35" title="label" /></td>
+		<td><input type="text" name="timestamp_35" title="If the start time is AUTO then it will become the current time when you click UPDATE." class="timestamp grey" value="auto" /></td>
+		<td>
+			<input type="hidden" name="playlistTrackId_35" value="190616" />
+			<img src="./images/minus.png" alt="[-]" title="Collapse Extras Panel" id="less_35" style="display: inline;" onclick="toggle_display(this.id);toggle_display('more_35');toggle_row('rowExtra_35');" />
+			<img src="./images/plus.png" alt="[+]" title="Expand Extras Panel" id="more_35" style="display: none;" onclick="toggle_display(this.id);toggle_display('less_35'); toggle_row('rowExtra_35');" />
+		</td>
+	</tr>
+	<tr class="thistle" style="display: table-row" id="rowExtra_35">
+		<td colspan="12">
+			<table>
+				<tr>
+					<td><label for="recorded_35_id">
+Date Recorded:</label><input type="text" name="recorded_35" id="recorded_35_id" class="date" /></td>
+<td><label for="released_35_id">
+Date Released:</label><input type="text" name="released_35" id="released_35_id" class="date" /></td>
+<td><label for="artistLink_35_id">
+Artist Link:</label><input type="text" name="artistLink_35" id="artistLink_35_id" class="link" /></td>
+<td><label for="labelLink_35_id">
+Label Link:</label><input type="text" name="labelLink_35" id="labelLink_35_id" class="link" /></td>
+<td><label for="region_35_id">
+Country/Region:</label><input type="text" name="region_35" id="region_35_id" class="region" /></td>
+<td><label for="composer_35_id">
+Songwriter/Composer:</label><input type="text" name="composer_35" id="composer_35_id" class="composer" title="composer" /></td>
+				</tr>
+				<tr>
+					<td colspan="6"><input type="text" name="note_35" class="note" title="You can add an optional comment or divider.  If blank, nothing is displayed" /></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<input type="hidden" name="id" value="9208" />
+
+<div id="rowcount"><input type="radio" name="rowcount" id="rowcount_id_0" checked="checked" value="add" /><label for="rowcount_id_0" class="rowcountNoColon">
+Add Another Track</label><input type="radio" name="rowcount" id="rowcount_id_1" value="delete" /><label for="rowcount_id_1" class="rowcountNoColon">
+Delete Last Track</label><input type="radio" name="rowcount" id="rowcount_id_2" value="fix" /><label for="rowcount_id_2" class="rowcountNoColon">
+Keep Tracks</label></div>
+<div id="comment"><label for="comment_id">
+Comment:</label><textarea name="comment" id="comment_id" title="Optional DJ Comments"></textarea></div>
+<div id="controls">
+<input type="checkbox" name="live" id="live_id" class="goLive" title="Makes the playlist available to the public" value="1" /><label for="live_id" class="goLiveNoColon">
+Go Live</label>
+<input type="submit" name="submit" class="submit" value="Update" />
+</div></form>
+<script type="text/javascript" src="js/editor.js"></script>
+</body>
+	</html>
