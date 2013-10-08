@@ -64792,5 +64792,546 @@
         "time_str": "07:40:00"
       }
     ]
+  ], 
+  [
+    "2013-09-24", 
+    [
+      {
+        "album": "African Serenades, Vol 29", 
+        "artist": "Franco et L'Orchestre OK Jazz", 
+        "track": "Nazangui Muana", 
+        "unix_time": 1380017100.0, 
+        "label": "Matsuli Music", 
+        "date_str": "2013-09-24", 
+        "time_str": "05:05:00"
+      }, 
+      {
+        "album": "Danger", 
+        "artist": "Lijadu Sisters", 
+        "track": "Life's Gone Down Low", 
+        "unix_time": 1380017280.0, 
+        "label": "Knitting Factory Records", 
+        "date_str": "2013-09-24", 
+        "time_str": "05:08:00"
+      }, 
+      {
+        "album": "Ghana Soundz Vol. 2: Afrobeat Funk & Fusion In 1970's Ghana", 
+        "artist": "Marijata", 
+        "track": "No Condition is Permanent", 
+        "unix_time": 1380017640.0, 
+        "label": "Soundway", 
+        "date_str": "2013-09-24", 
+        "time_str": "05:14:00"
+      }, 
+      {
+        "album": "Kenya Special: Selected East African Recordings from the 1970s & \u009180s", 
+        "artist": "Nashil Pichen & the Eagles Lupopo", 
+        "track": "Ng'ong'a Wa Mwanjalo", 
+        "unix_time": 1380018060.0, 
+        "label": "Soundway", 
+        "date_str": "2013-09-24", 
+        "time_str": "05:21:00"
+      }, 
+      {
+        "album": "Senegambian Sensation", 
+        "artist": "Super Eagles", 
+        "track": "Mandal Ly", 
+        "unix_time": 1380018300.0, 
+        "label": "RetroAfric", 
+        "date_str": "2013-09-24", 
+        "time_str": "05:25:00"
+      }, 
+      {
+        "album": "Africa Boogaloo: The Latinization Of West Africa", 
+        "artist": "Le Grand Kalle, Don Gonzalo, Manu Dibango", 
+        "track": "Africa Boogaloo", 
+        "unix_time": 1380018480.0, 
+        "label": "Honest Jon's", 
+        "date_str": "2013-09-24", 
+        "time_str": "05:28:00"
+      }, 
+      {
+        "album": "Rochereau Tabu Ley & l'Orchestre Afrisa", 
+        "artist": "Tabu Ley Rochereau", 
+        "track": "Afrisa L'International", 
+        "unix_time": 1380018840.0, 
+        "label": "African", 
+        "date_str": "2013-09-24", 
+        "time_str": "05:34:00"
+      }, 
+      {
+        "album": "Bantous Zembe Zembe - Compilation De Musique Congolaise (1962-1973)", 
+        "artist": "Orchestre Elegance Jazz", 
+        "track": "Ngalulu Marthe", 
+        "unix_time": 1380019200.0, 
+        "label": "Sonodisc", 
+        "date_str": "2013-09-24", 
+        "time_str": "05:40:00"
+      }, 
+      {
+        "album": "Apala Messenger", 
+        "artist": "Haruna Ishola and his Apala Group", 
+        "track": "Abanije Koni Gbayi", 
+        "unix_time": 1380019560.0, 
+        "label": "Indigedisc", 
+        "date_str": "2013-09-24", 
+        "time_str": "05:46:00"
+      }, 
+      {
+        "album": "Man Don't Cry", 
+        "artist": "Jupiter Bokonji and Okwess Internatioanl", 
+        "track": "Pondjo Pondjo", 
+        "unix_time": 1380019740.0, 
+        "label": "Belle Kinoise", 
+        "date_str": "2013-09-24", 
+        "time_str": "05:49:00"
+      }, 
+      {
+        "album": "Radio Mali", 
+        "artist": "Ali Farka Toure", 
+        "track": "Hani", 
+        "unix_time": 1380019980.0, 
+        "label": "World Circuit", 
+        "date_str": "2013-09-24", 
+        "time_str": "05:53:00"
+      }, 
+      {
+        "album": "Vintage Verckys", 
+        "artist": "Orch\u00e8stre V\u00e9v\u00e9", 
+        "track": "Marcelo Tozangana", 
+        "unix_time": 1380020340.0, 
+        "label": "RetroAfric", 
+        "date_str": "2013-09-24", 
+        "time_str": "05:59:00"
+      }, 
+      {
+        "album": "Coup De Chapeau", 
+        "artist": "Thu Zahina", 
+        "track": "Princessia", 
+        "unix_time": 1380020640.0, 
+        "label": "RetroAfric", 
+        "date_str": "2013-09-24", 
+        "time_str": "06:04:00"
+      }, 
+      {
+        "album": "1968/1973", 
+        "artist": "Nico & L' African Fiesta Sukisa", 
+        "track": "Mwika", 
+        "unix_time": 1380020880.0, 
+        "label": "Sonodisc", 
+        "date_str": "2013-09-24", 
+        "time_str": "06:08:00"
+      }, 
+      {
+        "album": " Egungun Riots 1976", 
+        "artist": "Femi Akinyemi's Juju Lucky Stars", 
+        "track": "Egungun Riot 1976", 
+        "unix_time": 1380021240.0, 
+        "label": "Tangent", 
+        "date_str": "2013-09-24", 
+        "time_str": "06:14:00"
+      }, 
+      {
+        "album": "Odo Sanbra", 
+        "artist": "Occidental Brothers Dance Band International", 
+        "track": "Akwaaba \"You Are Welcome\"", 
+        "unix_time": 1380022500.0, 
+        "label": "self-released", 
+        "date_str": "2013-09-24", 
+        "time_str": "06:35:00"
+      }, 
+      {
+        "album": "Owuo Aye Me Bi", 
+        "artist": "African Brothers Band International of Ghana", 
+        "track": "Owuo Aye Me Bi", 
+        "unix_time": 1380022740.0, 
+        "label": "Makossa", 
+        "date_str": "2013-09-24", 
+        "time_str": "06:39:00"
+      }, 
+      {
+        "album": "Ghana Special: Modern Highlife, Afro-Sounds & Ghanaian Blues 1968-1981", 
+        "artist": "Gyedu-blay Ambolley & his Creations", 
+        "track": "Akoko Ba", 
+        "unix_time": 1380023160.0, 
+        "label": "Soundway", 
+        "date_str": "2013-09-24", 
+        "time_str": "06:46:00"
+      }, 
+      {
+        "album": "Star Band de Dakar Vol.2", 
+        "artist": "Star Band de Dakar", 
+        "track": "Thioro Baye Samba", 
+        "unix_time": 1380023520.0, 
+        "label": "Bellot", 
+        "date_str": "2013-09-24", 
+        "time_str": "06:52:00"
+      }, 
+      {
+        "album": "Do Better If You Can", 
+        "artist": "Oriental Brothers International", 
+        "track": "Onye Ikekwere Mekeya", 
+        "unix_time": 1380023820.0, 
+        "label": "Original Music", 
+        "date_str": "2013-09-24", 
+        "time_str": "06:57:00"
+      }, 
+      {
+        "album": "Hommage \u00c0 Demba Camara", 
+        "artist": "Bembeya Jazz National", 
+        "track": "Moussogbe", 
+        "unix_time": 1380024300.0, 
+        "label": "Syllart ", 
+        "date_str": "2013-09-24", 
+        "time_str": "07:05:00"
+      }, 
+      {
+        "album": "Lagos Chop Up", 
+        "artist": "Dr. Victor Olaiya", 
+        "track": "Omelebele", 
+        "unix_time": 1380024720.0, 
+        "label": "Honest Jon's Records", 
+        "date_str": "2013-09-24", 
+        "time_str": "07:12:00"
+      }, 
+      {
+        "album": "Sulwe 731 - 7\"", 
+        "artist": "George Ramogi and CK Jazz", 
+        "track": "John Abila", 
+        "unix_time": 1380025080.0, 
+        "label": "Sulwe", 
+        "date_str": "2013-09-24", 
+        "time_str": "07:18:00"
+      }, 
+      {
+        "album": "Ngoma the Early Years 1948-1960", 
+        "artist": "Camille Feruzi", 
+        "track": "Cha Cha Cha Bay", 
+        "unix_time": 1380025380.0, 
+        "label": "Popular African Music", 
+        "date_str": "2013-09-24", 
+        "time_str": "07:23:00"
+      }, 
+      {
+        "album": " Ali & Tam's Avec L'Orchestre Malo", 
+        "artist": "Ali and Tams avec L'Orchestre Malo", 
+        "track": "Mulogi", 
+        "unix_time": 1380025560.0, 
+        "label": "Plainisphare", 
+        "date_str": "2013-09-24", 
+        "time_str": "07:26:00"
+      }, 
+      {
+        "album": "En super forme", 
+        "artist": "Super Boiro Band", 
+        "track": "Nanibaly", 
+        "unix_time": 1380025980.0, 
+        "label": "Bolibana Inedits", 
+        "date_str": "2013-09-24", 
+        "time_str": "07:33:00"
+      }
+    ]
+  ], 
+  [
+    "2013-10-01", 
+    [
+      {
+        "album": "The Baby Huey Story", 
+        "artist": "Baby Huey and the Babysitters", 
+        "track": "Running (mono edit)", 
+        "unix_time": 1380621900.0, 
+        "label": "Water", 
+        "date_str": "2013-10-01", 
+        "time_str": "05:05:00"
+      }, 
+      {
+        "album": "Darker than Blue: Soul from Jamdown 1973-1980", 
+        "artist": "Milton Henry", 
+        "track": "Gypsy Woman", 
+        "unix_time": 1380622080.0, 
+        "label": "Blood and Fire", 
+        "date_str": "2013-10-01", 
+        "time_str": "05:08:00"
+      }, 
+      {
+        "album": "Curtis/Live!", 
+        "artist": "Curtis Mayfield", 
+        "track": "The Making of You", 
+        "unix_time": 1380622260.0, 
+        "label": "Curtom", 
+        "date_str": "2013-10-01", 
+        "time_str": "05:11:00"
+      }, 
+      {
+        "album": "Wake Up!", 
+        "artist": "John Legend & the Roots", 
+        "track": "Hard Times", 
+        "unix_time": 1380622560.0, 
+        "label": "Columbia", 
+        "date_str": "2013-10-01", 
+        "time_str": "05:16:00"
+      }, 
+      {
+        "album": "The Complete A & B Sides 1961-1968", 
+        "artist": "The Impressions", 
+        "track": "Wade In the Water", 
+        "unix_time": 1380622860.0, 
+        "label": "Fontana", 
+        "date_str": "2013-10-01", 
+        "time_str": "05:21:00"
+      }, 
+      {
+        "album": "Darker than Blue: Soul from Jamdown 1973-1980", 
+        "artist": "Lloyd Charmers", 
+        "track": "Darker than Blue", 
+        "unix_time": 1380623040.0, 
+        "label": "Blood and Fire", 
+        "date_str": "2013-10-01", 
+        "time_str": "05:24:00"
+      }, 
+      {
+        "album": "I Plan to Stay a Believer: the Inside Songs of Curtis Mayfield", 
+        "artist": "William Parker", 
+        "track": "I Plan to Stay a Believer", 
+        "unix_time": 1380623340.0, 
+        "label": "AUM Fidelity", 
+        "date_str": "2013-10-01", 
+        "time_str": "05:29:00"
+      }, 
+      {
+        "album": "Check Out Your Mind!", 
+        "artist": "The Impressions", 
+        "track": "Check Out Your Mind!", 
+        "unix_time": 1380624120.0, 
+        "label": "Rhino", 
+        "date_str": "2013-10-01", 
+        "time_str": "05:42:00"
+      }, 
+      {
+        "album": "Brass Bands and Mardi Gras Indians", 
+        "artist": "Hot 8 Brass Band", 
+        "track": "Sexual Healing", 
+        "unix_time": 1380624420.0, 
+        "label": "unknown", 
+        "date_str": "2013-10-01", 
+        "time_str": "05:47:00"
+      }, 
+      {
+        "album": "His Specialty Recordings: 1956-58", 
+        "artist": "Art Neville and Larry Williams", 
+        "track": "Rockin' Pneumonia and the Boogie Woogie Flu", 
+        "unix_time": 1380624840.0, 
+        "label": "Specialty ", 
+        "date_str": "2013-10-01", 
+        "time_str": "05:54:00"
+      }, 
+      {
+        "album": "Live at Fillmore West", 
+        "artist": "Aretha Franklin", 
+        "track": "Dr. Feelgood", 
+        "unix_time": 1380624960.0, 
+        "label": "Atlantic", 
+        "date_str": "2013-10-01", 
+        "time_str": "05:56:00"
+      }, 
+      {
+        "album": "I Can't Be Satisfied, Vol. 2- Town: Early American Women Blues Singers-Town & Country Classic Recordings from the 1920s", 
+        "artist": "Katherine Baker", 
+        "track": "I Helped You, Sick Man, When You Were Down and Out", 
+        "unix_time": 1380625500.0, 
+        "label": "Yazoo", 
+        "date_str": "2013-10-01", 
+        "time_str": "06:05:00"
+      }, 
+      {
+        "album": "Goodbye, Babylon", 
+        "artist": "Elder Curry and Congregation", 
+        "track": "Memphis Flu", 
+        "unix_time": 1380625620.0, 
+        "label": "Dust to Digital", 
+        "date_str": "2013-10-01", 
+        "time_str": "06:07:00"
+      }, 
+      {
+        "album": "Money No Be Sand", 
+        "artist": "Eric (Show Boy) Akaeze & his Akazas", 
+        "track": "Healthy Be Richman", 
+        "unix_time": 1380625800.0, 
+        "label": "Original Music", 
+        "date_str": "2013-10-01", 
+        "time_str": "06:10:00"
+      }, 
+      {
+        "album": "The Ultimate Collection", 
+        "artist": "Hank Williams", 
+        "track": "Lovesick Blues", 
+        "unix_time": 1380626040.0, 
+        "label": "Mercury Nashville", 
+        "date_str": "2013-10-01", 
+        "time_str": "06:14:00"
+      }, 
+      {
+        "album": "Step in the Arena", 
+        "artist": "Gang Starr", 
+        "track": "Love Sick", 
+        "unix_time": 1380626280.0, 
+        "label": "Virgin", 
+        "date_str": "2013-10-01", 
+        "time_str": "06:18:00"
+      }, 
+      {
+        "album": "Dr. Octagonecologyst", 
+        "artist": "Dr. Octagon", 
+        "track": "Dr. Octagon", 
+        "unix_time": 1380626460.0, 
+        "label": "DreamWorks Records", 
+        "date_str": "2013-10-01", 
+        "time_str": "06:21:00"
+      }, 
+      {
+        "album": "Saddle Creek 50", 
+        "artist": "The Faint", 
+        "track": "Take Me To The Hospital", 
+        "unix_time": 1380626760.0, 
+        "label": "Saddle Creek", 
+        "date_str": "2013-10-01", 
+        "time_str": "06:26:00"
+      }, 
+      {
+        "album": "Backatown", 
+        "artist": "Trombone Shorty", 
+        "track": "The Cure", 
+        "unix_time": 1380627000.0, 
+        "label": "Verve Forecast", 
+        "date_str": "2013-10-01", 
+        "time_str": "06:30:00"
+      }, 
+      {
+        "album": "The Head on the Door", 
+        "artist": "The Cure", 
+        "track": "The Blood", 
+        "unix_time": 1380627240.0, 
+        "label": "Elektra", 
+        "date_str": "2013-10-01", 
+        "time_str": "06:34:00"
+      }, 
+      {
+        "album": "The Singles", 
+        "artist": "Sun Ra", 
+        "track": "Medicine for a Nightmare (alternate take)", 
+        "unix_time": 1380627420.0, 
+        "label": "Evidence", 
+        "date_str": "2013-10-01", 
+        "time_str": "06:37:00"
+      }, 
+      {
+        "album": "Blue Break Beats, Vol. 2", 
+        "artist": "Gene Harris", 
+        "track": "Higga Boom", 
+        "unix_time": 1380627720.0, 
+        "label": "Blue Note", 
+        "date_str": "2013-10-01", 
+        "time_str": "06:42:00"
+      }, 
+      {
+        "album": "Music and Rhythm", 
+        "artist": "Shawn Lee's Ping Pong Orchestra", 
+        "track": "Italian Stallion", 
+        "unix_time": 1380628020.0, 
+        "label": "Ubiquity", 
+        "date_str": "2013-10-01", 
+        "time_str": "06:47:00"
+      }, 
+      {
+        "album": "International", 
+        "artist": "Monguito El Unico", 
+        "track": "Mentiras Criolla", 
+        "unix_time": 1380628200.0, 
+        "label": "Fania", 
+        "date_str": "2013-10-01", 
+        "time_str": "06:50:00"
+      }, 
+      {
+        "album": "Featuring Mary Maria", 
+        "artist": "Orchestra Vijana Jazz", 
+        "track": "Shemeji", 
+        "unix_time": 1380628440.0, 
+        "label": "Ahadi", 
+        "date_str": "2013-10-01", 
+        "time_str": "06:54:00"
+      }, 
+      {
+        "album": "Jorge Ben", 
+        "artist": "Jorge Ben", 
+        "track": "Charles, Anjo 45", 
+        "unix_time": 1380628860.0, 
+        "label": "Dusty Groove America", 
+        "date_str": "2013-10-01", 
+        "time_str": "07:01:00"
+      }, 
+      {
+        "album": "Travelin' Shoes", 
+        "artist": "Golden Gate Quartet", 
+        "track": "Job", 
+        "unix_time": 1380629160.0, 
+        "label": "RCA/Bluebird", 
+        "date_str": "2013-10-01", 
+        "time_str": "07:06:00"
+      }, 
+      {
+        "album": "Expoobident", 
+        "artist": "Lee Morgan", 
+        "track": "The Hearing", 
+        "unix_time": 1380629400.0, 
+        "label": "Blue Note", 
+        "date_str": "2013-10-01", 
+        "time_str": "07:10:00"
+      }, 
+      {
+        "album": "Reflections", 
+        "artist": "Stan Getz", 
+        "track": "Charade", 
+        "unix_time": 1380629640.0, 
+        "label": "Verve", 
+        "date_str": "2013-10-01", 
+        "time_str": "07:14:00"
+      }, 
+      {
+        "album": "Costumes are Mandatory", 
+        "artist": "Ethan Iverson/Lee Konitz/Larry Grenadier/Jorge Rossy", 
+        "track": "Blueberry Ice Cream take 1", 
+        "unix_time": 1380629760.0, 
+        "label": "High Note", 
+        "date_str": "2013-10-01", 
+        "time_str": "07:16:00"
+      }, 
+      {
+        "album": "Uncle Joe's Spirit House", 
+        "artist": "William Parker Organ Quartet", 
+        "track": "The Struggle", 
+        "unix_time": 1380630060.0, 
+        "label": "AUM Fidelity", 
+        "date_str": "2013-10-01", 
+        "time_str": "07:21:00"
+      }, 
+      {
+        "album": "Sensorium: Music for Dance & Film", 
+        "artist": "Ken Field", 
+        "track": "Sensorium", 
+        "unix_time": 1380630600.0, 
+        "label": "Innova", 
+        "date_str": "2013-10-01", 
+        "time_str": "07:30:00"
+      }, 
+      {
+        "album": "The Easy Way", 
+        "artist": "Jimmy Giuffre 3", 
+        "track": "Come Rain or Come Shine", 
+        "unix_time": 1380630900.0, 
+        "label": "Verve", 
+        "date_str": "2013-10-01", 
+        "time_str": "07:35:00"
+      }
+    ]
   ]
 ]
