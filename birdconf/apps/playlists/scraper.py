@@ -44,6 +44,9 @@ def update_json_from_forms():
     air_dates = set(s[0] for s in shows)
     for dir,subdirs,files in os.walk(os.path.join(settings.SITE_ROOT,'../data/forms2scrape')):
         for fn in files:
+            if not fn.endswith('html'):
+                print "Strange file",fn
+                continue
             datestr,ext = fn.split('.')
             if date_parse(datestr).strftime('%Y-%m-%d') in air_dates:
                 print "found show, skipping %s" % (fn)
