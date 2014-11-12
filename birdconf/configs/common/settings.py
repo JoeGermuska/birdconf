@@ -24,7 +24,7 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
-        'HOST': 'localhost',
+        'HOST': '0.0.0.0',
         'PORT': '5432',
         'NAME': 'birdconf',
     }
