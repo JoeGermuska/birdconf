@@ -53,7 +53,7 @@ class ShowTrack(models.Model):
         verbose_name, verbose_name_plural = "ShowTrack", "ShowTracks"
 
     def __unicode__(self):
-        return u"ShowTrack"
+        return "{}: {}".format(self.played_at.strftime('%Y-%m-%d %H:%M:%S'), self.track)
 
     @models.permalink
     def get_absolute_url(self):

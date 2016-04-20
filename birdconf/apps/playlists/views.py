@@ -6,6 +6,7 @@ import json
 from django.conf import settings
 from django.shortcuts import get_object_or_404, render_to_response, redirect
 from django.http import Http404
+from datetime import date
 import models 
 
 PLAYLIST_PATH = os.path.join(settings.SITE_ROOT, "../data/playlists/complete.json")
@@ -51,17 +52,25 @@ def show(request, air_date):
     )
 
 def all(request):
-    playlists = list(models.Show.objects.all())
+    playlists = models.Show.objects.all()
     return render_to_response("shows.html", 
-        { 'shows': all_playlists,
+        { 'shows': playlists,
           'title': "All of Joe's Playlists",
         })
         
 def last_year(request):
-    playlists = list(models.Show.objects.all())
+    playlists = models.Show.objects.all()
     title = "compute title based on dates..."
     return render_to_response("shows.html", 
-        { 'shows': all_playlists,
+        { 'shows': playlists,
           'title': title,
         })
     
+def mardigras(request):
+    mgdates = [date(2014,3,4),date(2012,2,21),date(2009,2,17),date(2013,2,12)]
+    title="Mardi Gras shows"
+    shows = models.Show.objects.filter(air_date__in=mgdates)
+    return render_to_response("shows.html", 
+        { 'shows': shows,
+          'title': title,
+        })

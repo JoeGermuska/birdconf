@@ -26,11 +26,11 @@
         <table>
             {% for show in shows %}
             <!--{% cycle 'evenshow' 'oddshow' as showclass%} -->
-            {% for track in show.1 %}
+            {% for track in show.tracks.all %}
             <tr class="{% cycle 'even' 'odd' %}">
-                <td class="date {{ showclass }}">{{ show.0 }}</td>
+                <td class="date {{ showclass }}">{{ show.air_date|date:"Y-m-d" }}</td>
                 <td class="{{ showclass }}">{{ track.artist }}</td>
-                <td class="{{ showclass }}">{{ track.track }}</td>
+                <td class="{{ showclass }}">{{ track.title }}</td>
                 <td class="{{ showclass }}">{{ track.album }}</td>
                 <td class="{{ showclass }}">{{ track.label }}</td>
             </tr>
