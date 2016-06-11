@@ -98599,5 +98599,1291 @@
         "time_str": "07:29:00"
       }
     ]
+  ], 
+  [
+    "2016-04-26", 
+    [
+      {
+        "album": "Raga for the Rainy Season", 
+        "artist": "Pran (Stewart Dempster/Greg Powers)", 
+        "track": "Raga for the Rainy Season", 
+        "unix_time": 1461664380.0, 
+        "label": "Sparkling Beatnik", 
+        "date_str": "2016-04-26", 
+        "time_str": "04:53:00"
+      }, 
+      {
+        "album": "Raga Komal Rishab Asavari / Jogiya", 
+        "artist": "Dhruba Ghosh", 
+        "track": "Vilambit Bandish in Ektal", 
+        "unix_time": 1461668640.0, 
+        "label": "India Archive Music", 
+        "date_str": "2016-04-26", 
+        "time_str": "06:04:00"
+      }, 
+      {
+        "album": "Natural Information", 
+        "artist": "Joshua Abrams", 
+        "track": "Dolphin Cave Dazzling", 
+        "unix_time": 1461671340.0, 
+        "label": "Eremite Records", 
+        "date_str": "2016-04-26", 
+        "time_str": "06:49:00"
+      }, 
+      {
+        "album": "Trance Gong", 
+        "artist": "Gamelan Pacifica", 
+        "track": "Peaches of Immortality", 
+        "unix_time": 1461671700.0, 
+        "label": "\u00bfWhat Next? Recordings", 
+        "date_str": "2016-04-26", 
+        "time_str": "06:55:00"
+      }, 
+      {
+        "album": "Anthology", 
+        "artist": "Super Biton de Segou", 
+        "track": "Taasi Doni", 
+        "unix_time": 1461672300.0, 
+        "label": "Kindred Spirits", 
+        "date_str": "2016-04-26", 
+        "time_str": "07:05:00"
+      }, 
+      {
+        "album": "Low Brass", 
+        "artist": "Ian Gordon-Lennox", 
+        "track": "Babar Brass", 
+        "unix_time": 1461672780.0, 
+        "label": "Altri Suoni", 
+        "date_str": "2016-04-26", 
+        "time_str": "07:13:00"
+      }, 
+      {
+        "album": "Distil", 
+        "artist": "Atomic / School Days", 
+        "track": "Bu\u00f1uel At The Coctail Party ", 
+        "unix_time": 1461673260.0, 
+        "label": "Okka Disk", 
+        "date_str": "2016-04-26", 
+        "time_str": "07:21:00"
+      }, 
+      {
+        "album": "Travelin' Shoes", 
+        "artist": "Golden Gate Quartet", 
+        "track": "Travelin' Shoes", 
+        "unix_time": 1461674160.0, 
+        "label": "Bluebird", 
+        "date_str": "2016-04-26", 
+        "time_str": "07:36:00"
+      }
+    ]
+  ], 
+  [
+    "2016-05-03", 
+    [
+      {
+        "album": "Dark Matter Moving at the Speed of Light", 
+        "artist": "Afrika Bambaataa", 
+        "track": "Soul Makossa", 
+        "unix_time": 1462269720.0, 
+        "label": "Tommy Boy", 
+        "date_str": "2016-05-03", 
+        "time_str": "05:02:00"
+      }, 
+      {
+        "album": "Kenya Special: Selected East African Recordings from the 1970s & '80s", 
+        "artist": "Afro 70", 
+        "track": "Afrousa", 
+        "unix_time": 1462270080.0, 
+        "label": "Soundway", 
+        "date_str": "2016-05-03", 
+        "time_str": "05:08:00"
+      }, 
+      {
+        "album": "Soul Makossa", 
+        "artist": "Babatunde Olatunji", 
+        "track": "Takuta", 
+        "unix_time": 1462270260.0, 
+        "label": "Paramount", 
+        "date_str": "2016-05-03", 
+        "time_str": "05:11:00"
+      }, 
+      {
+        "album": "Broken Shoes", 
+        "artist": "Almon Memela", 
+        "track": "Pelican City", 
+        "unix_time": 1462270560.0, 
+        "label": "Highway Soul", 
+        "date_str": "2016-05-03", 
+        "time_str": "05:16:00"
+      }, 
+      {
+        "album": "Across 110th Street", 
+        "artist": "Bobby Womack", 
+        "track": "Across 110th Street", 
+        "unix_time": 1462271460.0, 
+        "label": "United Artists", 
+        "date_str": "2016-05-03", 
+        "time_str": "05:31:00"
+      }, 
+      {
+        "album": "The Birmingham Sound: The Soul of Neal Hemphill, vol. 1", 
+        "artist": "Roscoe Robinson", 
+        "track": "Let Me Be Myself", 
+        "unix_time": 1462271700.0, 
+        "label": "Rabbit Factory", 
+        "date_str": "2016-05-03", 
+        "time_str": "05:35:00"
+      }, 
+      {
+        "album": "Boddie Recording Company: Cleveland, Ohio", 
+        "artist": "A.C. Jones & the Soulettes", 
+        "track": "Hole in Your Soul", 
+        "unix_time": 1462271880.0, 
+        "label": "Numero Group", 
+        "date_str": "2016-05-03", 
+        "time_str": "05:38:00"
+      }, 
+      {
+        "album": "The Cream of Vintage Soul, Vol. 1", 
+        "artist": "The Parliaments", 
+        "track": "I Wanna Testify", 
+        "unix_time": 1462272000.0, 
+        "label": "Mars", 
+        "date_str": "2016-05-03", 
+        "time_str": "05:40:00"
+      }, 
+      {
+        "album": "James Brown's Funky Divas", 
+        "artist": "Lyn Collins", 
+        "track": "You Can't Love Me if You Don't Respect Me", 
+        "unix_time": 1462272240.0, 
+        "label": "Polydor", 
+        "date_str": "2016-05-03", 
+        "time_str": "05:44:00"
+      }, 
+      {
+        "album": "The Voice of Lightness", 
+        "artist": "Tabu Ley Rochereau", 
+        "track": "Omanga", 
+        "unix_time": 1462272540.0, 
+        "label": "Stern's Africa", 
+        "date_str": "2016-05-03", 
+        "time_str": "05:49:00"
+      }, 
+      {
+        "album": "Hommage \u00e0 Mujos", 
+        "artist": "Les Bantous de la Capitale", 
+        "track": "En diable merengue", 
+        "unix_time": 1462272840.0, 
+        "label": "Eben Entertainment", 
+        "date_str": "2016-05-03", 
+        "time_str": "05:54:00"
+      }, 
+      {
+        "album": "Tumb\u00e9l\u00e9! Biguine, Afro & Latin Sounds From The French Caribbean, 1963-74", 
+        "artist": "Claude Rolcin Et Le West Indian Combo", 
+        "track": "Colas-la", 
+        "unix_time": 1462273080.0, 
+        "label": "Soundway", 
+        "date_str": "2016-05-03", 
+        "time_str": "05:58:00"
+      }, 
+      {
+        "album": "Afro Jazz Du Mali", 
+        "artist": "Super Biton de Segou", 
+        "track": "Nie Nema Mine", 
+        "unix_time": 1462273200.0, 
+        "label": "Bolibana Productions", 
+        "date_str": "2016-05-03", 
+        "time_str": "06:00:00"
+      }, 
+      {
+        "album": "Rare Afro & Caribbean Funk Volume 2", 
+        "artist": "Amadou Balake", 
+        "track": "Super Bar Konon Mousso", 
+        "unix_time": 1462273680.0, 
+        "label": " Mokili Productions", 
+        "date_str": "2016-05-03", 
+        "time_str": "06:08:00"
+      }, 
+      {
+        "album": "Original Sufferhead", 
+        "artist": "Fela Anikulapo Kuti", 
+        "track": "Original Sufferhead", 
+        "unix_time": 1462273980.0, 
+        "label": "Capitol", 
+        "date_str": "2016-05-03", 
+        "time_str": "06:13:00"
+      }
+    ]
+  ], 
+  [
+    "2016-05-10", 
+    [
+      {
+        "album": "Dick's Picks, Vol. 10: Winterland, San Francisco, CA, 12/29/77", 
+        "artist": "Grateful Dead", 
+        "track": "Sugaree", 
+        "unix_time": 1462874820.0, 
+        "label": "Grateful Dead Records", 
+        "date_str": "2016-05-10", 
+        "time_str": "05:07:00"
+      }, 
+      {
+        "album": "Summun, Bukmun, Umyun", 
+        "artist": "Pharoah Sanders", 
+        "track": "Summun, Bukmun, Umyun", 
+        "unix_time": 1462875600.0, 
+        "label": "Impulse", 
+        "date_str": "2016-05-10", 
+        "time_str": "05:20:00"
+      }, 
+      {
+        "album": "Rude Boy Ska", 
+        "artist": "Desmond Dekker", 
+        "track": "Unity", 
+        "unix_time": 1462876980.0, 
+        "label": "Snapper Music", 
+        "date_str": "2016-05-10", 
+        "time_str": "05:43:00"
+      }, 
+      {
+        "album": "Independant Intavenshan: The Island Anthology", 
+        "artist": "Linton Kwesi Johnson", 
+        "track": "What About Di' Workin' Claas?", 
+        "unix_time": 1462877100.0, 
+        "label": "Island", 
+        "date_str": "2016-05-10", 
+        "time_str": "05:45:00"
+      }, 
+      {
+        "album": "Sierra Leone in 1970s USA", 
+        "artist": "Muyei Power", 
+        "track": "Bi Loko", 
+        "unix_time": 1462877400.0, 
+        "label": "Soundway", 
+        "date_str": "2016-05-10", 
+        "time_str": "05:50:00"
+      }, 
+      {
+        "album": "Tradition in Transition", 
+        "artist": "Quantic and Combo Barbaro", 
+        "track": "I Just Fell In Love Again", 
+        "unix_time": 1462877820.0, 
+        "label": "Tru Thoughts", 
+        "date_str": "2016-05-10", 
+        "time_str": "05:57:00"
+      }, 
+      {
+        "album": "Scandal in a Brixton Market", 
+        "artist": "Laurel Aitken", 
+        "track": "Pachanga, Part 1", 
+        "unix_time": 1462878060.0, 
+        "label": "26F", 
+        "date_str": "2016-05-10", 
+        "time_str": "06:01:00"
+      }, 
+      {
+        "album": "Congolese Funk, Afrobeat & Psychedelic Rumba 1969\u200b-\u200b1978", 
+        "artist": " Verckys et l\u00b4Orchestre V\u00e9v\u00e9", 
+        "track": "Bassala Hot", 
+        "unix_time": 1462878180.0, 
+        "label": "Analog Africa", 
+        "date_str": "2016-05-10", 
+        "time_str": "06:03:00"
+      }, 
+      {
+        "album": "Zanzibara 7: Sikinde Vs Ndekule", 
+        "artist": "Mlimani Park Orchestra", 
+        "track": "Taxi Driver", 
+        "unix_time": 1462878660.0, 
+        "label": "Buda Musique", 
+        "date_str": "2016-05-10", 
+        "time_str": "06:11:00"
+      }, 
+      {
+        "album": "Never Grow Old", 
+        "artist": "Toots and the Maytals", 
+        "track": "Six and Seven Books of Moses", 
+        "unix_time": 1462879080.0, 
+        "label": "Studio One", 
+        "date_str": "2016-05-10", 
+        "time_str": "06:18:00"
+      }, 
+      {
+        "album": "Funeral for a Friend", 
+        "artist": "The Dirty Dozen Brass Band", 
+        "track": "I'll Fly Away", 
+        "unix_time": 1462879200.0, 
+        "label": "Artemis Records", 
+        "date_str": "2016-05-10", 
+        "time_str": "06:20:00"
+      }, 
+      {
+        "album": "Le Docteur Nico c'est dans L'air", 
+        "artist": "Dr. Nico", 
+        "track": "Mpiaza", 
+        "unix_time": 1462879440.0, 
+        "label": "?", 
+        "date_str": "2016-05-10", 
+        "time_str": "06:24:00"
+      }, 
+      {
+        "album": "Cape Town Shuffle (Live at Hothouse)", 
+        "artist": "Ernest Dawkins New Horizons Ensemble", 
+        "track": "Third Line and the Cape Town Shuffle", 
+        "unix_time": 1462879800.0, 
+        "label": "Delmark", 
+        "date_str": "2016-05-10", 
+        "time_str": "06:30:00"
+      }, 
+      {
+        "album": "Nica's Tempo", 
+        "artist": "Gigi Gryce", 
+        "track": "Nica's Tempo", 
+        "unix_time": 1462881000.0, 
+        "label": "Savoy Jazz", 
+        "date_str": "2016-05-10", 
+        "time_str": "06:50:00"
+      }, 
+      {
+        "album": "Piano Song Vol 1", 
+        "artist": "Chris McGregor", 
+        "track": "Kwa Tebugo", 
+        "unix_time": 1462881360.0, 
+        "label": "Musica Records", 
+        "date_str": "2016-05-10", 
+        "time_str": "06:56:00"
+      }, 
+      {
+        "album": "Velvet Blue", 
+        "artist": "Harrison Bankhead Quartet", 
+        "track": "Take It to the Bridge Y'all", 
+        "unix_time": 1462882140.0, 
+        "label": "Engine", 
+        "date_str": "2016-05-10", 
+        "time_str": "07:09:00"
+      }, 
+      {
+        "album": "Willisau (Quartet) 1991 Studio", 
+        "artist": "Anthony Braxton Quartet", 
+        "track": "No. 40B", 
+        "unix_time": 1462882440.0, 
+        "label": "hatOLOGY", 
+        "date_str": "2016-05-10", 
+        "time_str": "07:14:00"
+      }, 
+      {
+        "album": "Lucifer (Book Of Angels Volume 10)", 
+        "artist": "Bar Kokhba", 
+        "track": "Gediel", 
+        "unix_time": 1462883160.0, 
+        "label": "Tzadik", 
+        "date_str": "2016-05-10", 
+        "time_str": "07:26:00"
+      }, 
+      {
+        "album": "Last Kind Words", 
+        "artist": "Radio I-Ching", 
+        "track": "Let My People Go", 
+        "unix_time": 1462883520.0, 
+        "label": "", 
+        "date_str": "2016-05-10", 
+        "time_str": "07:32:00"
+      }
+    ]
+  ], 
+  [
+    "2016-05-17", 
+    [
+      {
+        "album": "The Complete Africa/Brass Sessions", 
+        "artist": "John Coltrane", 
+        "track": "Africa", 
+        "unix_time": 1463479320.0, 
+        "label": "Impulse", 
+        "date_str": "2016-05-17", 
+        "time_str": "05:02:00"
+      }, 
+      {
+        "album": "A Tribute to Blackwell", 
+        "artist": "Old and New Dreams", 
+        "track": "Law Years", 
+        "unix_time": 1463480340.0, 
+        "label": "Black Saint", 
+        "date_str": "2016-05-17", 
+        "time_str": "05:19:00"
+      }, 
+      {
+        "album": "The History Of Art Blakey And The Jazz Messengers", 
+        "artist": "Art Blakey and the Jazz Messengers", 
+        "track": "The Egyptian", 
+        "unix_time": 1463480880.0, 
+        "label": "Blue Note", 
+        "date_str": "2016-05-17", 
+        "time_str": "05:28:00"
+      }, 
+      {
+        "album": "New Horse for the White House", 
+        "artist": "Ken Vandermark Territory Band-5", 
+        "track": "Untitled Fiction (for Charles Mingus) (live)", 
+        "unix_time": 1463481600.0, 
+        "label": "Okkadisk", 
+        "date_str": "2016-05-17", 
+        "time_str": "05:40:00"
+      }, 
+      {
+        "album": "Blues Forever", 
+        "artist": "Muhal Richard Abrams", 
+        "track": "Blues Forever", 
+        "unix_time": 1463482560.0, 
+        "label": "Black Saint", 
+        "date_str": "2016-05-17", 
+        "time_str": "05:56:00"
+      }, 
+      {
+        "album": "Prayer to the East", 
+        "artist": "Yusef Lateef", 
+        "track": "A Night in Tunisia", 
+        "unix_time": 1463483100.0, 
+        "label": "Savoy Jazz", 
+        "date_str": "2016-05-17", 
+        "time_str": "06:05:00"
+      }, 
+      {
+        "album": "Buster Bee", 
+        "artist": "Oliver Lake & Julius Hemphill", 
+        "track": "Buster Bee", 
+        "unix_time": 1463483700.0, 
+        "label": "Sackville Recordings", 
+        "date_str": "2016-05-17", 
+        "time_str": "06:15:00"
+      }, 
+      {
+        "album": "The Sun (1967-73)", 
+        "artist": "Steve Lacy", 
+        "track": "The Wane", 
+        "unix_time": 1463484300.0, 
+        "label": "Emanem", 
+        "date_str": "2016-05-17", 
+        "time_str": "06:25:00"
+      }, 
+      {
+        "album": "Polyogue", 
+        "artist": "Andy Laster's Hydra", 
+        "track": "Fail Better", 
+        "unix_time": 1463484900.0, 
+        "label": "Songlines", 
+        "date_str": "2016-05-17", 
+        "time_str": "06:35:00"
+      }, 
+      {
+        "album": "A New Kind of Dance", 
+        "artist": "Mike Reed's People, Places and Things", 
+        "track": "Fear Not of Man", 
+        "unix_time": 1463485560.0, 
+        "label": "482 Music", 
+        "date_str": "2016-05-17", 
+        "time_str": "06:46:00"
+      }, 
+      {
+        "album": "Great Spirit", 
+        "artist": "William Parker / Raining on the Moon", 
+        "track": "Bowl of Stone around the Sun", 
+        "unix_time": 1463485860.0, 
+        "label": "AUM Fidelity", 
+        "date_str": "2016-05-17", 
+        "time_str": "06:51:00"
+      }, 
+      {
+        "album": "Tomeka Reid Quartet", 
+        "artist": "Tomeka Reid Quartet", 
+        "track": "Samo Swing", 
+        "unix_time": 1463486460.0, 
+        "label": "Thirsty Ear", 
+        "date_str": "2016-05-17", 
+        "time_str": "07:01:00"
+      }, 
+      {
+        "album": "Tenorhood", 
+        "artist": "Ivo Perelman/Whit Dickey", 
+        "track": "Tenorhood", 
+        "unix_time": 1463486700.0, 
+        "label": "Leo Records", 
+        "date_str": "2016-05-17", 
+        "time_str": "07:05:00"
+      }, 
+      {
+        "album": "Dual Pleasure", 
+        "artist": "Ken Vandermark/Paal Nilssen-Love", 
+        "track": "Storefront Materials", 
+        "unix_time": 1463486880.0, 
+        "label": "Smalltown Supersound", 
+        "date_str": "2016-05-17", 
+        "time_str": "07:08:00"
+      }, 
+      {
+        "album": "The Milwaukee Tapes Vol. 1", 
+        "artist": "Fred Anderson Quartet", 
+        "track": "Bombay (Children of Cambodia)", 
+        "unix_time": 1463487420.0, 
+        "label": "Atavistic", 
+        "date_str": "2016-05-17", 
+        "time_str": "07:17:00"
+      }, 
+      {
+        "album": "Other Aspects", 
+        "artist": "Eric Dolphy", 
+        "track": "Improvisations and Tukras", 
+        "unix_time": 1463488020.0, 
+        "label": "Blue Note", 
+        "date_str": "2016-05-17", 
+        "time_str": "07:27:00"
+      }
+    ]
+  ], 
+  [
+    "2016-05-24", 
+    [
+      {
+        "album": "Yes We Can", 
+        "artist": "Lee Dorsey", 
+        "track": "Who's Gonna Help a Brother Get Further?", 
+        "unix_time": 1464084060.0, 
+        "label": "Polydor", 
+        "date_str": "2016-05-24", 
+        "time_str": "05:01:00"
+      }, 
+      {
+        "album": "Dick's Picks Volume 8", 
+        "artist": "Grateful Dead", 
+        "track": "Dancin' In the Street", 
+        "unix_time": 1464084240.0, 
+        "label": "Grateful Dead", 
+        "date_str": "2016-05-24", 
+        "time_str": "05:04:00"
+      }, 
+      {
+        "album": "Suono Libero, Vol. 2", 
+        "artist": "Franco Tamponi", 
+        "track": "Poseidon", 
+        "unix_time": 1464085200.0, 
+        "label": "Irma La Douce", 
+        "date_str": "2016-05-24", 
+        "time_str": "05:20:00"
+      }, 
+      {
+        "album": "One Kiss Can Lead to Another: Girl Group Sounds Lost & Found", 
+        "artist": "Dee Dee Warwick", 
+        "track": "You're No Good", 
+        "unix_time": 1464085380.0, 
+        "label": "Rhino", 
+        "date_str": "2016-05-24", 
+        "time_str": "05:23:00"
+      }, 
+      {
+        "album": "Good Vibrations: Thirty Years of The Beach Boys", 
+        "artist": "The Beach Boys", 
+        "track": "Vegetables", 
+        "unix_time": 1464085560.0, 
+        "label": "Capitol Records", 
+        "date_str": "2016-05-24", 
+        "time_str": "05:26:00"
+      }, 
+      {
+        "album": "The Distant Future", 
+        "artist": "Flight of the Conchords", 
+        "track": "If You're Into It", 
+        "unix_time": 1464085740.0, 
+        "label": "Sub Pop", 
+        "date_str": "2016-05-24", 
+        "time_str": "05:29:00"
+      }, 
+      {
+        "album": "The Tallest Man on Earth", 
+        "artist": "The Tallest Man on Earth", 
+        "track": "Walk the Line", 
+        "unix_time": 1464085860.0, 
+        "label": "Gravitation", 
+        "date_str": "2016-05-24", 
+        "time_str": "05:31:00"
+      }, 
+      {
+        "album": "Trojan Producer Series Box Set", 
+        "artist": "Val Bennett", 
+        "track": "Tons of Gold", 
+        "unix_time": 1464086100.0, 
+        "label": "Trojan Records", 
+        "date_str": "2016-05-24", 
+        "time_str": "05:35:00"
+      }, 
+      {
+        "album": "War Ina Babylon", 
+        "artist": "Max Romeo", 
+        "track": "I Chase the Devil", 
+        "unix_time": 1464086280.0, 
+        "label": "Island Records", 
+        "date_str": "2016-05-24", 
+        "time_str": "05:38:00"
+      }, 
+      {
+        "album": "The Very Best of Franco & Sam Mangwana Vol. 2: Coop\u00e9ration", 
+        "artist": "Franco & Sam Mangwana", 
+        "track": "Cooperation", 
+        "unix_time": 1464086460.0, 
+        "label": "Ngoyarto", 
+        "date_str": "2016-05-24", 
+        "time_str": "05:41:00"
+      }, 
+      {
+        "album": "Holiday In Afrika", 
+        "artist": "Orchestre Hi Fives", 
+        "track": "Mwana Wa Mraka", 
+        "unix_time": 1464087120.0, 
+        "label": "Columbia", 
+        "date_str": "2016-05-24", 
+        "time_str": "05:52:00"
+      }, 
+      {
+        "album": "The Pitch/Gusman Records Story", 
+        "artist": "Travelingaires", 
+        "track": "Jesus Said He Loves Me", 
+        "unix_time": 1464087360.0, 
+        "label": "Big Legal Mess", 
+        "date_str": "2016-05-24", 
+        "time_str": "05:56:00"
+      }, 
+      {
+        "album": "Peel Slowly and See", 
+        "artist": "Velvet Underground", 
+        "track": "Sunday Morning", 
+        "unix_time": 1464087540.0, 
+        "label": "Polydor", 
+        "date_str": "2016-05-24", 
+        "time_str": "05:59:00"
+      }, 
+      {
+        "album": "The Glory Road", 
+        "artist": "Fern Jones", 
+        "track": "Didn't It Rain?", 
+        "unix_time": 1464087780.0, 
+        "label": "Numero Group", 
+        "date_str": "2016-05-24", 
+        "time_str": "06:03:00"
+      }, 
+      {
+        "album": "First Recordings: The Alan Lomax Portrait Series", 
+        "artist": "Mississippi Fred McDowell", 
+        "track": "Woke Up This Morning (With My Mind on Freedom)", 
+        "unix_time": 1464087960.0, 
+        "label": "Rounder Select", 
+        "date_str": "2016-05-24", 
+        "time_str": "06:06:00"
+      }, 
+      {
+        "album": "Aut\u00f3fago", 
+        "artist": "Makely Ka", 
+        "track": "Eu Nao", 
+        "unix_time": 1464088140.0, 
+        "label": "MKE", 
+        "date_str": "2016-05-24", 
+        "time_str": "06:09:00"
+      }, 
+      {
+        "album": "The Nina Simone Anthology", 
+        "artist": "Nina Simone", 
+        "track": "The Pusher", 
+        "unix_time": 1464088320.0, 
+        "label": "Salvo", 
+        "date_str": "2016-05-24", 
+        "time_str": "06:12:00"
+      }, 
+      {
+        "album": "Mary Lou's Mass", 
+        "artist": "Mary Lou Williams", 
+        "track": "Credo (instrumental)", 
+        "unix_time": 1464088620.0, 
+        "label": "Smithsonian Folkways", 
+        "date_str": "2016-05-24", 
+        "time_str": "06:17:00"
+      }, 
+      {
+        "album": "The Killion Floor", 
+        "artist": "Orgone", 
+        "track": "Duck and Cover", 
+        "unix_time": 1464088980.0, 
+        "label": "Ubiquity", 
+        "date_str": "2016-05-24", 
+        "time_str": "06:23:00"
+      }, 
+      {
+        "album": "Standing On The Verge Of Getting It On", 
+        "artist": "Funkadelic", 
+        "track": "Cosmic Slop", 
+        "unix_time": 1464089160.0, 
+        "label": "Westbound", 
+        "date_str": "2016-05-24", 
+        "time_str": "06:26:00"
+      }, 
+      {
+        "album": "The Soul Fire Funk 45 Collection, part 2", 
+        "artist": "The Detroit Sex Machines", 
+        "track": "Rap It Together", 
+        "unix_time": 1464089400.0, 
+        "label": "Soul Fire", 
+        "date_str": "2016-05-24", 
+        "time_str": "06:30:00"
+      }, 
+      {
+        "album": "New Orleans Funk", 
+        "artist": "The Explosions", 
+        "track": "Hip Drop", 
+        "unix_time": 1464089520.0, 
+        "label": "Soul Jazz", 
+        "date_str": "2016-05-24", 
+        "time_str": "06:32:00"
+      }, 
+      {
+        "album": "Return of the Boom Bap", 
+        "artist": "KRS-One", 
+        "track": "Sound of Da Police", 
+        "unix_time": 1464089700.0, 
+        "label": "Jive", 
+        "date_str": "2016-05-24", 
+        "time_str": "06:35:00"
+      }, 
+      {
+        "album": "Tougher Than Leather", 
+        "artist": "Run-DMC", 
+        "track": "Papa Crazy", 
+        "unix_time": 1464089940.0, 
+        "label": "Profile", 
+        "date_str": "2016-05-24", 
+        "time_str": "06:39:00"
+      }, 
+      {
+        "album": "Hip-Hop Forever", 
+        "artist": "Special Ed", 
+        "track": "I Got It Made", 
+        "unix_time": 1464090180.0, 
+        "label": "BBE", 
+        "date_str": "2016-05-24", 
+        "time_str": "06:43:00"
+      }, 
+      {
+        "album": "Hella Personal Film Festival", 
+        "artist": "Open Mike Eagle & Mike White", 
+        "track": "Check to Check", 
+        "unix_time": 1464090420.0, 
+        "label": "Mello Music Group", 
+        "date_str": "2016-05-24", 
+        "time_str": "06:47:00"
+      }, 
+      {
+        "album": "Fourth Dimensional Rocketships Going Up", 
+        "artist": "Gift of Gab", 
+        "track": "The Writz", 
+        "unix_time": 1464090540.0, 
+        "label": "Quannum Projects", 
+        "date_str": "2016-05-24", 
+        "time_str": "06:49:00"
+      }, 
+      {
+        "album": "Gypsy Woman", 
+        "artist": "Joe Bataan", 
+        "track": "Sugar Guaguanco", 
+        "unix_time": 1464090780.0, 
+        "label": "Fania", 
+        "date_str": "2016-05-24", 
+        "time_str": "06:53:00"
+      }, 
+      {
+        "album": "The Complete 78's Vol. 1", 
+        "artist": "Tito Puente & Vicentico Valdes", 
+        "track": "Abaniquito", 
+        "unix_time": 1464091260.0, 
+        "label": "Fania", 
+        "date_str": "2016-05-24", 
+        "time_str": "07:01:00"
+      }, 
+      {
+        "album": "Bon Voyage!!", 
+        "artist": "Ry-Co Jazz", 
+        "track": "Blue Sugar", 
+        "unix_time": 1464091260.0, 
+        "label": "RetroAfric", 
+        "date_str": "2016-05-24", 
+        "time_str": "07:01:00"
+      }, 
+      {
+        "album": "\u00c1gua Do C\u00e9u P\u00e1ssaro", 
+        "artist": "Ney Matogrosso", 
+        "track": "Acucar Candy", 
+        "unix_time": 1464091500.0, 
+        "label": "Continental", 
+        "date_str": "2016-05-24", 
+        "time_str": "07:05:00"
+      }, 
+      {
+        "album": "Gal Costa (1969)", 
+        "artist": "Gal Costa", 
+        "track": "Se Voc\u00ea Pensa", 
+        "unix_time": 1464091800.0, 
+        "label": "Philips", 
+        "date_str": "2016-05-24", 
+        "time_str": "07:10:00"
+      }, 
+      {
+        "album": "Angola Soundtrack - The Unique Sound Of Luanda 1968\u200b-\u200b1976", 
+        "artist": "Jovens do Prenda", 
+        "track": "Bina", 
+        "unix_time": 1464091980.0, 
+        "label": "Analog Africa", 
+        "date_str": "2016-05-24", 
+        "time_str": "07:13:00"
+      }, 
+      {
+        "album": "Freedom Train", 
+        "artist": "Feso Trombone", 
+        "track": "Give & Take", 
+        "unix_time": 1464092220.0, 
+        "label": "Antlers", 
+        "date_str": "2016-05-24", 
+        "time_str": "07:17:00"
+      }, 
+      {
+        "album": "Tromboneliness", 
+        "artist": "Albert Mangelsdorff", 
+        "track": "Mark Suetterlyn's Boogie", 
+        "unix_time": 1464092760.0, 
+        "label": "MPS", 
+        "date_str": "2016-05-24", 
+        "time_str": "07:26:00"
+      }, 
+      {
+        "album": "Backatown", 
+        "artist": "Trombone Shorty", 
+        "track": "Neph", 
+        "unix_time": 1464092940.0, 
+        "label": "Verve Forecast ", 
+        "date_str": "2016-05-24", 
+        "time_str": "07:29:00"
+      }, 
+      {
+        "album": "Bishop-Kessler-Mulvenna", 
+        "artist": "Jeb Bishop Trio", 
+        "track": "Anticipation of an Embrace", 
+        "unix_time": 1464093120.0, 
+        "label": "Okka Disk", 
+        "date_str": "2016-05-24", 
+        "time_str": "07:32:00"
+      }
+    ]
+  ], 
+  [
+    "2016-05-31", 
+    [
+      {
+        "album": "Represencing", 
+        "artist": "Joshua Abrams", 
+        "track": "Represencing", 
+        "unix_time": 1464688800.0, 
+        "label": "Eremite Records", 
+        "date_str": "2016-05-31", 
+        "time_str": "05:00:00"
+      }, 
+      {
+        "album": "Folkloriko", 
+        "artist": "Susie Ibarra", 
+        "track": "Anitos", 
+        "unix_time": 1464689400.0, 
+        "label": "Tzadik", 
+        "date_str": "2016-05-31", 
+        "time_str": "05:10:00"
+      }, 
+      {
+        "album": "Sacred Love", 
+        "artist": "Kahil El'Zabar's The Ritual", 
+        "track": "Earth Song", 
+        "unix_time": 1464690000.0, 
+        "label": "Sound Aspects", 
+        "date_str": "2016-05-31", 
+        "time_str": "05:20:00"
+      }, 
+      {
+        "album": "Kin-Bantou", 
+        "artist": "Kin-Bantou", 
+        "track": "Tokabwana", 
+        "unix_time": 1464690420.0, 
+        "label": "Disques Esp\u00e9rance", 
+        "date_str": "2016-05-31", 
+        "time_str": "05:27:00"
+      }, 
+      {
+        "album": "Keba Na Matraque (Vol. 4)", 
+        "artist": "Franco et le T.P. O.K. Jazz", 
+        "track": "Mandola (Lofumba Simaro)", 
+        "unix_time": 1464691080.0, 
+        "label": "Edipop Production", 
+        "date_str": "2016-05-31", 
+        "time_str": "05:38:00"
+      }, 
+      {
+        "album": "A Hundred Jumping Devils", 
+        "artist": "Rob Reddy's Gift Horse", 
+        "track": "A Hundred Jumping Devils", 
+        "unix_time": 1464691740.0, 
+        "label": "Reddy Music", 
+        "date_str": "2016-05-31", 
+        "time_str": "05:49:00"
+      }, 
+      {
+        "album": "Hear You Say", 
+        "artist": "The Ray Anderson-Marty Ehrlich Quartett", 
+        "track": "Alligatory Rhumba", 
+        "unix_time": 1464692520.0, 
+        "label": "Challenge", 
+        "date_str": "2016-05-31", 
+        "time_str": "06:02:00"
+      }, 
+      {
+        "album": "Mbizo", 
+        "artist": "Johnny Dyani Quartet", 
+        "track": "House Arrest", 
+        "unix_time": 1464693180.0, 
+        "label": "Steeplechase", 
+        "date_str": "2016-05-31", 
+        "time_str": "06:13:00"
+      }, 
+      {
+        "album": "Devil's Hopyard", 
+        "artist": "Trombari", 
+        "track": "Hoofin'", 
+        "unix_time": 1464693840.0, 
+        "label": "CD Baby", 
+        "date_str": "2016-05-31", 
+        "time_str": "06:24:00"
+      }, 
+      {
+        "album": "Six for Rollins", 
+        "artist": "The Vandermark Five", 
+        "track": "East Broadway Rundown", 
+        "unix_time": 1464694380.0, 
+        "label": "Atavistic", 
+        "date_str": "2016-05-31", 
+        "time_str": "06:33:00"
+      }, 
+      {
+        "album": "Ancestral Homeland", 
+        "artist": "Roy Campbell Pyramid Trio", 
+        "track": "Oglala Eclipse", 
+        "unix_time": 1464694980.0, 
+        "label": "No More", 
+        "date_str": "2016-05-31", 
+        "time_str": "06:43:00"
+      }, 
+      {
+        "album": "The Shape of Jazz to Come", 
+        "artist": "Ornette Coleman", 
+        "track": "Peace", 
+        "unix_time": 1464695580.0, 
+        "label": "Atlantic", 
+        "date_str": "2016-05-31", 
+        "time_str": "06:53:00"
+      }, 
+      {
+        "album": "Mosaic Select", 
+        "artist": "Paul Chambers", 
+        "track": "Nixon, Dixon & Yates Blues", 
+        "unix_time": 1464696180.0, 
+        "label": "Mosaic", 
+        "date_str": "2016-05-31", 
+        "time_str": "07:03:00"
+      }, 
+      {
+        "album": "Wild is the Wind", 
+        "artist": "Dee Alexander", 
+        "track": "Feelin' Good", 
+        "unix_time": 1464696660.0, 
+        "label": "blujazz", 
+        "date_str": "2016-05-31", 
+        "time_str": "07:11:00"
+      }, 
+      {
+        "album": "Lest We Forget What We Came Here to Do", 
+        "artist": "Sons of Kemet", 
+        "track": "In Memory of Samir Awad", 
+        "unix_time": 1464697200.0, 
+        "label": "Naim Jazz", 
+        "date_str": "2016-05-31", 
+        "time_str": "07:20:00"
+      }, 
+      {
+        "album": "Three Gentlemen From Chikago", 
+        "artist": "Ethnic Heritage Ensemble", 
+        "track": "Moving of Seasons", 
+        "unix_time": 1464697740.0, 
+        "label": "Moers Music", 
+        "date_str": "2016-05-31", 
+        "time_str": "07:29:00"
+      }
+    ]
+  ], 
+  [
+    "2016-06-07", 
+    [
+      {
+        "album": "In Concert With The Dub Band", 
+        "artist": "Linton Kwesi Johnson", 
+        "track": "All We Doin is Defendin'", 
+        "unix_time": 1465293600.0, 
+        "label": "Shanachie", 
+        "date_str": "2016-06-07", 
+        "time_str": "05:00:00"
+      }, 
+      {
+        "album": "Very Very Happy", 
+        "artist": "Bush Tetras", 
+        "track": "Das Ah Riot", 
+        "unix_time": 1465293780.0, 
+        "label": "ROIR (Reachout International Records)", 
+        "date_str": "2016-06-07", 
+        "time_str": "05:03:00"
+      }, 
+      {
+        "album": "Never Give In", 
+        "artist": "Pato Banton", 
+        "track": "Don't Sniff Coke", 
+        "unix_time": 1465294020.0, 
+        "label": "Greensleeves", 
+        "date_str": "2016-06-07", 
+        "time_str": "05:07:00"
+      }, 
+      {
+        "album": "Nia", 
+        "artist": "Blackalicious", 
+        "track": "The Fabulous Ones", 
+        "unix_time": 1465294260.0, 
+        "label": "Quannum Projects", 
+        "date_str": "2016-06-07", 
+        "time_str": "05:11:00"
+      }, 
+      {
+        "album": "Tombstone", 
+        "artist": "Hot 8 Brass Band", 
+        "track": "Shot Gun Joe", 
+        "unix_time": 1465294440.0, 
+        "label": "Tru Thoughts", 
+        "date_str": "2016-06-07", 
+        "time_str": "05:14:00"
+      }, 
+      {
+        "album": "Nigeria Special: Modern Highlife, Afro\u200b-\u200bSounds & Nigerian Blues 1970\u200b-\u200b6", 
+        "artist": "The Hykkers", 
+        "track": "I Want a Break Thru'", 
+        "unix_time": 1465294800.0, 
+        "label": "Soundway", 
+        "date_str": "2016-06-07", 
+        "time_str": "05:20:00"
+      }, 
+      {
+        "album": "Kenya Special: Selected East African Recordings from the 1970s & \u201880s", 
+        "artist": "Afro 70", 
+        "track": "Afrousa (Move On)", 
+        "unix_time": 1465294980.0, 
+        "label": "Soundway", 
+        "date_str": "2016-06-07", 
+        "time_str": "05:23:00"
+      }, 
+      {
+        "album": "Funkify Your Life", 
+        "artist": "The Meters", 
+        "track": "Same Old Thing", 
+        "unix_time": 1465295100.0, 
+        "label": "Rhino", 
+        "date_str": "2016-06-07", 
+        "time_str": "05:25:00"
+      }, 
+      {
+        "album": "Live at Newport", 
+        "artist": "Mahalia Jackson", 
+        "track": "Didn't It Rain?", 
+        "unix_time": 1465295280.0, 
+        "label": "Columbia", 
+        "date_str": "2016-06-07", 
+        "time_str": "05:28:00"
+      }, 
+      {
+        "album": "James Brown's Original Funky Divas", 
+        "artist": "Lyn Collins", 
+        "track": "Mama Feelgood", 
+        "unix_time": 1465295460.0, 
+        "label": "Polydor", 
+        "date_str": "2016-06-07", 
+        "time_str": "05:31:00"
+      }, 
+      {
+        "album": "Funky 16 Corners", 
+        "artist": "The Rhythm Machine", 
+        "track": "The Kick", 
+        "unix_time": 1465295760.0, 
+        "label": "Stones Throw", 
+        "date_str": "2016-06-07", 
+        "time_str": "05:36:00"
+      }, 
+      {
+        "album": "Pimps, Players and Private Eyes", 
+        "artist": "Bobby Womack", 
+        "track": "Across 110th Street", 
+        "unix_time": 1465296120.0, 
+        "label": "Sire", 
+        "date_str": "2016-06-07", 
+        "time_str": "05:42:00"
+      }, 
+      {
+        "album": "Can You Dig It? The Music and Politics of Black Action Films 1968 - 75", 
+        "artist": "Edwin Starr", 
+        "track": "Easin' In", 
+        "unix_time": 1465296360.0, 
+        "label": "Soul Jazz", 
+        "date_str": "2016-06-07", 
+        "time_str": "05:46:00"
+      }, 
+      {
+        "album": "Dr. Octagonecologyst", 
+        "artist": "Dr. Octagon", 
+        "track": "Earth People", 
+        "unix_time": 1465296540.0, 
+        "label": "DreamWorks", 
+        "date_str": "2016-06-07", 
+        "time_str": "05:49:00"
+      }, 
+      {
+        "album": "Sixty Smokin' Soul Senders", 
+        "artist": "Unemployed", 
+        "track": "They Won't Let Me", 
+        "unix_time": 1465296780.0, 
+        "label": "Funky Delicacies", 
+        "date_str": "2016-06-07", 
+        "time_str": "05:53:00"
+      }, 
+      {
+        "album": "Prince", 
+        "artist": "Prince", 
+        "track": "I Wanna Be Your Lover", 
+        "unix_time": 1465296960.0, 
+        "label": "Warner Brothers", 
+        "date_str": "2016-06-07", 
+        "time_str": "05:56:00"
+      }, 
+      {
+        "album": "Brown Rice", 
+        "artist": "Don Cherry", 
+        "track": "Degi-Degi", 
+        "unix_time": 1465297200.0, 
+        "label": "EMI", 
+        "date_str": "2016-06-07", 
+        "time_str": "06:00:00"
+      }, 
+      {
+        "album": "Lotus", 
+        "artist": "Santana", 
+        "track": "Every Step of the Way", 
+        "unix_time": 1465297620.0, 
+        "label": "Columbia", 
+        "date_str": "2016-06-07", 
+        "time_str": "06:07:00"
+      }, 
+      {
+        "album": "Black Unstoppable", 
+        "artist": "Nicole Mitchell's Black Earth Ensemble", 
+        "track": "Cause and Effect", 
+        "unix_time": 1465298280.0, 
+        "label": "Delmark", 
+        "date_str": "2016-06-07", 
+        "time_str": "06:18:00"
+      }, 
+      {
+        "album": "Chicago Now - Thirty Years Of Great Black Music Vol.1", 
+        "artist": "Ernest Dawkins' New Horizons Ensemble", 
+        "track": "The Time Has Come", 
+        "unix_time": 1465298700.0, 
+        "label": "Silkheart", 
+        "date_str": "2016-06-07", 
+        "time_str": "06:25:00"
+      }, 
+      {
+        "album": "Let My Children Hear Music", 
+        "artist": "Charles Mingus", 
+        "track": "Hobo Ho", 
+        "unix_time": 1465299600.0, 
+        "label": "Columbia", 
+        "date_str": "2016-06-07", 
+        "time_str": "06:40:00"
+      }, 
+      {
+        "album": "Free Jazz Classics Vol. 3 & 4", 
+        "artist": "The Vandermark Five", 
+        "track": "Silverization/Volunteered Slavery", 
+        "unix_time": 1465300200.0, 
+        "label": "Atavistic", 
+        "date_str": "2016-06-07", 
+        "time_str": "06:50:00"
+      }, 
+      {
+        "album": "Song for Biko", 
+        "artist": "Johnny Dyani Quartet", 
+        "track": "Wish You Sunshine", 
+        "unix_time": 1465300980.0, 
+        "label": "Silkheart", 
+        "date_str": "2016-06-07", 
+        "time_str": "07:03:00"
+      }, 
+      {
+        "album": "Diamond Express", 
+        "artist": "Dudu Pukwana", 
+        "track": "Diamond Express", 
+        "unix_time": 1465301340.0, 
+        "label": "Freedom", 
+        "date_str": "2016-06-07", 
+        "time_str": "07:09:00"
+      }, 
+      {
+        "album": "With a Lotta Help From My Friends", 
+        "artist": "Junior Mance", 
+        "track": "Thank You (Falettinme Be Mice Elf Agin)", 
+        "unix_time": 1465301820.0, 
+        "label": "Atlantic", 
+        "date_str": "2016-06-07", 
+        "time_str": "07:17:00"
+      }, 
+      {
+        "album": "Creative Music Studio: Archive Selections, Vol. 1: World Music", 
+        "artist": "Foday Musa Suso & Mandingo Griot Society", 
+        "track": "Demba Tenkeren", 
+        "unix_time": 1465302000.0, 
+        "label": "Innova", 
+        "date_str": "2016-06-07", 
+        "time_str": "07:20:00"
+      }, 
+      {
+        "album": "Roots of Rumba Rock: Congo Classics 1953-1955", 
+        "artist": "De Malo", 
+        "track": "Towuti Brazza Toye Kisasa", 
+        "unix_time": 1465302540.0, 
+        "label": "Crammed Discs", 
+        "date_str": "2016-06-07", 
+        "time_str": "07:29:00"
+      }, 
+      {
+        "album": "Kin-Bantou", 
+        "artist": "Kin Bantou", 
+        "track": "Tokabwana", 
+        "unix_time": 1465302720.0, 
+        "label": "Sonafric ", 
+        "date_str": "2016-06-07", 
+        "time_str": "07:32:00"
+      }
+    ]
   ]
 ]
